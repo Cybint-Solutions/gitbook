@@ -1,0 +1,2 @@
+# Submitted Email Settings
+
