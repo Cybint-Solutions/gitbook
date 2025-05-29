@@ -20,7 +20,7 @@ layout:
 # Wiki Overview
 
 {% hint style="info" %}
-This wiki is for Lucy version 5.2 and higher
+This wiki is for Lucy version 5.2 and higher.
 {% endhint %}
 
 This wiki assists users in navigating and utilizing Lucy's platform. Whether you're looking for in-depth technical details about Lucy's platform specifications and features, or need step-by-step guidance for developing comprehensive security awareness strategies, this wiki is designed to be your go-to resource.
