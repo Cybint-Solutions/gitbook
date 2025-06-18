@@ -348,7 +348,9 @@ Instances where a recipient downloaded a file.
 {% tab title="Data Submitted" %}
 Cases where recipients entered data on a simulated phishing page.
 {% endtab %}
+{% endtabs %}
 
+{% tabs %}
 {% tab title="Succeeded" %}
 Recipients who completed the desired success action of the phishing simulation.
 
@@ -374,6 +376,8 @@ The amount of recipients that opted to reschedule the training.
 {% endtab %}
 
 {% tab title="Out of Office" %}
+
+
 Auto-replies indicating the recipient is out of the office.
 
 {% hint style="warning" %}
