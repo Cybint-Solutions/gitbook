@@ -36,6 +36,12 @@ To create a campaign filter list, go to the **Campaign Filters** tab and select 
 
 <figure><img src="../../../.gitbook/assets/image (916).png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="info" %}
+&#x20;values can be individual addresses or CIDR ranges, e.g. 127.0.0.1 or 127.0.0.1/24. Only IPv4 is supported.
+
+User-Agent strings will be matched by the rule if the string is contained in the request.
+{% endhint %}
+
 ### Import Filters
 
 You can also import rules from a CSV.\
