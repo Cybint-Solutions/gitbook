@@ -108,7 +108,7 @@ Users may not always have time to complete an awareness course right away. They 
 
 Enable this feature to refine your campaign statistics by monitoring email responses:
 
-**Track Bounced Emails** This function intercepts all emails sent to the campaign's sender email address and its domain. To facilitate this, the sender email domain's MX records should be configured to point to the current Lucy server. This setup ensures that emails directed to this domain are captured by Lucy for monitoring purposes.
+**Track Bounced Emails** Determine which recipients did not actually receive the email, such as those with 'out of office' or bounced email responses.
 
 **Interval Email Testing** Enhance the reliability of your campaign by scheduling periodic email tests. This involves sending emails to a predefined address at set intervals to verify ongoing mail delivery success. This helps track and ensure the health of your campaign's email system.
 
