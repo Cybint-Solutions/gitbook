@@ -71,6 +71,12 @@ To create a system filter, go to the **System Filters** tab and select **+ Add N
 
 <figure><img src="../../../.gitbook/assets/image (919).png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="info" %}
+IP values can be individual addresses or CIDR ranges, e.g. 127.0.0.1 or 127.0.0.1/24. Only IPv4 is supported.
+
+User-Agent strings will be matched by the rule if the string is contained in the request.
+{% endhint %}
+
 ### Automatic Filters
 
 Lucy runs a background service that automatically detects bot-like behavior and adds the source IP(s) to the filter list with a "Deny Always" policy.
