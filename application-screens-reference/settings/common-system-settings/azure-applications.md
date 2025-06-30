@@ -5,7 +5,7 @@
 Lucy offers the capability to integrate with Azure for importing users, distribute awareness training via SMTP, and implement the Microsoft Graph API XML reporting plugin. Administrators can synchronize several Azure applications, organized by client, to ensure applications are accessible solely to administrative users associated with the respective client.
 
 {% hint style="info" %}
-Navigate to Settings -> Common System Settings -> Azure Applications
+Navigate to Settings > Common System Settings > Azure Applications
 {% endhint %}
 
 ### Creating an application in Azure
@@ -22,7 +22,7 @@ On this page you can view, add, and delete Azure applications in Lucy.
 To add an application, select **+ Add Application**. \
 On the page that follows, fill out the application details:
 
-<figure><img src="../../../.gitbook/assets/image (805).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (995).png" alt=""><figcaption></figcaption></figure>
 
 {% tabs %}
 {% tab title="Client" %}
@@ -132,25 +132,27 @@ Lack of Administrative consent  is evident if the following message is displayed
 Lucy is configured to utilize the Microsoft Graph API to access and manage various resources from Microsoft services. The configured permissions include both delegated permissions, which act on behalf of a user, and those requiring administrative consent to access specific types of data, like directory data and full user profiles. These permissions are in line with the version 1.0 standard of the Microsoft Graph API.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (806).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (996).png" alt=""><figcaption></figcaption></figure>
 
 #### API Permissions explained
 
 {% tabs %}
 {% tab title="EntraID" %}
-<table><thead><tr><th width="236">Permission</th><th>Type</th><th>Description</th><th>Admin consent?</th></tr></thead><tbody><tr><td>OpenID</td><td>Delegated</td><td>Sign users in</td><td>No</td></tr><tr><td>offline_access</td><td>Delegated</td><td>Maintain access to data after granting access</td><td>No</td></tr><tr><td>email</td><td>Delegated</td><td>View user's email address</td><td>No</td></tr><tr><td>User.Read.All</td><td>Delegated</td><td>Read all users' full profiles</td><td>Yes</td></tr><tr><td>GroupMember.Read.All</td><td>Delegated</td><td>Read group memberships</td><td>Yes</td></tr></tbody></table>
+<table><thead><tr><th width="201.33331298828125">Permission</th><th width="104.55560302734375">Type</th><th width="268">Description</th><th>Admin consent?</th></tr></thead><tbody><tr><td>OpenID</td><td>Delegated</td><td>Sign users in</td><td>No</td></tr><tr><td>offline_access</td><td>Delegated</td><td>Maintain access to data</td><td>No</td></tr><tr><td>email</td><td>Delegated</td><td>View user's email address</td><td>No</td></tr><tr><td>User.Read.All</td><td>Delegated</td><td>Read all users' full profiles</td><td>Yes</td></tr><tr><td>GroupMember.Read.All</td><td>Delegated</td><td>Read group memberships</td><td>Yes</td></tr></tbody></table>
 {% endtab %}
 
 {% tab title="O365 Plugin" %}
-
-
-<table><thead><tr><th width="236">Permission</th><th>Type</th><th>Description</th><th>Admin consent?</th></tr></thead><tbody><tr><td>Mail.ReadWrite</td><td>Delegated</td><td>Create, read, update, and delete email in user mailboxes.</td><td>No</td></tr><tr><td>User.Read</td><td>Delegated</td><td>Read the profile of signed-in users. Read basic company information of signed-in users</td><td>No</td></tr><tr><td>Mail.Send</td><td>Delegated</td><td>Send mail as users in the organization.</td><td>No</td></tr></tbody></table>
+<table><thead><tr><th width="139.111083984375">Permission</th><th width="113.11102294921875">Type</th><th>Description</th><th>Admin consent?</th></tr></thead><tbody><tr><td>Mail.ReadWrite</td><td>Delegated</td><td>Create, read, update, and delete email in user mailboxes.</td><td>No</td></tr><tr><td>User.Read</td><td>Delegated</td><td>Read the profile of signed-in users. Read basic company information of signed-in users</td><td>No</td></tr><tr><td>Mail.Send</td><td>Delegated</td><td>Send mail as users in the organization.</td><td>No</td></tr></tbody></table>
 
 
 {% endtab %}
 
 {% tab title="Outlook Plugin" %}
-<table><thead><tr><th width="236">Permission</th><th>Type</th><th>Description</th><th>Admin consent?</th></tr></thead><tbody><tr><td>OpenID</td><td>Delegated</td><td>Sign users in</td><td>No</td></tr><tr><td>offline_access</td><td>Delegated</td><td>Maintain access to data after granting access</td><td>No</td></tr><tr><td>email</td><td>Delegated</td><td>View user's email address</td><td>No</td></tr><tr><td>User.Read.All</td><td>Delegated</td><td>Read all users' full profiles</td><td>Yes</td></tr><tr><td>GroupMember.Read.All</td><td>Delegated</td><td>Read group memberships</td><td>Yes</td></tr></tbody></table>
+<table><thead><tr><th width="209.3333740234375">Permission</th><th width="101.55548095703125">Type</th><th width="257.888916015625">Description</th><th>Admin consent?</th></tr></thead><tbody><tr><td>OpenID</td><td>Delegated</td><td>Sign users in</td><td>No</td></tr><tr><td>offline_access</td><td>Delegated</td><td>Maintain access to data after granting access</td><td>No</td></tr><tr><td>email</td><td>Delegated</td><td>View user's email address</td><td>No</td></tr><tr><td>User.Read.All</td><td>Delegated</td><td>Read all users' full profiles</td><td>Yes</td></tr><tr><td>GroupMember.Read.All</td><td>Delegated</td><td>Read group memberships</td><td>Yes</td></tr></tbody></table>
+{% endtab %}
+
+{% tab title="Outlook (Partial)" %}
+<table><thead><tr><th width="107.66668701171875">Permission</th><th width="103.11114501953125">Type</th><th width="337.5555419921875">Description</th><th>Admin Consent?</th></tr></thead><tbody><tr><td>openID</td><td>Delegated</td><td>Sign users in</td><td>No</td></tr><tr><td>Mail.Send</td><td>Delegated</td><td>Send mail as users in the organization.</td><td>No</td></tr></tbody></table>
 {% endtab %}
 {% endtabs %}
 

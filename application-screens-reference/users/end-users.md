@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Users might not have time to finish an awareness course right away. They have the ability to [re-schedule](../campaigns/campaign-settings/configuration/base-settings.md#awareness-re-scheduling) the training, but you can also create a login page for your end users where they can access their custom training links at any time without needing to re-send an awareness email. They can also view their lifetime statistics, [risk level](risk-score.md), and [training diplomas](../templates/training-diploma.md) from completed courses.
+Users might not have time to finish an awareness course right away. They have the ability to [re-schedule](../campaigns/campaign-settings/configuration/base-settings.md#awareness-re-scheduling) the training, but you can also create a login page for your end users where they can access their custom training links at any time without needing to re-send an awareness email. They can also view their lifetime statistics, [risk level](risk-score.md), and [training diplomas](../templates/awareness-training-diploma.md) from completed courses.
 
 {% hint style="info" %}
 An end user is a recipient with an end user portal account.\
@@ -124,7 +124,7 @@ The portal is divided in to three pages:
 
 ### Overall Statistics
 
-The main page of the portal displays the end user's [risk level](risk-score.md) and training scores, overall statistics, and a summary of their training courses and earned [diplomas](../templates/training-diploma.md).
+The main page of the portal displays the end user's [risk level](risk-score.md) and training scores, overall statistics, and a summary of their training courses and earned [diplomas](../templates/awareness-training-diploma.md).
 
 <figure><img src="../../.gitbook/assets/image (943).png" alt=""><figcaption></figcaption></figure>
 

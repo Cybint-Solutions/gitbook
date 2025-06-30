@@ -1,9 +1,9 @@
-# Training Diploma
+# Awareness Training Diploma
 
 Training Diplomas can be emailed to recipients upon successful completion of an awareness training.
 
 {% hint style="info" %}
-Navigate to **Templates -> Awareness Training Diploma**
+Navigate to **Templates > Awareness Training Diploma**
 {% endhint %}
 
 ***
@@ -16,6 +16,8 @@ Lucy comes with nine diploma designs ready to use right away, or you can overwri
 * **index.html** - the diploma itself
 * **style.css** - a stylesheet for the diploma
 
+***
+
 ## Customizing Diplomas
 
 &#x20;To customize a template simply select it and begin editing the content:
@@ -25,6 +27,18 @@ Lucy comes with nine diploma designs ready to use right away, or you can overwri
 {% hint style="info" %}
 You can preview your template to see how it will look to the user with the **Preview** button.
 {% endhint %}
+
+***
+
+## Preview, Restore, and Save
+
+You can restore a template to its default stateby clicking "Restore", or view your changes by clicking "Preview":
+
+<figure><img src="../../.gitbook/assets/image (986).png" alt=""><figcaption></figcaption></figure>
+
+When you're ready, click "Save" to commit your changes.
+
+***
 
 ## Template Variables
 

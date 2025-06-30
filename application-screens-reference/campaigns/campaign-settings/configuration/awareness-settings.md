@@ -61,7 +61,7 @@ Select this option if you want the user to be directed to a landing page to comp
 This option is available only for awareness templates that include a Quiz/Exam. It is designed to automatically send users a predefined Training Diploma once they have successfully completed the training and achieved a score above the minimum passing threshold.
 
 {% hint style="success" %}
-See our reference article to define your [Training Diploma](../../../templates/training-diploma.md).
+See our reference article to define your [Training Diploma](../../../templates/awareness-training-diploma.md).
 {% endhint %}
 {% endtab %}
 
@@ -238,7 +238,7 @@ Ensure "**Create Awareness Training Diploma**" is enabled on the template **Base
 {% endhint %}
 
 {% hint style="warning" %}
-Editing the certificate diploma in a campaign commits changes only to that campaign, similar to editing attack/awareness templates. To edit certificates on a global level, please refer to our platform reference article on [Awareness Training Diploma](../../../templates/training-diploma.md).
+Editing the certificate diploma in a campaign commits changes only to that campaign, similar to editing attack/awareness templates. To edit certificates on a global level, please refer to our platform reference article on [Awareness Training Diploma](../../../templates/awareness-training-diploma.md).
 {% endhint %}
 
 Choose one of the ready-made Training Diplomas.

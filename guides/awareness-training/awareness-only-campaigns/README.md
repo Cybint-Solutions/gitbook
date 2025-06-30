@@ -61,7 +61,7 @@ You can edit the email content in the wizard, but you will have more editor opti
 
 ### Certificate
 
-Select a [diploma](../../../application-screens-reference/templates/training-diploma.md) for the user to receive after completing the training. Diplomas are designed for landscape and portrait orientation.
+Select a [diploma](../../../application-screens-reference/templates/awareness-training-diploma.md) for the user to receive after completing the training. Diplomas are designed for landscape and portrait orientation.
 
 <figure><img src="../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 
