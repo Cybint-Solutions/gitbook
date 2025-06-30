@@ -116,6 +116,7 @@
         * [SSL for Campaigns](application-screens-reference/settings/common-system-settings/ssl-settings/ssl-for-campaigns.md)
       * [URL Shortener Settings](application-screens-reference/settings/common-system-settings/url-shortener-settings.md)
       * [SMS Settings](application-screens-reference/settings/common-system-settings/sms-settings.md)
+      * [Messenger Settings](application-screens-reference/settings/common-system-settings/messenger-settings.md)
       * [Filter Settings](application-screens-reference/settings/common-system-settings/filter-settings.md)
       * [API Whitelist](application-screens-reference/settings/common-system-settings/api-whitelist/README.md)
         * [API Routes](application-screens-reference/settings/common-system-settings/api-whitelist/api-routes.md)
