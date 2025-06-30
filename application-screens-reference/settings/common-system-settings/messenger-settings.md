@@ -47,6 +47,8 @@ Direct API integration with Meta’s WhatsApp Business platform.
 * Set a **Webhook Token** (any secure string)
 * Click **Save**
 
+<figure><img src="../../../.gitbook/assets/image (997).png" alt=""><figcaption></figcaption></figure>
+
 **4. Webhook Setup in Meta**
 
 * In the Meta App Dashboard, go to **Webhooks**
@@ -87,3 +89,5 @@ Integration using Messente’s cloud-based messaging services.
 * Select provider: **WhatsApp (via Messente)**
 * Enter your **Username**, **Password**, and approved **Sender**
 * Click **Save**
+
+<figure><img src="../../../.gitbook/assets/image (999).png" alt=""><figcaption></figcaption></figure>
