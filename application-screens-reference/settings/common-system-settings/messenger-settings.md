@@ -91,3 +91,52 @@ Integration using Messente’s cloud-based messaging services.
 * Click **Save**
 
 <figure><img src="../../../.gitbook/assets/image (999).png" alt=""><figcaption></figcaption></figure>
+
+***
+
+## WhatsApp Custom Messages
+
+LUCY supports sending **custom WhatsApp messages** via Meta's API.\
+This feature requires additional configuration and relies on user interaction.
+
+### Message Flow
+
+Custom messages can only be delivered **after a recipient replies** to an initial Meta-approved lure message. LUCY automatically handles this by first sending the predefined template. Once the recipient replies, your custom message is sent.
+
+***
+
+### Setup Steps
+
+**1. Configure Webhook in Meta Dashboard**
+
+* Go to [Meta App Dashboard](https://developers.facebook.com/apps/)
+* Select your LUCY app
+* Navigate to **Webhooks** (in the sidebar)
+* Choose **WhatsApp Business Account** from the product list
+* Set:
+  * **Callback URL**: `https://update1.phishing-server.com`
+  * **Verify Token**: Same value as used in LUCY
+* Click **Save**
+* Enable the **messages** event toggle
+
+***
+
+### Using a Custom Message
+
+1. Create a new campaign using [expert mode](../../campaigns/new-campaign/expert-mode.md).
+2. Go to **Scenario Settings** and click "New Scenario".
+3. In the **Message Template** tab set the **Type** to "Messenger".
+4. Enable **Custom Message** and enter your message text.
+5. Click **Save**.
+
+{% hint style="info" %}
+Custom messages are only sent **after** a recipient responds to the initial message. Some delay may occur between the reply and message delivery.
+{% endhint %}
+
+***
+
+### Using WhatsApp Templates
+
+If you prefer to use a template from Meta you can simply enter the name of the template in the **Messate Template** settings:
+
+<figure><img src="../../../.gitbook/assets/image (1000).png" alt=""><figcaption></figcaption></figure>
