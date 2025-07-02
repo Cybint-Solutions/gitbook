@@ -1,6 +1,6 @@
 # Azure Applications
 
-### Introduction
+## Introduction
 
 Lucy offers the capability to integrate with Azure for importing users, distribute awareness training via SMTP, and implement the Microsoft Graph API XML reporting plugin. Administrators can synchronize several Azure applications, organized by client, to ensure applications are accessible solely to administrative users associated with the respective client.
 
@@ -8,12 +8,19 @@ Lucy offers the capability to integrate with Azure for importing users, distribu
 Navigate to Settings > Common System Settings > Azure Applications
 {% endhint %}
 
-### Creating an application in Azure
+## Creating an application in Azure
 
 See here for a guide on setting up an application in Entra ID:\
 [https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app)
 
-### Add an application to Lucy
+### Redirect URIs
+
+Lucy can sync with Entra ID for a few different purposes.\
+Depending on your use-case you will need to configure the correct URIs:
+
+<table><thead><tr><th width="218.44439697265625">Use Case</th><th>URIs</th></tr></thead><tbody><tr><td><a href="sso-configuration.md#oauth-2.0-azure">SSO via OAuth</a><br><a href="../../users/recipient-groups.md">Recipient (user) import</a></td><td><code>https://example.com/oauth/</code><br><code>https://example.com/oauth/admin</code><br><code>https://example.com/oauth/user</code></td></tr><tr><td><a href="../../../guides/reporting-plugin/deploying-office-365.md">Incident Reporting (XML)</a></td><td><p><code>https://example.com/oauth</code><br><code>https://example.com/login/login.html</code></p><p><code>https://example.com/new-o365/dist/index.html</code></p></td></tr><tr><td><a href="../../../guides/reporting-plugin/deploying-outlook-native.md">Incident Reporting (MSI)</a></td><td><code>https://example.com/oauth</code><br><code>https://login.microsoftonline.com/common/oauth2/nativeclient</code><br><code>https://login.live.com/oauth20_desktop.srf</code><br><code>msal&#x3C;application_id>://auth</code></td></tr></tbody></table>
+
+## Add an application to Lucy
 
 On this page you can view, add, and delete Azure applications in Lucy.
 
@@ -126,7 +133,7 @@ Lack of Administrative consent  is evident if the following message is displayed
 
 </details>
 
-### What API permissions are required for this integration?
+## What API permissions are required for this integration?
 
 {% hint style="info" %}
 Lucy is configured to utilize the Microsoft Graph API to access and manage various resources from Microsoft services. The configured permissions include both delegated permissions, which act on behalf of a user, and those requiring administrative consent to access specific types of data, like directory data and full user profiles. These permissions are in line with the version 1.0 standard of the Microsoft Graph API.
@@ -134,7 +141,7 @@ Lucy is configured to utilize the Microsoft Graph API to access and manage vario
 
 <figure><img src="../../../.gitbook/assets/image (996).png" alt=""><figcaption></figcaption></figure>
 
-#### API Permissions explained
+### API Permissions explained
 
 {% tabs %}
 {% tab title="EntraID" %}
