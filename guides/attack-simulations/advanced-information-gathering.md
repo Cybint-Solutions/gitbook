@@ -36,12 +36,12 @@ With AIG integrated into LUCY, companies can assess two critical security questi
 Advanced Information Gathering runs in the background of a phishing campaign's landing page. It is operational only in scenarios where a user-accessible landing page is active.
 
 {% hint style="info" %}
-For detailed setup instructions, please consult our platform reference article on [Advanced Information Gathering](../../application-screens-reference/campaigns/campaign-settings/configuration/attack-settings.md#advanced-information-gathering).
+For detailed setup instructions, please consult our platform reference article on [Advanced Information Gathering](../../application-reference/campaigns/campaign-settings/configuration/attack-settings.md#advanced-information-gathering).
 {% endhint %}
 
 ### Advance Information Gathering Statistics
 
-After completing the attack, the Advanced Information Gathering (AIG) statistics will be accessible in multiple locations. Initially, an administrator can quickly view these by navigating to the [Recipient Statistics](../../application-screens-reference/campaigns/campaign-settings/results/statistics.md#recipients) within the campaign, where the report can be directly evaluated in the user interface.
+After completing the attack, the Advanced Information Gathering (AIG) statistics will be accessible in multiple locations. Initially, an administrator can quickly view these by navigating to the [Recipient Statistics](../../application-reference/campaigns/campaign-settings/results/statistics.md#recipients) within the campaign, where the report can be directly evaluated in the user interface.
 
 <figure><img src="../../.gitbook/assets/image (546).png" alt=""><figcaption></figcaption></figure>
 
@@ -54,6 +54,6 @@ Exporting the campaign results to a CSV or XML file will provide detailed inform
 <figure><img src="../../.gitbook/assets/image (548).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
-Refer to our platform reference article on [Campaign Exports](../../application-screens-reference/campaigns/campaign-settings/results/exports.md)
+Refer to our platform reference article on [Campaign Exports](../../application-reference/campaigns/campaign-settings/results/exports.md)
 {% endhint %}
 

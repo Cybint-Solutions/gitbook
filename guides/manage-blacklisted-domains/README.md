@@ -39,17 +39,17 @@ To minimize the risk of your newly spoofed domains being blacklisted when conduc
 
 ### **Choose Reputable Domain Providers:**
 
-* Register your domains with well-known and reputable domain providers. This helps establish initial trust. You can use the built-in [Domain wizard](../../application-screens-reference/settings/common-system-settings/domains/#register) for registration with GoDaddy.
+* Register your domains with well-known and reputable domain providers. This helps establish initial trust. You can use the built-in [Domain wizard](../../application-reference/settings/common-system-settings/domains/#register) for registration with GoDaddy.
 
 ### **Set Up Proper DNS Records:**
 
 * Ensure your SPF, DKIM, and DMARC records are correctly configured to authenticate your emails.
-*   [Example SPF record:](../../application-screens-reference/settings/common-system-settings/domains/#dns-records-explained)
+*   [Example SPF record:](../../application-reference/settings/common-system-settings/domains/#dns-records-explained)
 
     ```plaintext
     v=spf1 ip4:{your_lucy_ip_address} ~all
     ```
-*   [Example DKIM record:](../../application-screens-reference/campaigns/campaign-settings/configuration/attack-settings.md#dkim-support)
+*   [Example DKIM record:](../../application-reference/campaigns/campaign-settings/configuration/attack-settings.md#dkim-support)
 
     ```plaintext
     default._domainkey IN TXT "v=DKIM1; k=rsa; p=<public_key>"
@@ -60,11 +60,11 @@ To minimize the risk of your newly spoofed domains being blacklisted when conduc
     _dmarc IN TXT "v=DMARC1; p=none; rua=mailto:dmarc-reports@yourdomain.com"
     ```
 
-See our platform reference article on [DNS records](../../application-screens-reference/settings/common-system-settings/domains/#add-a-domain)
+See our platform reference article on [DNS records](../../application-reference/settings/common-system-settings/domains/#add-a-domain)
 
 ### **Implement HTTPS:**
 
-* Use SSL/TLS certificates from reputable Certificate Authorities (CAs) to secure your domains. Use the built-in [Let's Encrypt certificate generator](../../application-screens-reference/settings/common-system-settings/ssl-settings/) for your domains.
+* Use SSL/TLS certificates from reputable Certificate Authorities (CAs) to secure your domains. Use the built-in [Let's Encrypt certificate generator](../../application-reference/settings/common-system-settings/ssl-settings/) for your domains.
 
 ### **Regularly Update Your DNS Records:**
 
@@ -82,7 +82,7 @@ See our platform reference article on [DNS records](../../application-screens-re
 
 **Limit Email Volume:**
 
-* Send your phishing simulation emails in small batches to avoid triggering spam filters. Use the built-in [Scheduler](../../application-screens-reference/campaigns/campaign-settings/configuration/schedule/) to achieve this.
+* Send your phishing simulation emails in small batches to avoid triggering spam filters. Use the built-in [Scheduler](../../application-reference/campaigns/campaign-settings/configuration/schedule/) to achieve this.
 
 **Monitor Email Content:**
 
@@ -96,7 +96,7 @@ See our platform reference article on [DNS records](../../application-screens-re
 
 **Warm-Up Your Domain:**
 
-* Gradually increase your email sending volume to establish a good sending reputation. Use the built-in [Scheduler](../../application-screens-reference/campaigns/campaign-settings/configuration/schedule/) to achieve this.
+* Gradually increase your email sending volume to establish a good sending reputation. Use the built-in [Scheduler](../../application-reference/campaigns/campaign-settings/configuration/schedule/) to achieve this.
 
 **Monitor Domain Health:**
 
@@ -104,7 +104,7 @@ See our platform reference article on [DNS records](../../application-screens-re
 
 **Engage in Regular Clean-Up:**
 
-* Periodically review and clean your email lists to ensure you are sending to valid addresses. Use [Lucy's built-in automation](../../application-screens-reference/settings/common-system-settings/ldap-settings.md#action-for-new-users) to automatically keep your users up to date with your organization's directory.&#x20;
+* Periodically review and clean your email lists to ensure you are sending to valid addresses. Use [Lucy's built-in automation](../../application-reference/settings/common-system-settings/ldap-settings.md#action-for-new-users) to automatically keep your users up to date with your organization's directory.&#x20;
 
 ### **Google Safe Browsing and User Reports:**
 

@@ -50,7 +50,7 @@ For this guide, we will focus on customizing a **One Pager: Customizable templat
 Select "Edit Template" to set key parameters that will improve future data classification and sorting.
 
 {% hint style="success" %}
-Please refer to our [Awareness Template - Platform Reference](../../application-screens-reference/templates/awareness-templates.md) guide for detailed definitions of these parameters.
+Please refer to our [Awareness Template - Platform Reference](../../application-reference/templates/awareness-templates.md) guide for detailed definitions of these parameters.
 {% endhint %}
 
 ### Email Template
@@ -78,7 +78,7 @@ Languages don't translate automatically; you need to adapt each selected languag
 * Provide "Sender Email", e.g., "security@your-company.com".
 
 {% hint style="info" %}
-It's advisable to use a [sender domain ](../../application-screens-reference/settings/common-system-settings/domains/#dns-records-explained)related to your company to create a sense of familiarity, especially since the user was just successfully phished.
+It's advisable to use a [sender domain ](../../application-reference/settings/common-system-settings/domains/#dns-records-explained)related to your company to create a sense of familiarity, especially since the user was just successfully phished.
 {% endhint %}
 
 **Content Editor**

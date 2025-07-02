@@ -46,7 +46,7 @@ Select **Base Task** (5) and enter a domain you own.
 <figure><img src="../../.gitbook/assets/image (422).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Ensure all relevant [DNS records](../../application-screens-reference/settings/common-system-settings/domains/#dns-records-explained) are pointing to your Lucy server.
+Ensure all relevant [DNS records](../../application-reference/settings/common-system-settings/domains/#dns-records-explained) are pointing to your Lucy server.
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/image (426).png" alt=""><figcaption></figcaption></figure>
@@ -55,7 +55,7 @@ Ensure all relevant [DNS records](../../application-screens-reference/settings/c
 
 ### Get your server licensed
 
-Licensing restrictions currently limit some configuration options on your Lucy server. To start the licensing process, please contact your Account Manager and provide your Lucy [workstation ID](../../application-screens-reference/account-settings/license.md#workstation-id).
+Licensing restrictions currently limit some configuration options on your Lucy server. To start the licensing process, please contact your Account Manager and provide your Lucy [workstation ID](../../application-reference/account-settings/license.md#workstation-id).
 
 Once a license has been assigned to your workstation, you can sync the details by going to **Support -> Update** and clicking **Check Update**.
 
@@ -63,13 +63,13 @@ Once a license has been assigned to your workstation, you can sync the details b
 
 ### Initial Lucy configuration
 
-* [x] [Configure mail delivery.](../../application-screens-reference/settings/common-system-settings/mail-settings.md)
-* [x] [Set up a domain for phishing simulations or the e-learning portal.](../../application-screens-reference/settings/common-system-settings/domains/)
-* [x] [Create a trusted SSL certificate.](../../application-screens-reference/settings/common-system-settings/ssl-settings/)
-* [x] [Create administrator users.](../../application-screens-reference/users/administrative-users.md)
-* [x] [Download the latest templates.](../../application-screens-reference/templates/download-templates.md)
-* [x] [Implement additional security layers.](../../application-screens-reference/settings/common-system-settings/firewall.md)
-* [x] [Customize portal branding and 404 pages.](../../application-screens-reference/settings/whitelabeling.md)
+* [x] [Configure mail delivery.](../../application-reference/settings/common-system-settings/mail-settings.md)
+* [x] [Set up a domain for phishing simulations or the e-learning portal.](../../application-reference/settings/common-system-settings/domains/)
+* [x] [Create a trusted SSL certificate.](../../application-reference/settings/common-system-settings/ssl-settings/)
+* [x] [Create administrator users.](../../application-reference/users/administrative-users.md)
+* [x] [Download the latest templates.](../../application-reference/templates/download-templates.md)
+* [x] [Implement additional security layers.](../../application-reference/settings/common-system-settings/firewall.md)
+* [x] [Customize portal branding and 404 pages.](../../application-reference/settings/whitelabeling.md)
 * [x] [Set up your first campaign.](../quick-guides/create-your-first-campaign/)
 
 ***

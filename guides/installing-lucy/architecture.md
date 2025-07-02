@@ -33,7 +33,7 @@ This document outlines the key structural elements and settings of Lucy.
 ### Security
 
 * **OWASP Top 10 / 2017**: Adheres to OWASP security standards.
-* **Firewall and SSL**: Custom [firewall rules](../../application-screens-reference/settings/common-system-settings/firewall.md) and [SSL configurations](../../application-screens-reference/settings/common-system-settings/ssl-settings/).
+* **Firewall and SSL**: Custom [firewall rules](../../application-reference/settings/common-system-settings/firewall.md) and [SSL configurations](../../application-reference/settings/common-system-settings/ssl-settings/).
 * **User Accounts**: "phishing" and "support" accounts for specific functions and support purposes.
 
 ### Folders

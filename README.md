@@ -29,7 +29,7 @@ This wiki assists users in navigating and utilizing Lucy's platform. Whether you
 
 **This wiki is organized into two primary sections:**
 
-<table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td align="center"><p><strong>Application Screens Reference</strong></p><p></p><p>Provides detailed information on Lucy's platform specifications and features.</p></td><td><a href="application-screens-reference/">application-screens-reference</a></td><td></td></tr><tr><td align="center"><p><strong>Guides</strong></p><p></p><p>Provides step-by-step instructions for administrators to create, configure, and troubleshoot platform-related topics.</p></td><td><a href="guides/">guides</a></td><td></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards" data-full-width="false"><thead><tr><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td align="center"><p><strong>Application Screens Reference</strong></p><p></p><p>Provides detailed information on Lucy's platform specifications and features.</p></td><td><a href="application-reference/">application-reference</a></td><td></td></tr><tr><td align="center"><p><strong>Guides</strong></p><p></p><p>Provides step-by-step instructions for administrators to create, configure, and troubleshoot platform-related topics.</p></td><td><a href="guides/">guides</a></td><td></td></tr></tbody></table>
 
 ***
 

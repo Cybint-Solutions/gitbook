@@ -15,7 +15,7 @@ Mail reporting plugins (AKA "phishing buttons") enhance email security by allowi
 
 ### Prerequisites
 
-A connected Azure application. See [here](../../application-screens-reference/settings/common-system-settings/azure-applications.md) for details.
+A connected Azure application. See [here](../../application-reference/settings/common-system-settings/azure-applications.md) for details.
 
 This application must then be selected in the plugin settings.
 
@@ -27,7 +27,7 @@ Starting in Lucy version 4.13 you can save plugin configurations on a per-client
 
 ### Plugin Settings
 
-Before we can begin using the plugin we must configure it. To configure, navigate to **Settings > Submitted Email Settings > Plugin Settings** and create a new configuration. See [this platform reference page](../../application-screens-reference/settings/submitted-email-settings/plugin-settings.md) for details on the configuration options.
+Before we can begin using the plugin we must configure it. To configure, navigate to **Settings > Submitted Email Settings > Plugin Settings** and create a new configuration. See [this platform reference page](../../application-reference/settings/submitted-email-settings/plugin-settings.md) for details on the configuration options.
 
 {% hint style="success" %}
 Remember to select your Azure application in the Plugin settings at the bottom!
@@ -38,7 +38,7 @@ Remember to select your Azure application in the Plugin settings at the bottom!
 ### Download the plugin
 
 {% hint style="success" %}
-You must [configure your plugin settings](../../application-screens-reference/settings/submitted-email-settings/plugin-settings.md) before downloading and deploying.
+You must [configure your plugin settings](../../application-reference/settings/submitted-email-settings/plugin-settings.md) before downloading and deploying.
 {% endhint %}
 
 To download the plugin navigate to the **Incidents Dashboard** and select **Download Plugin**, then select the appropriate option for your mail client.

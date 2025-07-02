@@ -10,9 +10,9 @@ A data entry attack is a targeted effort where attackers deceive victims into en
 
 ## Checklist
 
-* [x] [Register an Attack Domain](../../../application-screens-reference/settings/common-system-settings/domains/#register-a-domain-via-the-domain-registration-wizard)
-* [x] [Add a Data Entry Attack to your Campaign](../../../application-screens-reference/campaigns/campaign-settings/configuration/attack-settings.md#add-an-attack-template-to-your-campaign)
-* [x] [Ensure "Data Submit" is set as your Success Action](../../../application-screens-reference/campaigns/campaign-settings/configuration/attack-settings.md#success-action)
+* [x] [Register an Attack Domain](../../../application-reference/settings/common-system-settings/domains/#register-a-domain-via-the-domain-registration-wizard)
+* [x] [Add a Data Entry Attack to your Campaign](../../../application-reference/campaigns/campaign-settings/configuration/attack-settings.md#add-an-attack-template-to-your-campaign)
+* [x] [Ensure "Data Submit" is set as your Success Action](../../../application-reference/campaigns/campaign-settings/configuration/attack-settings.md#success-action)
 * [x] [Ensure the sending Domain is whitelisted](../../whitelisting-a-lucy-server/)
 
 ***
@@ -24,7 +24,7 @@ A data entry attack is a targeted effort where attackers deceive victims into en
 * A recipient is notified that they are running late for a Teams or Zoom meeting and receives an email with a link to join the meeting. In their haste, they click the link and are prompted to log in on a fake Teams or Zoom login page, unknowingly entering their credentials.
 
 {% hint style="success" %}
-Ready to set up your Data Entry Attack? See our platform reference article on [Adding an Attack to your campaign.](../../../application-screens-reference/campaigns/campaign-settings/configuration/attack-settings.md)
+Ready to set up your Data Entry Attack? See our platform reference article on [Adding an Attack to your campaign.](../../../application-reference/campaigns/campaign-settings/configuration/attack-settings.md)
 {% endhint %}
 
 ***
@@ -60,6 +60,6 @@ To help employees recognize and respond to Data Entry phishing attempts effectiv
 **Incident Reporting**
 
 * **Report Suspicious Emails:** Immediately report any suspicious emails to the IT or security department for further analysis.
-* **Use Reporting Tools:** Deploy the [Lucy Phish Button](../../../application-screens-reference/settings/submitted-email-settings/) for all users to use as a reporting tool.
+* **Use Reporting Tools:** Deploy the [Lucy Phish Button](../../../application-reference/settings/submitted-email-settings/) for all users to use as a reporting tool.
 
 ***

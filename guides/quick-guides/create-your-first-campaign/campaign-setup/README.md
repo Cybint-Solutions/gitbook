@@ -32,7 +32,7 @@ LUCY provides the capability to create files for use on various removable media 
 
 [**Smishing:**](../../../attack-simulations/attack-types/smishing.md)
 
-Smishing, also known as SMS Phishing, is a deceptive tactic where fraudulent text messages are sent to trick recipients into revealing sensitive information such as credit card details or passwords. It's important to note that this type of attack can only be configured in [**Expert Mode**](../../../../application-screens-reference/campaigns/new-campaign/expert-mode.md).
+Smishing, also known as SMS Phishing, is a deceptive tactic where fraudulent text messages are sent to trick recipients into revealing sensitive information such as credit card details or passwords. It's important to note that this type of attack can only be configured in [**Expert Mode**](../../../../application-reference/campaigns/new-campaign/expert-mode.md).
 {% endtab %}
 
 {% tab title="Educate Employees" %}

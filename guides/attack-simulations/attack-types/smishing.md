@@ -17,8 +17,8 @@ Ensure to allocate a minimum of <mark style="color:red;">4 weeks</mark> for the 
 ## Checklist
 
 * [x] [Register an attack domain](../../quick-guides/create-your-first-campaign/register-an-attack-domain.md)
-* [x] [Select an SMS carrier](../../../application-screens-reference/settings/common-system-settings/sms-settings.md)
-* [x] [Create a campaign using Expert Mode](../../../application-screens-reference/campaigns/new-campaign/expert-mode.md)
+* [x] [Select an SMS carrier](../../../application-reference/settings/common-system-settings/sms-settings.md)
+* [x] [Create a campaign using Expert Mode](../../../application-reference/campaigns/new-campaign/expert-mode.md)
 * [x] [Add an attack scenario](../../quick-guides/create-your-first-campaign/campaign-setup/attack-settings.md)
   * [x] If your scenario is a hyperlink, set the success action to C**lick**
   * [x] If it's a data-entry scenario, set it to **Data Submit**

@@ -3,7 +3,7 @@
 ## Use Cases
 
 * You want to send specific training content based on the recipient's department, skill level, or other natural grouping, and these recipients are already grouped accordingly (e.g. a recipient group for each department has already been created).
-* You want to send specific training content to each recipient based on their [risk level](../../../application-screens-reference/campaigns/campaign-settings/configuration/awareness-settings.md#awareness-template-base-settings), and these recipients are all in the same group.
+* You want to send specific training content to each recipient based on their [risk level](../../../application-reference/campaigns/campaign-settings/configuration/awareness-settings.md#awareness-template-base-settings), and these recipients are all in the same group.
 
 ***
 
@@ -59,7 +59,7 @@ You can use the same group multiple times and bind recipients to multiple awaren
 
 ## Using Risk Levels
 
-In this method we will add one recipient group to a campaign and send the users in that group different trainings depending on their [reputation level](../../../application-screens-reference/users/risk-score.md) (also called risk score or risk level).
+In this method we will add one recipient group to a campaign and send the users in that group different trainings depending on their [reputation level](../../../application-reference/users/risk-score.md) (also called risk score or risk level).
 
 ### Add Trainings
 

@@ -8,7 +8,7 @@ This guide provides instructions for setting up an Awareness-Only Campaign in Lu
 
 ## Checklist
 
-* [x] [Register a training domain (Optional)](../../../application-screens-reference/settings/common-system-settings/domains/)
+* [x] [Register a training domain (Optional)](../../../application-reference/settings/common-system-settings/domains/)
 
 {% hint style="success" %}
 Awareness campaigns can safely be run on your admin domain, or you can register a dedicated training domain.
@@ -16,14 +16,14 @@ Awareness campaigns can safely be run on your admin domain, or you can register 
 
 * [x] [Create a recipient group](../../quick-guides/create-your-first-campaign/campaign-setup/recipients.md)
 * [x] Choose an awareness topic\
-  For inspiration, check out our [awareness templates](../../../application-screens-reference/templates/awareness-templates.md). Don't forget you can [create your own](../awareness-template-customization.md)!
-* [x] [Download the awareness template](../../../application-screens-reference/templates/download-templates.md)
+  For inspiration, check out our [awareness templates](../../../application-reference/templates/awareness-templates.md). Don't forget you can [create your own](../awareness-template-customization.md)!
+* [x] [Download the awareness template](../../../application-reference/templates/download-templates.md)
 
 ***
 
 ## Create the Campaign
 
-Go to the **Campaign Dashboard** and start the campaign [wizard](../../../application-screens-reference/campaigns/new-campaign/wizard-mode/). Select **Educate Employees** and then select **Start Awareness Training** to begin crafting your campaign.
+Go to the **Campaign Dashboard** and start the campaign [wizard](../../../application-reference/campaigns/new-campaign/wizard-mode/). Select **Educate Employees** and then select **Start Awareness Training** to begin crafting your campaign.
 
 <figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
@@ -61,7 +61,7 @@ You can edit the email content in the wizard, but you will have more editor opti
 
 ### Certificate
 
-Select a [diploma](../../../application-screens-reference/templates/awareness-training-diploma.md) for the user to receive after completing the training. Diplomas are designed for landscape and portrait orientation.
+Select a [diploma](../../../application-reference/templates/awareness-training-diploma.md) for the user to receive after completing the training. Diplomas are designed for landscape and portrait orientation.
 
 <figure><img src="../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
 

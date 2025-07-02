@@ -10,9 +10,9 @@ A portable media attack involves distributing malicious files via removable medi
 
 ### **Checklist**
 
-* [x] [Register an Attack Domain](../../../application-screens-reference/settings/common-system-settings/domains/#register-a-domain-via-the-domain-registration-wizard)
-* [x] [Add a Portable Media Attack to your Campaign](../../../application-screens-reference/campaigns/campaign-settings/configuration/attack-settings.md)
-* [x] [Ensure the success action is File Data Received](../../../application-screens-reference/campaigns/campaign-settings/configuration/attack-settings.md#success-action)
+* [x] [Register an Attack Domain](../../../application-reference/settings/common-system-settings/domains/#register-a-domain-via-the-domain-registration-wizard)
+* [x] [Add a Portable Media Attack to your Campaign](../../../application-reference/campaigns/campaign-settings/configuration/attack-settings.md)
+* [x] [Ensure the success action is File Data Received](../../../application-reference/campaigns/campaign-settings/configuration/attack-settings.md#success-action)
 * [x] [Ensure the File is excluded from Anti-Virus scanning in your infrastructure](../../whitelisting-a-lucy-server/file-attack-whitelisting.md)
 
 ***
@@ -52,7 +52,7 @@ A portable media attack involves distributing malicious files via removable medi
 * Select the "Portable Media Attack" scenario and click "Use template".&#x20;
 
 {% hint style="info" %}
-If it's not available, download it by first navigating to **Templates ->** [**Download Templates**](../../../application-screens-reference/templates/download-templates.md) and searching for "**Portable Media Attack**".
+If it's not available, download it by first navigating to **Templates ->** [**Download Templates**](../../../application-reference/templates/download-templates.md) and searching for "**Portable Media Attack**".
 {% endhint %}
 
 <figure><img src="../../../.gitbook/assets/image (782).png" alt="" width="563"><figcaption></figcaption></figure>

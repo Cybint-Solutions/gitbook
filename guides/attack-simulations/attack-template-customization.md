@@ -112,7 +112,7 @@ This specifies the subject line that recipients will see when they receive the e
 Lucy employs a standard open-source visual editor, known as a "What You See Is What You Get" (WYSIWYG) editor, as the default editing tool. For administrators who prefer editing in the source code directly, the "Code Mirror" editor is available as an alternative option.
 
 {% hint style="info" %}
-You can change your default editor in the [Advanced Settings](../../application-screens-reference/settings/advanced-system-settings/advanced-settings.md#default-editor-type)
+You can change your default editor in the [Advanced Settings](../../application-reference/settings/advanced-system-settings/advanced-settings.md#default-editor-type)
 {% endhint %}
 {% endtab %}
 
@@ -173,7 +173,7 @@ Double-click the image in the Visual Editor to open settings and make further ad
 
 Lucy uses placeholder variables like **%{VALUE}%** to personalize email content for phishing campaigns. This allows Lucy admins to make emails more credible by including details like the recipient's first name, gender, or time-sensitive information.
 
-In this example, the variable **%name%** is included by default, which automatically fetches the recipient's full name from the [imported recipient group](../../application-screens-reference/users/recipient-groups.md) data.
+In this example, the variable **%name%** is included by default, which automatically fetches the recipient's full name from the [imported recipient group](../../application-reference/users/recipient-groups.md) data.
 
 <details>
 
@@ -262,4 +262,4 @@ Edit the landing page with the WYSIWYG editor by changing text, dragging compone
 
 <figure><img src="../../.gitbook/assets/chrome_7Wa1PSmmmG.gif" alt="" width="563"><figcaption></figcaption></figure>
 
-Once you configure your attack landing page, you can proceed to [bind this attack template to a campaign](../../application-screens-reference/campaigns/new-campaign/).
+Once you configure your attack landing page, you can proceed to [bind this attack template to a campaign](../../application-reference/campaigns/new-campaign/).

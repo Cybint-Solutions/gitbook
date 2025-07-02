@@ -40,9 +40,9 @@ Recipients, having just completed a successful phishing simulation, may be wary 
 \
 There are two methods to accomplish this:\
 \
-1\. You can send emails from a domain associated with your company using the internal Lucy mail server. Please make sure that all necessary DNS records are correctly configured and pointing to your Lucy server before initiating the campaign. For more details, refer to our [domain section](../../../../application-screens-reference/settings/common-system-settings/domains/).\
+1\. You can send emails from a domain associated with your company using the internal Lucy mail server. Please make sure that all necessary DNS records are correctly configured and pointing to your Lucy server before initiating the campaign. For more details, refer to our [domain section](../../../../application-reference/settings/common-system-settings/domains/).\
 \
-2\. You can directly authenticate to your company SMTP server to send the training directly from your internal mail server, refer to our [SMTP section](../../../../application-screens-reference/settings/common-system-settings/smtp-servers.md).
+2\. You can directly authenticate to your company SMTP server to send the training directly from your internal mail server, refer to our [SMTP section](../../../../application-reference/settings/common-system-settings/smtp-servers.md).
 
 </details>
 

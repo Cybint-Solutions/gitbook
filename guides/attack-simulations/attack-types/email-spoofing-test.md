@@ -6,9 +6,9 @@ Email spoofing is the forgery of an email header, making it appear as though the
 
 ## Checklist
 
-* [x] [Register the domain](../../../application-screens-reference/settings/common-system-settings/domains/#register-a-domain-via-the-domain-registration-wizard)
+* [x] [Register the domain](../../../application-reference/settings/common-system-settings/domains/#register-a-domain-via-the-domain-registration-wizard)
 * [x] Create a recipient on the domain
-* [x] [Create a mail spoofing campaign in the wizard](../../../application-screens-reference/campaigns/new-campaign/wizard-mode/)
+* [x] [Create a mail spoofing campaign in the wizard](../../../application-reference/campaigns/new-campaign/wizard-mode/)
 
 ## Run the Test
 

@@ -12,9 +12,9 @@ A file attack is a type of cyber attack where malicious files are sent via email
 
 ### **Checklist**
 
-* [x] [Register an Attack Domain](../../../application-screens-reference/settings/common-system-settings/domains/#register-a-domain-via-the-domain-registration-wizard)
-* [x] [Add a File Attack to your Campaign](../../../application-screens-reference/campaigns/campaign-settings/configuration/attack-settings.md)
-* [x] [Choose a success action: File Download; File Data Received or File Opened](../../../application-screens-reference/campaigns/campaign-settings/configuration/attack-settings.md#success-action)
+* [x] [Register an Attack Domain](../../../application-reference/settings/common-system-settings/domains/#register-a-domain-via-the-domain-registration-wizard)
+* [x] [Add a File Attack to your Campaign](../../../application-reference/campaigns/campaign-settings/configuration/attack-settings.md)
+* [x] [Choose a success action: File Download; File Data Received or File Opened](../../../application-reference/campaigns/campaign-settings/configuration/attack-settings.md#success-action)
 * [x] [Ensure the File is excluded from Anti-Virus scanning in your infrastructure](../../whitelisting-a-lucy-server/file-attack-whitelisting.md)
 * [x] [Ensure the sending Domain is whitelisted](../../whitelisting-a-lucy-server/)
 
@@ -27,7 +27,7 @@ A file attack is a type of cyber attack where malicious files are sent via email
 * A finance executive receives an urgent email seemingly from the CEO, with an attached .exe file labeled as critical software for an emergency task. When the file is downloaded and executed, it installs malware, and the executed data is sent to the attacker.
 
 {% hint style="success" %}
-Ready to set up your File Attack? See our platform reference article on [Adding an Attack to your campaign](../../../application-screens-reference/templates/attack-templates.md).
+Ready to set up your File Attack? See our platform reference article on [Adding an Attack to your campaign](../../../application-reference/templates/attack-templates.md).
 {% endhint %}
 
 ***
@@ -100,6 +100,6 @@ To help employees recognize and respond to file-based phishing attempts effectiv
 
 **Report Suspicious Files:** Immediately report any suspicious files or download links to the IT or security department for further analysis.
 
-**Use Reporting Tools:** Deploy the [Lucy Phish Button](../../../application-screens-reference/settings/submitted-email-settings/) for all users to use as a reporting tool.
+**Use Reporting Tools:** Deploy the [Lucy Phish Button](../../../application-reference/settings/submitted-email-settings/) for all users to use as a reporting tool.
 
 ***

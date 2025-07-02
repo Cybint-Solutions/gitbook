@@ -60,5 +60,5 @@ For on-premise setups, LUCY can be deployed within the intranet or a secured zon
 * **DMZ Installation**: For better security, install LUCY in a separate, secure zone within the DMZ. This configuration reduces direct exposure to the intranet.
 
 {% hint style="info" %}
-See our platform reference article on [Master/Slave deployment](../../application-screens-reference/settings/common-system-settings/web-proxy.md)
+See our platform reference article on [Master/Slave deployment](../../application-reference/settings/common-system-settings/web-proxy.md)
 {% endhint %}

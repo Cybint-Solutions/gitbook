@@ -31,7 +31,7 @@ Several options in Google Workspace can be adjusted to improve the phishing simu
 To ensure emails from Lucy are not flagged as spam, configure Google Workspace to bypass spam detection based on specific email headers.
 
 {% hint style="warning" %}
-If you whitelist using this method, [test emails](../../application-screens-reference/support/system-tests/test-email.md) will still not arrive because it will not contain these campaign headers.
+If you whitelist using this method, [test emails](../../application-reference/support/system-tests/test-email.md) will still not arrive because it will not contain these campaign headers.
 {% endhint %}
 
 **Compliance Settings:**
@@ -75,12 +75,12 @@ Sometimes, a warning pop-up window appears when trying to open a link from a Luc
 * Ensure SSL is enabled in your Lucy campaign.
 
 {% hint style="info" %}
-Refer to our platform reference article on [campaign SSL settings.](../../application-screens-reference/campaigns/campaign-settings/configuration/attack-settings.md#ssl-settings)
+Refer to our platform reference article on [campaign SSL settings.](../../application-reference/campaigns/campaign-settings/configuration/attack-settings.md#ssl-settings)
 {% endhint %}
 
 **Consider a Paid Certificate:**
 
-* If the Let's Encrypt certificate is not sufficient, consider obtaining a paid certificate. Contact any SSL vendor you prefer and [upload your SSL certificate](../../application-screens-reference/campaigns/campaign-settings/configuration/attack-settings.md#generate-or-upload) to the campaign.
+* If the Let's Encrypt certificate is not sufficient, consider obtaining a paid certificate. Contact any SSL vendor you prefer and [upload your SSL certificate](../../application-reference/campaigns/campaign-settings/configuration/attack-settings.md#generate-or-upload) to the campaign.
 
 ***
 
