@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
----
-
 # New Campaign
 
 Creating a new campaign is straightforward. You can choose **Wizard Mode** for a quick setup of key parameters or select **Expert Mode** for granular control over all campaign-related features.

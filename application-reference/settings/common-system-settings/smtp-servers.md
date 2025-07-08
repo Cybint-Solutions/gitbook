@@ -2,82 +2,69 @@
 
 ## **Introduction**
 
-Lucy provides a dependable method for delivering emails during security awareness training campaigns by utilizing a known SMTP relay. This feature allows organizations to route emails through their own SMTP server, ensuring high deliverability and maintaining trust as emails are sent from a recognized company domain.
-
-**Key Considerations for Using SMTP with Lucy:**
-
-* **Trust and Deliverability:** By using the company’s SMTP server, Lucy helps overcome common deliverability issues associated with external email services and enhances trust, as the emails are sent from familiar domains.
-* **Caution with Simulated Attacks:** While it is possible to send simulated phishing attacks through the SMTP server, it is advisable to use a controlled, dedicated SMTP server for such activities. This prevents any risks associated with blacklisting, which could disrupt daily operations if the same server is used for regular business communications.
-* **Configuration Requirements:** Ensure that emails sent through the SMTP option originate strictly from the email address associated with the SMTP server. This alignment is crucial for the success of email delivery in your campaigns.
+Lucy supports sending campaign emails through an external SMTP relay—either via credentials or OAuth2 (Azure). Using a familiar company domain improves email deliverability and trust.
 
 ***
 
-## **Configuration**
+## Setup
 
 {% hint style="info" %}
-Navigate to **Settings -> Common System Settings -> SMTP Servers**
+Navigate to **Settings > Common System Settings > SMTP Servers**
 {% endhint %}
 
-Select **"Add Server"**
+Select **"+ Add Server"**
 
-<figure><img src="../../../.gitbook/assets/image (198).png" alt=""><figcaption></figcaption></figure>
-
-{% hint style="info" %}
-Lucy enables administrators to set up multiple SMTP server configurations, making it an ideal solution for managing email delivery across various customers in a multi-tenant environment.
-{% endhint %}
+<figure><img src="../../../.gitbook/assets/image (1002).png" alt=""><figcaption></figcaption></figure>
 
 Next, you will define the SMTP Mail Server parameters:
 
-{% tabs %}
-{% tab title="Name" %}
-The Name of this specific SMTP Server.\
-This name will appear elsewhere in Lucy when selecting the server.
-{% endtab %}
+| Field              | Description                                        |
+| ------------------ | -------------------------------------------------- |
+| **Name**           | Friendly identifier for selection in Lucy          |
+| **Client**         | Optional—restricts server to a specific client     |
+| **Host & Port**    | Example: `smtp.office365.com`, port `587`          |
+| **Encryption**     | `STARTTLS` (recommended), or `SSL/TLS` on port 465 |
+| **Authentication** | Choose between **Password** or **OAuth2 (Azure)**  |
 
-{% tab title="Client" %}
-This feature supports data segregation, allowing you to make the SMTP server available to either all clients or restrict it to a specific client on your list.
-{% endtab %}
+<details>
 
-{% tab title="Host" %}
-This is the SMTP Host for your mail server; for example Microsoft Office is _**smtp.office365.com**_ or NameCheap is _**mail.privateemail.com**_
-{% endtab %}
+<summary>Authentication Methods</summary>
 
-{% tab title="Port" %}
-This depends on your mail server, generally speaking, the most common ports for SMTP are:
+#### **Password Authentication**
 
-**25**: Traditionally used for SMTP to transfer emails between servers. However, due to its vulnerability to spam and misuse, many ISPs block it for outgoing mail.
+* Requires SMTP admin credentials
+* Works with most standard SMTP servers
+* Avoid using a shared corporate relay that could be blacklisted during phishing tests
 
-**587**: Recommended for submitting emails to be sent by a mail server, supporting encryption (STARTTLS). It's the preferred port for client-to-server communication.
+#### **OAuth2 (Azure) – for Office 365 & Microsoft Entra ID**
 
-**465**: Initially used for SMTPS (SMTP over SSL), it was deprecated but later revived for SMTP submissions over SSL encryption directly. Some servers still support this port for secure submissions.
-{% endtab %}
+**Azure App Registration:**
 
-{% tab title="Encryption" %}
-#### SSL/TLS
+1. In Azure Portal, register a new app.
+2. Under _Authentication_, add the redirect URI:\
+   `https://<your‑lucy‑url>/smtp/oauth` (no trailing slash).
+3. Record the **Tenant ID**, **Client ID**, and **Client Secret**.
 
-* **Usage**: When an SMTP server uses SSL/TLS, it usually listens on a dedicated port (default is port 465) for secure connections.
-* **Behavior**: As soon as the connection is established, the server begins the SSL/TLS handshake to negotiate the encryption before any SMTP communication starts.
-* **Security**: The entire session is encrypted, meaning that no part of the email (including headers, body, or attachments) is sent in plain text.
-* **Client Expectation**: The email client must be configured explicitly to connect using SSL/TLS and to use the appropriate port.
+**In Settings > Common System Settings > SMTP Servers:**
 
-#### STARTTLS
+* Select **Authentication Method = OAuth2**, **Provider = Office 365**
+* Enter the Azure **Client ID**, **Client Secret**, and **Tenant ID**
+* Test the connection via Lucy’s "Test Connection" tool—check console logs for success or errors.
 
-* **Usage**: STARTTLS is an SMTP command that tells the server to switch from an unencrypted connection to a secure connection using SSL/TLS encryption.
-* **Behavior**: The SMTP server starts by listening on a non-encrypted port (usually port 25 or 587), and after the initial plaintext communication, either the client or server can issue the STARTTLS command to upgrade to a secure connection.
-* **Security**: The session starts unencrypted, but after the STARTTLS command is issued and the subsequent handshake, the communication is encrypted.
-* **Client Expectation**: The email client can begin communication on a standard SMTP port and then switch to an encrypted connection without needing to reconnect.
-{% endtab %}
+{% hint style="warning" %}
+The **Lucy user account** you are logged in with during authentication is the only account that will be able to send emails through this SMTP connection.\
+To allow multiple Lucy users to send emails via this SMTP server, you must create separate SMTP entries in Lucy for each user, all connecting to the same Azure application.
+{% endhint %}
 
-{% tab title="Authentication" %}
-Choose "OAuth2" (e.g., Azure) if your mail server supports this authorization framework. Alternatively, you can select "Password authentication," which requires the administrative username and password for authentication.
-{% endtab %}
-{% endtabs %}
-
-For example, I would like to authenticate to my NameCheap SMTP server. The Hostname for all NameCheap SMTP servers is - **mail.privateemail.com**; the port is **587**; and I will be authenticating with my administrative username and password:
-
-<figure><img src="../../../.gitbook/assets/image (521).png" alt=""><figcaption></figcaption></figure>
+</details>
 
 Once completed, click **Save** to commit your SMTP server settings.
+
+{% hint style="success" %}
+If these settings are ever updated, click **Authorize** to reconnect Lucy to the SMTP server.
+{% endhint %}
+
+***
 
 ## Test Connection
 

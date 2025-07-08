@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
----
-
 # Advanced Settings
 
 The Advanced Settings in the campaign allow administrators to define which users can access the campaign, apply filters to allow or deny IP addresses from accessing the campaign data, and configure reminder intervals for when an attack or awareness email is not acted upon.
