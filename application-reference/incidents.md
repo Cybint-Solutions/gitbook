@@ -8,7 +8,7 @@ The incidents dashboard centralizes the reporting and tracking of reported phish
 
 The dashboard provides a streamlined interface for quickly identifying potential threats and taking appropriate actions. Use filters to group your incidents by date, client, campaign, and severity.
 
-<figure><img src="../.gitbook/assets/image (722).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1004).png" alt=""><figcaption></figcaption></figure>
 
 ## Dashboard Actions
 
