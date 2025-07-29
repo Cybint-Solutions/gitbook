@@ -66,13 +66,13 @@ You can set password policies in the [advanced system settings](../settings/adva
 
 ## Import Users
 
-You can import users via [LDAP ](../settings/common-system-settings/ldap-servers/)or [Azure (Entra ID)](../settings/common-system-settings/azure-applications.md).
+You can import users via [LDAP ](../settings/common-system-settings/ldap-servers.md)or [Azure (Entra ID)](../settings/common-system-settings/azure-applications.md).
 
 <figure><img src="../../.gitbook/assets/image (985).png" alt=""><figcaption></figcaption></figure>
 
 {% tabs %}
 {% tab title="LDAP" %}
-Select your [pre-defined server](../settings/common-system-settings/ldap-servers/) from the server list:
+Select your [pre-defined server](../settings/common-system-settings/ldap-servers.md) from the server list:
 
 <figure><img src="../../.gitbook/assets/image (598).png" alt=""><figcaption></figcaption></figure>
 

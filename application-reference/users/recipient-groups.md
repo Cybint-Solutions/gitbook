@@ -101,7 +101,7 @@ Select "**Choose File**" to import your recipients, then select **"Import"**.
 {% endtab %}
 
 {% tab title="LDAP Server" %}
-For instructions on connecting an LDAP server refer to the [LDAP Integration article](../settings/common-system-settings/ldap-servers/).
+For instructions on connecting an LDAP server refer to the [LDAP Integration article](../settings/common-system-settings/ldap-servers.md).
 
 ***
 
@@ -129,7 +129,7 @@ For instructions on connecting an LDAP server refer to the [LDAP Integration art
 
 ### LDAP Server
 
-Select the [LDAP Server](../settings/common-system-settings/ldap-servers/) which needs to be associated with this group.
+Select the [LDAP Server](../settings/common-system-settings/ldap-servers.md) which needs to be associated with this group.
 
 ***
 

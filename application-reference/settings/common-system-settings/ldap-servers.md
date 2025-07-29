@@ -10,7 +10,7 @@ LUCY's LDAP integration enables administrators to:
 {% hint style="info" %}
 **Active Directory Sync Tool for Windows**
 
-In addition to the direct LDAP integration, LUCY offers a synchronization tool for Windows. This tool enables the synchronization of your Active Directory groups with LUCY, all communication is done over API. For detailed information and setup instructions, refer to the [LDAP Sync Tool instructions](ldap-sync-tool.md).
+In addition to the direct LDAP integration, LUCY offers a synchronization tool for Windows. This tool enables the synchronization of your Active Directory groups with LUCY, all communication is done over API. For detailed information and setup instructions, refer to the [LDAP Sync Tool instructions](broken-reference).
 {% endhint %}
 
 ### LDAP Connection Setup in LUCY
@@ -19,7 +19,7 @@ To configure the LDAP connection in LUCY, follow these steps:
 
 Navigate to Settings → Common System Settings -> LDAP Servers.
 
-<figure><img src="../../../../.gitbook/assets/image (282).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (282).png" alt=""><figcaption></figcaption></figure>
 
 Select "Add Server"
 
@@ -94,5 +94,5 @@ The amount of users fetched in each request to the LDAP server. This should be b
 {% endtab %}
 {% endtabs %}
 
-<figure><img src="../../../../.gitbook/assets/image (190).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (190).png" alt=""><figcaption></figcaption></figure>
 

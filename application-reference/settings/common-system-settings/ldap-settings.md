@@ -2,7 +2,7 @@
 
 ### Introduction
 
-After successfully integrating your Lucy server with your [LDAP server](ldap-servers/), the next step is to fine-tune the LDAP preferences within Lucy.&#x20;
+After successfully integrating your Lucy server with your [LDAP server](ldap-servers.md), the next step is to fine-tune the LDAP preferences within Lucy.&#x20;
 
 {% hint style="info" %}
 You can only associate one LDAP preference for a single LDAP server listed
@@ -30,7 +30,7 @@ Associate this preference with a specific client to ensure data segregation amon
 {% endtab %}
 
 {% tab title="LDAP Server" %}
-Select the specific LDAP server you have configured in [LDAP Servers](ldap-servers/).
+Select the specific LDAP server you have configured in [LDAP Servers](ldap-servers.md).
 {% endtab %}
 
 {% tab title="Action for New Users" %}
