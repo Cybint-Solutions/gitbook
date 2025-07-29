@@ -13,6 +13,12 @@ Navigate to: **Settings > Common System Settings > Messenger Settings**
 
 ***
 
+## Creating a WhatsApp Campaign
+
+{% hint style="success" %}
+To begin using WhatsApp with Lucy please contact your **Solution Engineer** by email.
+{% endhint %}
+
 ## WhatsApp (by Meta)
 
 Direct API integration with Meta’s WhatsApp Business platform.
