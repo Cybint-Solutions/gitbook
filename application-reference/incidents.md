@@ -148,7 +148,7 @@ X-LucyScenarioID 123
 The incident dashboard can be integrated into your organization's toolkit very easily. To use your own reporting plugin and still receive reports to the incident dashboard, follow these steps:
 
 1. Configure your reporting domain’s MX records to point to LUCY.
-2. Set an email address for receiving incident reports in the [plugin settings](https://app.gitbook.com/o/gJ3JHRuHpkD1JGxoFnyo/s/VYPsDfg76rUuy4DWfSsJ/~/changes/568/platform-reference/navigation-bar/settings/submitted-email-settings/plugin-settings).
+2. Set an email address for receiving incident reports in the [plugin settings](settings/submitted-email-settings/plugin-settings.md).
 3. Enable "Send Reports Over SMTP" and "Use SMTP for receiving incident reports on LUCY."
 
 LUCY will listen on the reporter email's inbox and create incidents out of each email sent to that address.
