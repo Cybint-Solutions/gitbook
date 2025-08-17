@@ -170,6 +170,7 @@
   * [5.5.1](release-notes/5.5.1.md)
   * [5.5](release-notes/5.5.md)
   * [5.4](release-notes/5.4.md)
+  * [5.3.6](release-notes/5.3.6.md)
   * [5.3.5](release-notes/5.3.5.md)
   * [5.3.4](release-notes/5.3.4.md)
   * [5.3.3](release-notes/5.3.3.md)
