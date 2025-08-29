@@ -139,42 +139,7 @@ Lucy is configured to utilize the Microsoft Graph API to access and manage vario
 
 <table><thead><tr><th>Permission</th><th width="124">Type</th><th width="167">Description</th><th>Admin consent required</th></tr></thead><tbody><tr><td>User.read</td><td>Delegated</td><td>Sign in and read user profile</td><td>No</td></tr><tr><td>Directory.Read.All</td><td>Delegated</td><td>Read directory data</td><td>Yes</td></tr><tr><td>email</td><td>Delegated</td><td>View users' email address</td><td>No</td></tr><tr><td>offline_access</td><td>Delegated</td><td>Maintain access to data you have given it access to</td><td>No</td></tr><tr><td>OpenID</td><td>Delegated</td><td>Sign users in</td><td>No</td></tr><tr><td>User.Read.All</td><td>Delegated</td><td>Read all users' full profiles</td><td>Yes</td></tr></tbody></table>
 
-## SAML 2.0 (Any)
-
-The exact method of deploying a SAML application for SSO will vary depending on the application your organization uses. These are the general steps for deploying a SAML app and connecting with Lucy.
-
-### **Configure the IdP**
-
-Define Lucy as a SP within the IdP, specifying its endpoint and required SAML attributes.
-
-### **Upload IdP Metadata**
-
-In Lucy, navigate to **Settings -> Common System Settings -> SSO Settings**.
-
-<figure><img src="../../../.gitbook/assets/chrome_tEqbuzI1zO.png" alt=""><figcaption></figcaption></figure>
-
-Enter your administrative domain and IdP endpoint.
-
-Then, upload your IdP metadata file and paste in the thumbprint. Your IdP should provide a thumbprint for your X.509 certificate, but you can also use an online tool like [https://www.samltool.com/fingerprint.php](https://www.samltool.com/fingerprint.php).
-
-{% hint style="success" %}
-Lucy requires a SHA1 thumbprint. SHA256 or other algorithms will not work.
-{% endhint %}
-
-### **Attribute Mapping**
-
-Map user attributes from the IdP to fields in Lucy (e.g., email, full name) as required.
-
-### **Test Authentication**
-
-Verify the SSO connection with the IdP by clicking **Test Connection**.\
-Testing should be completed before enabling Auto Login to avoid login issues.
-
-#### **Enable Automatic Login (optional)**
-
-This setting allows seamless login but should be used carefully, as enabling it can restrict alternative access methods. [Contact Lucy support](../../../when-to-contact-us/contact-technical-support.md) if auto login prevents access.
-
-## SAML 2.0 (Entra ID)
+## Entra ID (SAML 2.0)
 
 Microsoft Entra ID also supports SSO using SAML 2.0.
 
@@ -265,3 +230,118 @@ Finally, paste the thumbprint in the **Identity Provider Certificate Thumbprint*
 <figure><img src="../../../.gitbook/assets/image (924).png" alt=""><figcaption></figcaption></figure>
 
 Click **Save** to apply the settings, then click **Test Connection**. You should be redirected to your SSO login page where you can test that your connection is working.
+
+## Google Workspace (SAML 2.0)
+
+### Create an app in your workspace
+
+Log in to your [Google Workspace admin dashboard](https://admin.google.com/) and go to **Apps > Web and Mobile Apps.** Select "Add App" and then select "Add custom SAML app" to begin.
+
+<figure><img src="../../../.gitbook/assets/image (1005).png" alt=""><figcaption></figcaption></figure>
+
+#### 1. App details
+
+Give you app a name and optionally create a description and set an icon, then select "Continue".
+
+#### 2. Google IdP Details
+
+Select the first option, "Download Metadata".\
+Then, copy the **Entity ID** and **Certificate** values and save them in a note for later.
+
+<figure><img src="../../../.gitbook/assets/image (1008).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="success" %}
+You will need the Entity ID and certificate in a later step, but you will **also** need the metadata file itself.\
+Make sure you have all the required data before proceeding!
+{% endhint %}
+
+#### 3. Service Provider Details
+
+To retreive the ACS URL and the Service Provider's Entity ID, log in to your Lucy portal and go to **Settings > Common System Settings > SSO Configuration**. Enable SSO and select "SAML 2.0" for the Protocol.
+
+Then, copy the **Meta Endpoint** URL and paste it in to your browser. It will download an file called "lucy-sp.xml" which contains the information required for this step.
+
+<figure><img src="../../../.gitbook/assets/image (1009).png" alt=""><figcaption></figcaption></figure>
+
+Open the XML file and search (Ctrl + f) for "entityID". The record should be close to the top of the file. Copy the URL (without the quotation marks) and enter it in the "Entity ID" field back in Google Workspace. It should look like this:
+
+```
+https://<your_lucy_url>/simplesaml/module.php/saml/sp/metadata.php/lucy-sp
+```
+
+Then, search for "Assertion Consumer Service" and locate the "Location" portion of that record. Copy that URL and enter it in the "ACS URL" field in Google Workspace. It should look like this:
+
+```
+https://<your_lucy_url>/simplesaml/module.php/saml/sp/saml2-acs.php/lucy-sp
+```
+
+Finally, under **Name ID** select "Email" as the format and leave the **Name ID** default setting as primary email. Select "Continue" to move on to attribute mapping.
+
+#### 4. Attribute Mapping
+
+Create a mapping for **Primary Email > mail** like this:
+
+<figure><img src="../../../.gitbook/assets/image (1010).png" alt=""><figcaption></figcaption></figure>
+
+It is not necessary to configure group information.
+
+#### 5. User Access
+
+After creating your app select the "User Access" dashboard and select "ON for everyone", then save.
+
+We are now ready to complete the process in Lucy.
+
+### Configure SSO in Lucy
+
+Fill out the form on the **SSO Configuration** page like so:
+
+<table><thead><tr><th width="343.77783203125">Field</th><th>Value</th></tr></thead><tbody><tr><td>Protocol</td><td>SAML 2.0</td></tr><tr><td>Auto Login</td><td><strong>Do not enable until after testing</strong></td></tr><tr><td>Domain name</td><td>Your Lucy URL</td></tr><tr><td>Identity Provider Endpoint</td><td>The <strong>EntityID</strong> value you copied from Google Workspace</td></tr><tr><td>Identity Provider Server XML metadata</td><td>Upload the metadata file you downloaded from Google Workspace</td></tr><tr><td>Identity Provider Certificate Thumbprint</td><td>Get the SHA-1 fingerprint using the certificate data you copied from Google Workspace and a tool like this one: <a href="https://www.samltool.com/fingerprint.php">https://www.samltool.com/fingerprint.php</a></td></tr><tr><td>Token Encryption</td><td><strong>Do not enable unless you are using token encryption in your SSO workflow</strong></td></tr></tbody></table>
+
+When you are ready, click "Save".
+
+### Testing the Connection
+
+You can test that the SSO workflow is working from both Lucy's side and from Google Workspace. To test from Lucy simply select the "Test Connection" button **after saving the configuration**.
+
+To test from Google Workspace you can select "Test SAML Login" from the application page.
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="success" %}
+In order to test the connection from Lucy, you must be logged in to Lucy as a user that exists in your Google Workspace environment. In addition, your users must exist in Google Workspace in order to use the SSO workflow.
+{% endhint %}
+
+## SAML 2.0 (Any)
+
+The exact method of deploying a SAML application for SSO will vary depending on the application your organization uses. These are the general steps for deploying a SAML app and connecting with Lucy.
+
+### **Configure the IdP**
+
+Define Lucy as a SP within the IdP, specifying its endpoint and required SAML attributes.
+
+### **Upload IdP Metadata**
+
+In Lucy, navigate to **Settings -> Common System Settings -> SSO Settings**.
+
+<figure><img src="../../../.gitbook/assets/chrome_tEqbuzI1zO.png" alt=""><figcaption></figcaption></figure>
+
+Enter your administrative domain and IdP endpoint.
+
+Then, upload your IdP metadata file and paste in the thumbprint. Your IdP should provide a thumbprint for your X.509 certificate, but you can also use an online tool like [https://www.samltool.com/fingerprint.php](https://www.samltool.com/fingerprint.php).
+
+{% hint style="success" %}
+Lucy requires a SHA1 thumbprint. SHA256 or other algorithms will not work.
+{% endhint %}
+
+### **Attribute Mapping**
+
+Map user attributes from the IdP to fields in Lucy (e.g., email, full name) as required.
+
+### **Test Authentication**
+
+Verify the SSO connection with the IdP by clicking **Test Connection**.\
+Testing should be completed before enabling Auto Login to avoid login issues.
+
+#### **Enable Automatic Login (optional)**
+
+This setting allows seamless login but should be used carefully, as enabling it can restrict alternative access methods. [Contact Lucy support](../../../when-to-contact-us/contact-technical-support.md) if auto login prevents access.
