@@ -23,7 +23,7 @@ You can set a **Benchmark** for a campaign when starting it. Benchmarks allow yo
 
 To assign a benchmark simply select an **Industry** option when creating the campaign. You can also assign this to existing campaigns under the **Base Settings.**
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -32,4 +32,4 @@ To assign a benchmark simply select an **Industry** option when creating the cam
 Select a sector to edit its name, or click the trash icon under **Actions** to delete the sector.\
 To create a new Sector select **+ New** in the top-right corner.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>

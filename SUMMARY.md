@@ -66,6 +66,7 @@
         * [Selecting an Attack](application-reference/campaigns/new-campaign/wizard-mode/selecting-an-attack.md)
         * [Attack Settings](application-reference/campaigns/new-campaign/wizard-mode/attack-settings.md)
         * [Awareness Settings](application-reference/campaigns/new-campaign/wizard-mode/awareness-settings.md)
+        * [Other Settings](application-reference/campaigns/new-campaign/wizard-mode/other-settings.md)
         * [Recipients](application-reference/campaigns/new-campaign/wizard-mode/recipients.md)
         * [Review](application-reference/campaigns/new-campaign/wizard-mode/review.md)
       * [Expert Mode](application-reference/campaigns/new-campaign/expert-mode.md)

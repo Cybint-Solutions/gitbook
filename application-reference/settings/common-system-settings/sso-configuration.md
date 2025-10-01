@@ -237,7 +237,7 @@ Click **Save** to apply the settings, then click **Test Connection**. You should
 
 Log in to your [Google Workspace admin dashboard](https://admin.google.com/) and go to **Apps > Web and Mobile Apps.** Select "Add App" and then select "Add custom SAML app" to begin.
 
-<figure><img src="../../../.gitbook/assets/image (1005).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1005) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 1. App details
 
@@ -305,7 +305,7 @@ You can test that the SSO workflow is working from both Lucy's side and from Goo
 
 To test from Google Workspace you can select "Test SAML Login" from the application page.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1007).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 In order to test the connection from Lucy, you must be logged in to Lucy as a user that exists in your Google Workspace environment. In addition, your users must exist in Google Workspace in order to use the SSO workflow.

@@ -1,65 +1,65 @@
 # Awareness Settings
 
-**3.4** Adding an Awareness template to your campaign:\
-\
-Select "Add Awareness Training" which can be located underneath the Attack email editor.
+## Add an Awareness Template
+
+Select "Add Awareness Training":
 
 <figure><img src="../../../../.gitbook/assets/image (253).png" alt=""><figcaption></figcaption></figure>
 
-You will be redirected to the Awareness Template Gallery, where you can search for, dynamically preview, and select the Awareness Template that elaborates on the attack scenario.\
-\
-To complement the AI-simulated attack, we'll search for an Awareness template that focuses on the specific attack vector used in the simulation.\
-\
+{% hint style="info" %}
+You will be redirected to the Awareness Template Gallery, where you can search for, dynamically preview, and select the Awareness Template that elaborates on the attack scenario.
+{% endhint %}
 
+## Awareness Settings
 
-<figure><img src="../../../../.gitbook/assets/image (254).png" alt=""><figcaption></figcaption></figure>
-
-<details>
-
-<summary>Preview the Awareness Teamplate</summary>
-
-Just like the Attack template gallery, you can also dynamically preview both the email and landing page template for your Awareness training:\
-\
-For example, previewing the landing page:\
-\
-![](<../../../../.gitbook/assets/image (255).png>)
-
-A new tab will open in your browser to inspect the content, try the Quiz logic and understand the overall flow of information.\
-\
-![](<../../../../.gitbook/assets/image (256).png>)
-
-</details>
-
-**4.1** Awareness Settings:\
-\
 Next, you will define the Awareness domain and email settings, this section is expanded below the Attack email template editor.
 
-<figure><img src="../../../../.gitbook/assets/image (257).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (257).png" alt="" width="563"><figcaption></figcaption></figure>
 
-Domain -> You can either use the default system domain or send the awareness from a trusted domain.\
+### Domain
 
+You can either use the default system domain or send the awareness from a trusted domain.
 
-<details>
+{% hint style="info" %}
+We strongly recommend using the Lucy admin domain for awareness content. This way your SSL is already created and your users see a domain they know and trust when being sent training materials.
+{% endhint %}
 
-<summary>Awareness Domain Hints</summary>
+### SSL
 
-When directing recipients to Awareness content, it's important to associate a familiar and trusted domain.&#x20;
+If you are using your Lucy admin domain for awareness content, it is sufficient to use the existing SSL.
 
-Since recipients have just experienced a successful phishing simulation, they might be hesitant to click on unfamiliar links. Using a known domain can help alleviate these concerns and encourage engagement with the training material.\
-\
-There are two methods to accomplish this:\
-\
-1\. You can send emails from a domain associated with your company using the internal Lucy mail server. Please make sure that all necessary DNS records are correctly configured and pointing to your Lucy server before initiating the campaign. For more details, refer to our [domain section](../../../settings/common-system-settings/domains/).\
-\
-2\. You can directly authenticate to your company SMTP server to send the training directly from your internal mail server, refer to our [SMTP section](../../../settings/common-system-settings/smtp-servers.md).
+{% hint style="danger" %}
+Without an SSL certificate, your recipients will encounter a big <mark style="color:red;">red</mark> warning page, signaling that the site they're trying to access isn't secure. This could deter your users from completing the training material.
+{% endhint %}
 
-</details>
+## Select a Certificate
 
-**4.2** Adjust the Awareness email body:\
-\
-Lucy comes with generic email responses, it is highly encouraged for the Awareness training emails to personalize these according to your company branding and ethos. \
+{% hint style="info" %}
+See [here](../../../templates/awareness-training-diploma.md) for a guide on editing awareness diplomas.
+{% endhint %}
 
+If you wish to send your users a diploma after they complete the training content, select the diploma here.
 
-<figure><img src="../../../../.gitbook/assets/image (222).png" alt=""><figcaption></figcaption></figure>
+## Enable End User Portal
 
-**4.3** Click 'Next'
+Enable this option to create End User accounts for your recipients and enable the End User portal.
+
+{% hint style="info" %}
+[End User](../../../users/end-users.md) accounts give your recipients access to a dashboard where they can view their stats and training materials.
+
+See [here](../../../users/end-user-portal-settings.md) for a guide on setting up the end user portal.
+{% endhint %}
+
+<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+#### Domain
+
+We recommend selecting **System Defaults** for this option and configuring the portal by following the instructions linked above.
+
+#### Send Credentials Type
+
+**Plaintext Passsword:** Add the user's password to the awareness email as an attachement.
+
+**Password Reset Link:** Provide a password reset link the user can click on. Be sure to use the `%user-password-reset%` variable in the email message!
+
+**Login with SSO:** Only use this if you have [configured SSO](../../../settings/common-system-settings/sso-configuration.md) (using OAuth) for your Lucy portal.

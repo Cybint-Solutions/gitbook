@@ -246,7 +246,7 @@ Only available in Lucy version 5.6 and above.
 
 **Page Message:** The message content of the maintenance page.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1006).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 When maintenance mode is active, admin users will see a warning banner at the top of the page.
