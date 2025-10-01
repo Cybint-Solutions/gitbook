@@ -79,7 +79,7 @@ After adjusting the base settings, select "Message Template" in the side panel.
 
 At the top, options are provided to upload your own email template as a .zip file, clear all current attachments, or permanently delete attachments.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 **New in Lucy version 5.3!**

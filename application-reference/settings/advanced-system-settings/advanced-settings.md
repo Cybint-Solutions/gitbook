@@ -234,6 +234,26 @@ Specify the IP address to use as the local IP address.
 
 ***
 
+## Maintenance Mode
+
+When this setting is enabled, only Administrators are allowed to log in, while users with other roles (View, Supervisor, User, or Enduser) will be redirected to a temporary maintenance page. During this time, password recovery is disabled.
+
+{% hint style="success" %}
+Only available in Lucy version 5.6 and above.
+{% endhint %}
+
+**Page Title:** The title content of the maintenance page.
+
+**Page Message:** The message content of the maintenance page.
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="warning" %}
+When maintenance mode is active, admin users will see a warning banner at the top of the page.
+{% endhint %}
+
+***
+
 ## System Notification Email
 
 This setting is used to specify the email address from which system-generated notifications, such as alerts, password reset notifications, updates, or automated responses, are sent to users.
