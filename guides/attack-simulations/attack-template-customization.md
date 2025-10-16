@@ -87,7 +87,9 @@ At the top, options are provided to upload your own email template as a .zip fil
 Select **Upload .EML** to create an attack template from an email file. With this option you can create training scenarios from real-world phishing emails to better simulate the types of threats your organization faces.
 {% endhint %}
 
-
+{% hint style="warning" %}
+Outlook still uses a limited HTML engine (which only supports part of HTML and CSS), so layouts may differ. We adapt the template to older HTML best practices (table-based, inline styles). Some limitations remain: only black or no borders, no shadows or rounded corners.
+{% endhint %}
 
 {% hint style="warning" %}
 Editing email content is language-specific; changes in one language won't apply to others.
