@@ -168,6 +168,7 @@
   * [Navigation Bar](application-reference/navigation-bar.md)
   * [Dashboards](application-reference/dashboards.md)
 * [Release Notes](release-notes/README.md)
+  * [5.6.3](release-notes/5.6.3.md)
   * [5.6.2](release-notes/5.6.2.md)
   * [5.6.1](release-notes/5.6.1.md)
   * [5.6](release-notes/5.6.md)
