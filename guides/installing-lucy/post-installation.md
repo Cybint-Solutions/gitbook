@@ -102,4 +102,4 @@ docker container rm lucy
 
 ### Support
 
-For installation assistance, please get in touch with our [Technical Support](../../when-to-contact-us/contact-technical-support.md) team.
+For installation assistance, please get in touch with our [Technical Support](../../contact-technical-support.md) team.

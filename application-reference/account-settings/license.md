@@ -16,7 +16,7 @@ Navigate to **User Account -> License**
 
 <figure><img src="../../.gitbook/assets/image (740).png" alt=""><figcaption></figcaption></figure>
 
-This is your Lucy server's unique identifier. We always require this ID when updating licenses or when you interact with our [Technical Support Department](../../when-to-contact-us/contact-technical-support.md).
+This is your Lucy server's unique identifier. We always require this ID when updating licenses or when you interact with our [Technical Support Department](../../contact-technical-support.md).
 
 {% hint style="warning" %}
 Please ensure to always include your Workstation ID when referring to your server, whether for account-related or support-related inquiries, to avoid any delays in processing your request.
@@ -81,7 +81,7 @@ You may also wish to consider [updating](../support/update.md) to the latest ver
 
 **Unique Workstation ID:** Every LUCY installation has a unique, randomized Workstation ID. Upon connecting to the internet after downloading LUCY, you automatically receive this ID. When you purchase a LUCY license, a key is created on a central server associating the Workstation ID with the license key.
 
-**Transferring LUCY License Files:** The license file is stored on our centralized server. To move an existing license, [provide us with the new Workstation ID](../../when-to-contact-us/contact-technical-support.md), and we will update it on our licensing server.
+**Transferring LUCY License Files:** The license file is stored on our centralized server. To move an existing license, [provide us with the new Workstation ID](../../contact-technical-support.md), and we will update it on our licensing server.
 
 </details>
 
@@ -91,7 +91,7 @@ You may also wish to consider [updating](../support/update.md) to the latest ver
 
 **Automatic Renewal:**
 
-* No automatic renewal. Contact your Customer Success Manager or connect with our [Technical Support department](../../when-to-contact-us/contact-technical-support.md) to renew your license.
+* No automatic renewal. Contact your Customer Success Manager or connect with our [Technical Support department](../../contact-technical-support.md) to renew your license.
 
 **Available Features and Data:**
 

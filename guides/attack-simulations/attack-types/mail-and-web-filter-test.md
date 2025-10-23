@@ -12,7 +12,7 @@ The Mail and Web Filter Test provides insight into how your mail server and web 
 
 * [x] [Register an attack domain](../../quick-guides/create-your-first-campaign/register-an-attack-domain.md)
 * [x] [Download the Mail & Web Test attack template](../../../application-reference/templates/download-templates.md)
-* [x] [Create a Mail & Web Filter Test campaign using the Wizard](../../../application-reference/campaigns/new-campaign/wizard-mode/)
+* [x] [Create a Mail & Web Filter Test campaign using the Wizard](../../../application-reference/campaigns/create-a-campaign/wizard-mode/)
 * [x] Alert your Security team before starting!
 
 {% hint style="success" %}

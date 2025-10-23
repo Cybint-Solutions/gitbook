@@ -30,7 +30,7 @@ Before connecting to the Identity Provider, the following preparations are neces
 {% hint style="danger" %}
 Please ensure to test the authentication via SSO before enabling the **Auto Login** feature.\
 \
-If Auto Login was activated and you are locked out of your Lucy server, please reach out to our [technical support department](../../../when-to-contact-us/contact-technical-support.md) for assistance with disabling the Auto Login feature.
+If Auto Login was activated and you are locked out of your Lucy server, please reach out to our [technical support department](../../../contact-technical-support.md) for assistance with disabling the Auto Login feature.
 {% endhint %}
 
 {% hint style="info" %}
@@ -344,4 +344,4 @@ Testing should be completed before enabling Auto Login to avoid login issues.
 
 #### **Enable Automatic Login (optional)**
 
-This setting allows seamless login but should be used carefully, as enabling it can restrict alternative access methods. [Contact Lucy support](../../../when-to-contact-us/contact-technical-support.md) if auto login prevents access.
+This setting allows seamless login but should be used carefully, as enabling it can restrict alternative access methods. [Contact Lucy support](../../../contact-technical-support.md) if auto login prevents access.

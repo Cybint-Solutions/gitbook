@@ -23,7 +23,7 @@ Awareness campaigns can safely be run on your admin domain, or you can register 
 
 ## Create the Campaign
 
-Go to the **Campaign Dashboard** and start the campaign [wizard](../../../application-reference/campaigns/new-campaign/wizard-mode/). Select **Educate Employees** and then select **Start Awareness Training** to begin crafting your campaign.
+Go to the **Campaign Dashboard** and start the campaign [wizard](../../../application-reference/campaigns/create-a-campaign/wizard-mode/). Select **Educate Employees** and then select **Start Awareness Training** to begin crafting your campaign.
 
 <figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
@@ -40,7 +40,7 @@ The gallery can be filtered by language, template type, intended audience for th
 <figure><img src="../../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Most templates are configured by default for mobile-sized screens. If you encounter one that is not, [contact technical support](../../../when-to-contact-us/contact-technical-support.md) to request an adjustment.
+Most templates are configured by default for mobile-sized screens. If you encounter one that is not, [contact technical support](../../../contact-technical-support.md) to request an adjustment.
 {% endhint %}
 
 ***

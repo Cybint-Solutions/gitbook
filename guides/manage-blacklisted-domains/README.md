@@ -49,7 +49,7 @@ To minimize the risk of your newly spoofed domains being blacklisted when conduc
     ```plaintext
     v=spf1 ip4:{your_lucy_ip_address} ~all
     ```
-*   [Example DKIM record:](../../application-reference/campaigns/campaign-settings/configuration/attack-settings.md#dkim-support)
+*   [Example DKIM record:](../../application-reference/campaigns/campaign-settings/main-settings/attack-simulation.md#dkim-support)
 
     ```plaintext
     default._domainkey IN TXT "v=DKIM1; k=rsa; p=<public_key>"
@@ -82,7 +82,7 @@ See our platform reference article on [DNS records](../../application-reference/
 
 **Limit Email Volume:**
 
-* Send your phishing simulation emails in small batches to avoid triggering spam filters. Use the built-in [Scheduler](../../application-reference/campaigns/campaign-settings/configuration/schedule/) to achieve this.
+* Send your phishing simulation emails in small batches to avoid triggering spam filters. Use the built-in [Scheduler](../../application-reference/campaigns/campaign-settings/optional-settings/schedule/) to achieve this.
 
 **Monitor Email Content:**
 
@@ -96,7 +96,7 @@ See our platform reference article on [DNS records](../../application-reference/
 
 **Warm-Up Your Domain:**
 
-* Gradually increase your email sending volume to establish a good sending reputation. Use the built-in [Scheduler](../../application-reference/campaigns/campaign-settings/configuration/schedule/) to achieve this.
+* Gradually increase your email sending volume to establish a good sending reputation. Use the built-in [Scheduler](../../application-reference/campaigns/campaign-settings/optional-settings/schedule/) to achieve this.
 
 **Monitor Domain Health:**
 
@@ -158,7 +158,7 @@ If your domain is displaying "Deceptive Site Ahead" in Chrome, see our guide on 
 Most vendors allow you to submit a false positive claim to remove a blacklisted domain. Each vendor has specific procedures for this. Below is a list of vendors and their respective whitelisting processes:
 
 {% hint style="success" %}
-Our [Technical Support](../../when-to-contact-us/contact-technical-support.md) team is available to assist you with de-listing your domain.
+Our [Technical Support](../../contact-technical-support.md) team is available to assist you with de-listing your domain.
 {% endhint %}
 
 | Vendor                                    | Contact Email                                                                    | False Positive Reporting                                                                                                                                                                                        |

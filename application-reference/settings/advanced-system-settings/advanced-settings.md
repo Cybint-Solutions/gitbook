@@ -23,7 +23,7 @@ Adjust for daylight saving time automatically.
 This dropdown allows you to set the time zone that the Lucy server should operate in, aligning tasks and operations with local time.
 
 {% hint style="warning" %}
-If you have active campaigns with running [Schedules](../../campaigns/campaign-settings/configuration/schedule/), you will not be able to change the Time Zone until these campaigns have been stopped.
+If you have active campaigns with running [Schedules](../../campaigns/campaign-settings/optional-settings/schedule/), you will not be able to change the Time Zone until these campaigns have been stopped.
 {% endhint %}
 
 #### **Date Format**

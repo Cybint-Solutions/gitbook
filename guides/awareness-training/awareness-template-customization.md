@@ -209,7 +209,7 @@ One-page templates need simple changes to the landing page (index.html) via a vi
 Modifying these templates will require an administrator to access the source code for adaptions to pages and/or Quiz questions. The following guide will look at an advanced awareness template -> **All about Microsoft 365**
 
 {% hint style="success" %}
-If you need help customizing your templates, please [contact our support](../../when-to-contact-us/contact-technical-support.md) department, and they will create a ticket with our content team to assist you.
+If you need help customizing your templates, please [contact our support](../../contact-technical-support.md) department, and they will create a ticket with our content team to assist you.
 {% endhint %}
 
 #### Cosmetic changes to the template

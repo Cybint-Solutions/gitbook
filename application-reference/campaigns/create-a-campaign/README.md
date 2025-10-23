@@ -1,0 +1,9 @@
+# Create a Campaign
+
+Creating a new campaign is straightforward. You can choose **Wizard Mode** for a quick setup of key parameters or select **Expert Mode** for granular control over all campaign-related features.
+
+<figure><img src="../../../.gitbook/assets/image (1011).png" alt=""><figcaption></figcaption></figure>
+
+***
+
+<table data-card-size="large" data-view="cards" data-full-width="true"><thead><tr><th align="center"></th><th data-hidden></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td align="center"><strong>Campaign Wizard</strong></td><td></td><td></td><td><a href="wizard-mode/">wizard-mode</a></td><td><a href="../../../.gitbook/assets/chrome_8S3F0gp97r (1).png">chrome_8S3F0gp97r (1).png</a></td></tr><tr><td align="center"><strong>Expert Mode</strong></td><td></td><td></td><td><a href="expert-mode.md">expert-mode.md</a></td><td><a href="../../../.gitbook/assets/0kcJGarWBF.png">0kcJGarWBF.png</a></td></tr><tr><td align="center">Predefined Campaign</td><td></td><td></td><td></td><td></td></tr><tr><td align="center">Campaign Template</td><td></td><td></td><td></td><td></td></tr></tbody></table>

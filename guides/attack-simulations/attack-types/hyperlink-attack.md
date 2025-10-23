@@ -13,8 +13,8 @@ A hyperlink attack involves embedding malicious URLs in emails. When users click
 ### **Checklist**
 
 * [x] [Register an Attack Domain](../../../application-reference/settings/common-system-settings/domains/#register-a-domain-via-the-domain-registration-wizard)
-* [x] [Add a Hyperlink Attack to your Campaign](../../../application-reference/campaigns/campaign-settings/configuration/attack-settings.md#add-an-attack-template-to-your-campaign)
-* [x] [Ensure "Click" is set as your Success Action](../../../application-reference/campaigns/campaign-settings/configuration/attack-settings.md#success-action)
+* [x] [Add a Hyperlink Attack to your Campaign](../../../application-reference/campaigns/campaign-settings/main-settings/attack-simulation.md#add-an-attack-template-to-your-campaign)
+* [x] [Ensure "Click" is set as your Success Action](../../../application-reference/campaigns/campaign-settings/main-settings/attack-simulation.md#success-action)
 * [x] [Ensure the sending Domain is whitelisted](../../whitelisting-a-lucy-server/)
 
 ***
@@ -26,7 +26,7 @@ A hyperlink attack involves embedding malicious URLs in emails. When users click
 * A finance executive receives an urgent email that seems to be from the CEO, containing a payment link for an emergency account transfer.
 
 {% hint style="success" %}
-Ready to set up your Hyperlink Attack? See our platform reference article on [Adding an Attack to your campaign.](../../../application-reference/campaigns/campaign-settings/configuration/attack-settings.md#add-an-attack-template-to-your-campaign)
+Ready to set up your Hyperlink Attack? See our platform reference article on [Adding an Attack to your campaign.](../../../application-reference/campaigns/campaign-settings/main-settings/attack-simulation.md#add-an-attack-template-to-your-campaign)
 {% endhint %}
 
 ***

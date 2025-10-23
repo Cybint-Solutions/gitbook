@@ -10,4 +10,4 @@ Refer to our platform reference article for an overview of the [Campaigns Dashbo
 
 ***
 
-<table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th data-hidden></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><strong>New Campaign</strong></td><td></td><td></td><td><a href="new-campaign/">new-campaign</a></td></tr><tr><td align="center"><strong>Campaign Settings</strong></td><td></td><td></td><td><a href="campaign-settings/">campaign-settings</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th data-hidden></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><strong>New Campaign</strong></td><td></td><td></td><td><a href="create-a-campaign/">create-a-campaign</a></td></tr><tr><td align="center"><strong>Campaign Settings</strong></td><td></td><td></td><td><a href="campaign-settings/">campaign-settings</a></td></tr></tbody></table>

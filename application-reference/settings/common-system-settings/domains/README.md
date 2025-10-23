@@ -1,6 +1,6 @@
 # Domains
 
-**Introduction:** LUCY supports multiple domain names for campaigns on virtualized servers. Users can add domains via the registration wizard or request assistance from our [support department](../../../../when-to-contact-us/contact-technical-support.md).\
+**Introduction:** LUCY supports multiple domain names for campaigns on virtualized servers. Users can add domains via the registration wizard or request assistance from our [support department](../../../../contact-technical-support.md).\
 \
 **What type of domains can be configured?**\
 
@@ -13,7 +13,7 @@ This is the domain used for hosting your Lucy Administrative panel.\
 \
 ![](<../../../../.gitbook/assets/image (208).png>)\
 \
-**VPS customers** will receive a server with a generic domain, for example -> access.cloudserver123.com - If you would like to host your Lucy VPS with a custom domain, please send a request to our [support department](../../../../when-to-contact-us/contact-technical-support.md) for assistance.\
+**VPS customers** will receive a server with a generic domain, for example -> access.cloudserver123.com - If you would like to host your Lucy VPS with a custom domain, please send a request to our [support department](../../../../contact-technical-support.md) for assistance.\
 \
 **On-premise / Self-hosted** customers will be able to configure a custom domain in the setup script phase of the [installation process](../../../../guides/installing-lucy/installing-lucy.md).
 

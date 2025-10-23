@@ -18,12 +18,12 @@ Ensure to allocate a minimum of <mark style="color:red;">4 weeks</mark> for the 
 
 * [x] [Register an attack domain](../../quick-guides/create-your-first-campaign/register-an-attack-domain.md)
 * [x] [Select an SMS carrier](../../../application-reference/settings/common-system-settings/sms-settings.md)
-* [x] [Create a campaign using Expert Mode](../../../application-reference/campaigns/new-campaign/expert-mode.md)
+* [x] [Create a campaign using Expert Mode](../../../application-reference/campaigns/create-a-campaign/expert-mode.md)
 * [x] [Add an attack scenario](../../quick-guides/create-your-first-campaign/campaign-setup/attack-settings.md)
   * [x] If your scenario is a hyperlink, set the success action to C**lick**
   * [x] If it's a data-entry scenario, set it to **Data Submit**
 * [x] Enable the bit.ly URL shortener in the attack scenario settings
-* [x] [Contact Support for SMS Whitelisting](../../../when-to-contact-us/contact-technical-support.md)
+* [x] [Contact Support for SMS Whitelisting](../../../contact-technical-support.md)
 
 {% hint style="success" %}
 Shortening the URL helps keep your SMS under the character limit.
@@ -36,7 +36,7 @@ SMS are more strictly controlled than emails. Carriers will reject your messages
 {% tabs %}
 {% tab title="Message Bird" %}
 1. Choose your country to see the specific [requirements for SMS campaigns](https://docs.bird.com/connectivity-platform/country-restrictions-and-regulations).
-2. Provide all necessary information to our [technical support team](../../../when-to-contact-us/contact-technical-support.md) so they can register an **originator** (sender) for you. See below for details.
+2. Provide all necessary information to our [technical support team](../../../contact-technical-support.md) so they can register an **originator** (sender) for you. See below for details.
 3. Once your information has been successfully whitelisted you will then be able to initiate your smishing campaign. This can take as little as 4 days or as long as 4 weeks, it depends on the country or countries in question and their response time to the request.
 
 {% hint style="info" %}

@@ -23,7 +23,7 @@ For Lucy to apply regular expressions in a login field, the login form must use 
 </form>
 ```
 
-You can configure login filters [under scenario settings](../../application-reference/campaigns/campaign-settings/configuration/attack-settings.md#regexp) once you've set up the login fields with the correct naming convention. Lucy will then be able to apply the filter mechanism. You can choose from a list of existing filter examples in the dropdown menu, or apply any POSIX regular expression filter within the input fields.
+You can configure login filters [under scenario settings](../../application-reference/campaigns/campaign-settings/main-settings/attack-simulation.md#regexp) once you've set up the login fields with the correct naming convention. Lucy will then be able to apply the filter mechanism. You can choose from a list of existing filter examples in the dropdown menu, or apply any POSIX regular expression filter within the input fields.
 
 <figure><img src="../../.gitbook/assets/image (549).png" alt=""><figcaption></figcaption></figure>
 

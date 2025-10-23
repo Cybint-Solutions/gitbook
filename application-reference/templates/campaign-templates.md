@@ -1,22 +1,22 @@
 # Campaign Templates
 
-Campaign templates can help you get started quickly, with a pre-defined campaign.
+Campaign templates can help you get started quickly.
 
 {% hint style="info" %}
-To view your campaign templates navigate to **Templates -> Campaign Templates**.
+Navigate to **Templates > Campaign Templates**.
 {% endhint %}
 
 ***
 
 ## Creating a Campaign Template
 
-To create a campaign template go to the campaign's **Summary** tab and select **Actions -> Save as Template**.
+To create a campaign template go to the campaign's **Summary** tab and select **Actions > Save as Template**.
 
 <figure><img src="../../.gitbook/assets/chrome_ehMMntcXtb (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Creating a Campaign from a Template
 
-The campaign template can now be used when [creating a campaign in expert mode](../campaigns/new-campaign/expert-mode.md) to quick-start  your campaign creation. Just select the template from the list and **Save**.
+The campaign template can now be used when [creating a campaign in expert mode](../campaigns/create-a-campaign/expert-mode.md) to quick-start  your campaign creation. Just select the template from the list and **Save**.
 
 <figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 

@@ -75,12 +75,12 @@ Sometimes, a warning pop-up window appears when trying to open a link from a Luc
 * Ensure SSL is enabled in your Lucy campaign.
 
 {% hint style="info" %}
-Refer to our platform reference article on [campaign SSL settings.](../../application-reference/campaigns/campaign-settings/configuration/attack-settings.md#ssl-settings)
+Refer to our platform reference article on [campaign SSL settings.](../../application-reference/campaigns/campaign-settings/main-settings/attack-simulation.md#ssl-settings)
 {% endhint %}
 
 **Consider a Paid Certificate:**
 
-* If the Let's Encrypt certificate is not sufficient, consider obtaining a paid certificate. Contact any SSL vendor you prefer and [upload your SSL certificate](../../application-reference/campaigns/campaign-settings/configuration/attack-settings.md#generate-or-upload) to the campaign.
+* If the Let's Encrypt certificate is not sufficient, consider obtaining a paid certificate. Contact any SSL vendor you prefer and [upload your SSL certificate](../../application-reference/campaigns/campaign-settings/main-settings/attack-simulation.md#generate-or-upload) to the campaign.
 
 ***
 

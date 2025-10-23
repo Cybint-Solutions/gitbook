@@ -21,7 +21,7 @@ Navigate to **Campaign -> Logs -> Supervision Log**
 
 **Assign Users to Campaign**:
 
-* [Add both "user" and "supervisor" to the same campaign.](advanced-settings/user-settings.md)
+* [Add both "user" and "supervisor" to the same campaign.](broken-reference)
 * The "user" should have at least "start/stop campaign" permissions. If the user needs to configure the campaign, they also need configuration access.
 * The "supervisor" should have full permissions for the campaign.
 

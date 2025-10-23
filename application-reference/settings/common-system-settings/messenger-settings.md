@@ -129,7 +129,7 @@ Custom messages can only be delivered **after a recipient replies** to an initia
 
 ### Using a Custom Message
 
-1. Create a new campaign using [expert mode](../../campaigns/new-campaign/expert-mode.md).
+1. Create a new campaign using [expert mode](../../campaigns/create-a-campaign/expert-mode.md).
 2. Go to **Scenario Settings** and click "New Scenario".
 3. In the **Message Template** tab set the **Type** to "Messenger".
 4. Enable **Custom Message** and enter your message text.

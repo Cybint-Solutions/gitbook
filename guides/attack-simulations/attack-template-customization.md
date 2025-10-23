@@ -264,4 +264,4 @@ Edit the landing page with the WYSIWYG editor by changing text, dragging compone
 
 <figure><img src="../../.gitbook/assets/chrome_7Wa1PSmmmG.gif" alt="" width="563"><figcaption></figcaption></figure>
 
-Once you configure your attack landing page, you can proceed to [bind this attack template to a campaign](../../application-reference/campaigns/new-campaign/).
+Once you configure your attack landing page, you can proceed to [bind this attack template to a campaign](../../application-reference/campaigns/create-a-campaign/).

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Users might not have time to finish an awareness course right away. They have the ability to [re-schedule](../campaigns/campaign-settings/configuration/base-settings.md#awareness-re-scheduling) the training, but you can also create a login page for your end users where they can access their custom training links at any time without needing to re-send an awareness email. They can also view their lifetime statistics, [risk level](risk-score.md), and [training diplomas](../templates/awareness-training-diploma.md) from completed courses.
+Users might not have time to finish an awareness course right away. They have the ability to [re-schedule](../campaigns/campaign-settings/main-settings/base-settings.md#awareness-re-scheduling) the training, but you can also create a login page for your end users where they can access their custom training links at any time without needing to re-send an awareness email. They can also view their lifetime statistics, [risk level](risk-score.md), and [training diplomas](../templates/awareness-training-diploma.md) from completed courses.
 
 {% hint style="info" %}
 An end user is a recipient with an end user portal account.\
@@ -13,7 +13,7 @@ All end users are recipients, but not all recipients are end users.
 
 ## Enabling the Portal
 
-You can enable the portal under [**Base Settings**](../campaigns/campaign-settings/configuration/base-settings.md#end-user-profiles-enabled) within a campaign. Once the campaign is started Lucy automatically creates an End User account for each recipient (unless they already have one from a previous campaign).
+You can enable the portal under [**Base Settings**](../campaigns/campaign-settings/main-settings/base-settings.md#end-user-profiles-enabled) within a campaign. Once the campaign is started Lucy automatically creates an End User account for each recipient (unless they already have one from a previous campaign).
 
 <figure><img src="../../.gitbook/assets/image (470).png" alt=""><figcaption></figcaption></figure>
 
@@ -27,7 +27,7 @@ The portal page is created under the `/user` directory, so if your server addres
 
 ## Creating End Users
 
-Lucy automatically creates end-user profiles for each recipient who receives an awareness training within a campaign, provided that the campaign has **End-User Profiles Enabled** in the [Base Settings](../campaigns/campaign-settings/configuration/base-settings.md#end-user-profiles-enabled).
+Lucy automatically creates end-user profiles for each recipient who receives an awareness training within a campaign, provided that the campaign has **End-User Profiles Enabled** in the [Base Settings](../campaigns/campaign-settings/main-settings/base-settings.md#end-user-profiles-enabled).
 
 End Users can also be created by importing recipients through [Active Directory](../settings/common-system-settings/azure-ad-settings.md) or [LDAP](../settings/common-system-settings/ldap-settings.md).
 
@@ -45,9 +45,9 @@ There are three options for granting access to the end-user portal:
 {% tab title="Password" %}
 #### **Requirements:**
 
-* Enable "End-User Profiles" in [Base Settings](../campaigns/campaign-settings/configuration/base-settings.md#end-user-profiles-enabled).
+* Enable "End-User Profiles" in [Base Settings](../campaigns/campaign-settings/main-settings/base-settings.md#end-user-profiles-enabled).
 * On the Base Settings, set "Send Credentials Type" to "**Plain text Password**"
-* Ensure the [Awareness Campaign](../campaigns/campaign-settings/configuration/awareness-settings.md) is configured to send emails.
+* Ensure the [Awareness Campaign](../campaigns/campaign-settings/main-settings/awareness-education.md) is configured to send emails.
 
 In this example, the user is informed of the Training Portal and the link variable (`%user-profile-link%`) to the portal is injected for the "Log in" word:
 
@@ -62,9 +62,9 @@ In this example, the user is informed of the Training Portal and the link variab
 {% tab title="Reset Link" %}
 #### **Requirements:**
 
-* Enable "End-User Profiles" in [Base Settings](../campaigns/campaign-settings/configuration/base-settings.md#end-user-profiles-enabled).
+* Enable "End-User Profiles" in [Base Settings](../campaigns/campaign-settings/main-settings/base-settings.md#end-user-profiles-enabled).
 * On the Base Settings, set "Send Credentials Type" to "**Password Reset Link**"
-* Ensure the [Awareness Campaign](../campaigns/campaign-settings/configuration/awareness-settings.md) is configured to send emails.
+* Ensure the [Awareness Campaign](../campaigns/campaign-settings/main-settings/awareness-education.md) is configured to send emails.
 * Ensure you have a [system notification email set in the Advanced Settings](../settings/advanced-system-settings/advanced-settings.md#system-notification-email).
 
 In this example, the user is informed of the Training Portal and to reset their password at the provided link (`%user-password-reset%`) :
@@ -84,10 +84,10 @@ To successfully send password credentials from your Lucy server, ensure you have
 {% tab title="SSO" %}
 #### **Requirements:**
 
-* Enable "End-User Profiles" in [Base Settings](../campaigns/campaign-settings/configuration/base-settings.md#end-user-profiles-enabled).
+* Enable "End-User Profiles" in [Base Settings](../campaigns/campaign-settings/main-settings/base-settings.md#end-user-profiles-enabled).
 * On the Base Settings, set "Send Credentials Type" to "**Login With SSO**"
-* On the Base Settings, "[Enable SSO for Awareness Websites](../campaigns/campaign-settings/configuration/base-settings.md#enable-sso-for-awareness-websites)"
-* Ensure the [Awareness Campaign](../campaigns/campaign-settings/configuration/awareness-settings.md) is configured to send emails.
+* On the Base Settings, "[Enable SSO for Awareness Websites](../campaigns/campaign-settings/main-settings/base-settings.md#enable-sso-for-awareness-websites)"
+* Ensure the [Awareness Campaign](../campaigns/campaign-settings/main-settings/awareness-education.md) is configured to send emails.
 * Ensure [SSO Authentication](../settings/common-system-settings/sso-configuration.md) was configured and tested.
 
 In this example, the user is informed of the Training Portal and to access the training via SSO at the provided link (`%user-login-url%`) :&#x20;
