@@ -47,7 +47,7 @@ If your domain is blacklisted by Google, it will display a "Deceptive site ahead
     ```plaintext
     v=spf1 ip4:{your_lucy_ip_address} ~all
     ```
-*   [Example DKIM record:](../../application-reference/campaigns/campaign-settings/main-settings/attack-simulation.md#dkim-support)
+*   [Example DKIM record:](../../application-reference/campaigns/campaign-settings/main-settings/attack-simulation/#dkim-support)
 
     ```plaintext
     default._domainkey IN TXT "v=DKIM1; k=rsa; p=<public_key>"
@@ -80,7 +80,7 @@ See our platform reference article on [DNS records](../../application-reference/
 
 **Limit Email Volume:**
 
-* Send your phishing simulation emails in small batches to avoid triggering spam filters. Use the built-in [Scheduler](../../application-reference/campaigns/campaign-settings/optional-settings/schedule/) to achieve this.
+* Send your phishing simulation emails in small batches to avoid triggering spam filters. Use the built-in [Scheduler](../../application-reference/campaigns/campaign-settings/configuration/schedule/) to achieve this.
 
 **Monitor Email Content:**
 
@@ -94,7 +94,7 @@ See our platform reference article on [DNS records](../../application-reference/
 
 **Warm-Up Your Domain:**
 
-* Gradually increase your email sending volume to establish a good sending reputation. Use the built-in [Scheduler](../../application-reference/campaigns/campaign-settings/optional-settings/schedule/) to achieve this.
+* Gradually increase your email sending volume to establish a good sending reputation. Use the built-in [Scheduler](../../application-reference/campaigns/campaign-settings/configuration/schedule/) to achieve this.
 
 **Monitor Domain Health:**
 

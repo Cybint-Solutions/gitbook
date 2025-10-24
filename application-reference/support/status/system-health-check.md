@@ -43,7 +43,7 @@ The overall result of the system health check indicates the health status of the
 {% endtabs %}
 
 {% hint style="success" %}
-Contact our [Technical Support department](../../../contact-technical-support.md) for assistance with critical issues.
+Contact our [Technical Support department](../../../when-to-contact-us/contact-technical-support.md) for assistance with critical issues.
 {% endhint %}
 
 ***

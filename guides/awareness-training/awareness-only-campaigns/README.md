@@ -23,9 +23,9 @@ Awareness campaigns can safely be run on your admin domain, or you can register 
 
 ## Create the Campaign
 
-Go to the **Campaign Dashboard** and start the campaign [wizard](../../../application-reference/campaigns/create-a-campaign/wizard-mode/). Select **Educate Employees** and then select **Start Awareness Training** to begin crafting your campaign.
+Go to the **Campaign Dashboard** and start the campaign [wizard](../../../application-reference/campaigns/wizard-mode/). Select **Educate Employees** and then select **Start Awareness Training** to begin crafting your campaign.
 
-<figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (26) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -37,10 +37,10 @@ The wizard will bring you to the Awareness Template Gallery where you can view a
 
 The gallery can be filtered by language, template type, intended audience for the content, difficulty, and duration. You can view templates you're already using, favorites, custom templates, or ones with responsive CSS.
 
-<figure><img src="../../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (28) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Most templates are configured by default for mobile-sized screens. If you encounter one that is not, [contact technical support](../../../contact-technical-support.md) to request an adjustment.
+Most templates are configured by default for mobile-sized screens. If you encounter one that is not, [contact technical support](../../../when-to-contact-us/contact-technical-support.md) to request an adjustment.
 {% endhint %}
 
 ***
@@ -51,19 +51,19 @@ Just like an attack campaign, you'll need to configure settings for the domain, 
 
 ### Domain and Email
 
-<figure><img src="../../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (37) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Email Content
 
 You can edit the email content in the wizard, but you will have more editor options once the campaign is created.
 
-<figure><img src="../../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (33) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Certificate
 
 Select a [diploma](../../../application-reference/templates/awareness-training-diploma.md) for the user to receive after completing the training. Diplomas are designed for landscape and portrait orientation.
 
-<figure><img src="../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (34) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -82,7 +82,7 @@ Select a [diploma](../../../application-reference/templates/awareness-training-d
 * **Track Bounced Emails**: Enable this option to monitor and track email bounce rates.
 * **Interval Email Testing**: Set up periodic email testing to ensure deliverability throughout the campaign.
 
-<figure><img src="../../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (35) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### End User Portal
 
@@ -116,7 +116,7 @@ Add the [recipient group](../../quick-guides/create-your-first-campaign/campaign
 
 You can also create groups on-the-fly on this page, but this is only recommended if you are testing the campaign with a few users and not when you are adding recipients for the real thing.
 
-<figure><img src="../../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (39) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -124,6 +124,6 @@ You can also create groups on-the-fly on this page, but this is only recommended
 
 On the final page of the wizard you can review all of your settings before creating the campaign. You can go back to any step by selecting the header at the top.
 
-<figure><img src="../../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (41) (1).png" alt=""><figcaption></figcaption></figure>
 
 When you're ready, select **Create Campaign** to proceed. As usual you will be presented with three options: Start Campaign, Initiate Test Run, and Go to Campaign.

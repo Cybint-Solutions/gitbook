@@ -264,7 +264,7 @@ LUCY provides a growing list of variables that act as placeholders for specific 
 <figure><img src="../../.gitbook/assets/image (444).png" alt=""><figcaption></figcaption></figure>
 
 * **Automatic Report Generation**:
-  * You can have LUCY automatically create a report and send it to the email address associated with the user who created the campaign. Enable this by clicking the checkbox "After I stop the campaign, send me a report to…" on the [Base Settings](../campaigns/campaign-settings/main-settings/base-settings.md#campaign-stop) of the campaign.
+  * You can have LUCY automatically create a report and send it to the email address associated with the user who created the campaign. Enable this by clicking the checkbox "After I stop the campaign, send me a report to…" on the [Base Settings](../campaigns/campaign-settings/configuration/base-settings.md#campaign-stop) of the campaign.
   * The report will be emailed as soon as the campaign is stopped.
 
 <figure><img src="../../.gitbook/assets/image (619).png" alt=""><figcaption></figcaption></figure>

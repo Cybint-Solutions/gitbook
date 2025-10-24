@@ -36,7 +36,7 @@ With AIG integrated into LUCY, companies can assess two critical security questi
 Advanced Information Gathering runs in the background of a phishing campaign's landing page. It is operational only in scenarios where a user-accessible landing page is active.
 
 {% hint style="info" %}
-For detailed setup instructions, please consult our platform reference article on [Advanced Information Gathering](../../application-reference/campaigns/campaign-settings/main-settings/attack-simulation.md#advanced-information-gathering).
+For detailed setup instructions, please consult our platform reference article on [Advanced Information Gathering](../../application-reference/campaigns/campaign-settings/main-settings/attack-simulation/#advanced-information-gathering).
 {% endhint %}
 
 ### Advance Information Gathering Statistics

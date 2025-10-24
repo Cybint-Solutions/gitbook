@@ -11,8 +11,8 @@ A portable media attack involves distributing malicious files via removable medi
 ### **Checklist**
 
 * [x] [Register an Attack Domain](../../../application-reference/settings/common-system-settings/domains/#register-a-domain-via-the-domain-registration-wizard)
-* [x] [Add a Portable Media Attack to your Campaign](../../../application-reference/campaigns/campaign-settings/main-settings/attack-simulation.md)
-* [x] [Ensure the success action is File Data Received](../../../application-reference/campaigns/campaign-settings/main-settings/attack-simulation.md#success-action)
+* [x] [Add a Portable Media Attack to your Campaign](../../../application-reference/campaigns/campaign-settings/main-settings/attack-simulation/)
+* [x] [Ensure the success action is File Data Received](../../../application-reference/campaigns/campaign-settings/main-settings/attack-simulation/#success-action)
 * [x] [Ensure the File is excluded from Anti-Virus scanning in your infrastructure](../../whitelisting-a-lucy-server/file-attack-whitelisting.md)
 
 ***

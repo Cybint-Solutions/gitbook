@@ -79,7 +79,7 @@ After adjusting the base settings, select "Message Template" in the side panel.
 
 At the top, options are provided to upload your own email template as a .zip file, clear all current attachments, or permanently delete attachments.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 **New in Lucy version 5.3!**
@@ -264,4 +264,4 @@ Edit the landing page with the WYSIWYG editor by changing text, dragging compone
 
 <figure><img src="../../.gitbook/assets/chrome_7Wa1PSmmmG.gif" alt="" width="563"><figcaption></figcaption></figure>
 
-Once you configure your attack landing page, you can proceed to [bind this attack template to a campaign](../../application-reference/campaigns/create-a-campaign/).
+Once you configure your attack landing page, you can proceed to [bind this attack template to a campaign](broken-reference).

@@ -16,9 +16,9 @@ To create a campaign template go to the campaign's **Summary** tab and select **
 
 ## Creating a Campaign from a Template
 
-The campaign template can now be used when [creating a campaign in expert mode](../campaigns/create-a-campaign/expert-mode.md) to quick-start  your campaign creation. Just select the template from the list and **Save**.
+The campaign template can now be used when [creating a campaign in expert mode](../campaigns/expert-mode.md) to quick-start  your campaign creation. Just select the template from the list and **Save**.
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Recipients are not saved in campaign templates. If you included a schedule in your campaign template you must edit the schedule rule to re-bind your recipients to it after adding them to the campaign.

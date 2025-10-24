@@ -9,7 +9,7 @@ A QR-code phishing attack involves embedding a malicious URL within a QR code. W
 ## Checklist
 
 * [x] [Register an Attack Domain](../../../application-reference/settings/common-system-settings/domains/#register-a-domain-via-the-domain-registration-wizard)
-* [x] [Add a QR-code template to your campaign](../../../application-reference/campaigns/campaign-settings/main-settings/attack-simulation.md#add-an-attack-template-to-your-campaign)
+* [x] [Add a QR-code template to your campaign](../../../application-reference/campaigns/campaign-settings/main-settings/attack-simulation/#add-an-attack-template-to-your-campaign)
 * [x] [Set the success action](../../quick-guides/create-your-first-campaign/campaign-setup/attack-settings.md)
   * [x] If the QR code links to a data-entry page, select **Data Submit**.
   * [x] If the QR code redirects to an awareness training or other page, select **Click**.

@@ -21,4 +21,4 @@ LUCY employs tracking images and link tracking but avoids read-receipts due to t
 
 ### **Configuration**
 
-Email tracking settings can be adjusted within the [scenario settings of a campaign](../../application-reference/campaigns/campaign-settings/main-settings/attack-simulation.md#advanced-tracking), allowing for tailored tracking strategies based on campaign goals and the technology's limitations.
+Email tracking settings can be adjusted within the [scenario settings of a campaign](../../application-reference/campaigns/campaign-settings/main-settings/attack-simulation/#advanced-tracking), allowing for tailored tracking strategies based on campaign goals and the technology's limitations.

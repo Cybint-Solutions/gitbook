@@ -1,0 +1,63 @@
+# Wizard Mode
+
+## Start the Wizard
+
+On the Lucy dashboard, select **+ New Campaign**, then select **Wizard**.
+
+<figure><img src="../../../.gitbook/assets/image (232).png" alt=""><figcaption></figcaption></figure>
+
+## Select a Campaign Type
+
+<figure><img src="../../../.gitbook/assets/image (1012).png" alt=""><figcaption></figcaption></figure>
+
+Lucy campaigns come in three types:
+
+{% tabs %}
+{% tab title="Attack Simulation" %}
+Creating a campaign with an Attack begins by selecting the Attack type. Please note that you can also associate an Awareness training template in the following steps if you choose to do so.
+
+#### [Data Entry Attack](../../../guides/attack-simulations/attack-types/data-entry-attack.md)
+
+The recipient will receive an email with a link that leads to a fake webpage designed to harvest credentials. A successful attack occurs when the recipient enters their data on this page.
+
+#### [Hyperlink Attack](../../../guides/attack-simulations/attack-types/hyperlink-attack.md)
+
+The recipient will receive an email with a link, and the attack is deemed successful as soon as they click on this link. There is no associated landing page in this scenario.
+
+#### [File Attack](../../../guides/attack-simulations/attack-types/file-attack.md)
+
+Like Data Entry Attacks, the user receives an email with two potential actions: they can click a link to visit a landing page where they download an executable file, or the executable file can be directly attached to the email itself.
+
+#### [Portable Media Attack](../../../guides/attack-simulations/attack-types/portable-media.md)
+
+LUCY provides the capability to create files for use on various removable media devices, including CDs, USBs, DVDs, SD Cards, and others. The most common approach involves attacks via USB sticks.
+
+#### [Smishing](../../../guides/attack-simulations/attack-types/smishing.md)
+
+Smishing, also known as SMS Phishing, is a deceptive tactic where fraudulent text messages are sent to trick recipients into revealing sensitive information such as credit card details or passwords. It's important to note that this type of attack can only be configured in [Expert Mode](../expert-mode.md).
+{% endtab %}
+
+{% tab title="Awareness Education" %}
+This selection is reserved for Awareness-only campaigns, where an administrator aims to focus solely on training their users.
+{% endtab %}
+
+{% tab title="Infrastructure Tests" %}
+#### **Technical Malware Test**
+
+Evaluates your technical defenses against malware by simulating a malware attack and observing whether the current security setup can detect and neutralize the threat.
+
+#### **Mail & Web Filter Test**
+
+Assesses the effectiveness of your email and web filtering systems. This test sends non-malicious simulated spam and phishing emails to see if the filters can successfully block these potential threats.
+
+#### **Spoofing Test**
+
+Checks the robustness of the system against email spoofing. It tests whether someone can mimic or 'spoof' an email address from your domain, which is a common tactic used in phishing and social engineering attacks.
+{% endtab %}
+{% endtabs %}
+
+## Select a Template
+
+After choosing your campaign type you will be taken to the template gallery to select a template for your campaign. You can preview the email and landing pages by seleting the **Preview** button on each template. When you're ready, select a template and then select **Next** at the bottom of the wizard.
+
+<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>

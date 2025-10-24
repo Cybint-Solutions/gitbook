@@ -11,8 +11,8 @@ A data entry attack is a targeted effort where attackers deceive victims into en
 ## Checklist
 
 * [x] [Register an Attack Domain](../../../application-reference/settings/common-system-settings/domains/#register-a-domain-via-the-domain-registration-wizard)
-* [x] [Add a Data Entry Attack to your Campaign](../../../application-reference/campaigns/campaign-settings/main-settings/attack-simulation.md#add-an-attack-template-to-your-campaign)
-* [x] [Ensure "Data Submit" is set as your Success Action](../../../application-reference/campaigns/campaign-settings/main-settings/attack-simulation.md#success-action)
+* [x] [Add a Data Entry Attack to your Campaign](../../../application-reference/campaigns/campaign-settings/main-settings/attack-simulation/#add-an-attack-template-to-your-campaign)
+* [x] [Ensure "Data Submit" is set as your Success Action](../../../application-reference/campaigns/campaign-settings/main-settings/attack-simulation/#success-action)
 * [x] [Ensure the sending Domain is whitelisted](../../whitelisting-a-lucy-server/)
 
 ***
@@ -24,7 +24,7 @@ A data entry attack is a targeted effort where attackers deceive victims into en
 * A recipient is notified that they are running late for a Teams or Zoom meeting and receives an email with a link to join the meeting. In their haste, they click the link and are prompted to log in on a fake Teams or Zoom login page, unknowingly entering their credentials.
 
 {% hint style="success" %}
-Ready to set up your Data Entry Attack? See our platform reference article on [Adding an Attack to your campaign.](../../../application-reference/campaigns/campaign-settings/main-settings/attack-simulation.md)
+Ready to set up your Data Entry Attack? See our platform reference article on [Adding an Attack to your campaign.](../../../application-reference/campaigns/campaign-settings/main-settings/attack-simulation/)
 {% endhint %}
 
 ***

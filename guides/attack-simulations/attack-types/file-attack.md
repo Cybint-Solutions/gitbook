@@ -13,8 +13,8 @@ A file attack is a type of cyber attack where malicious files are sent via email
 ### **Checklist**
 
 * [x] [Register an Attack Domain](../../../application-reference/settings/common-system-settings/domains/#register-a-domain-via-the-domain-registration-wizard)
-* [x] [Add a File Attack to your Campaign](../../../application-reference/campaigns/campaign-settings/main-settings/attack-simulation.md)
-* [x] [Choose a success action: File Download; File Data Received or File Opened](../../../application-reference/campaigns/campaign-settings/main-settings/attack-simulation.md#success-action)
+* [x] [Add a File Attack to your Campaign](../../../application-reference/campaigns/campaign-settings/main-settings/attack-simulation/)
+* [x] [Choose a success action: File Download; File Data Received or File Opened](../../../application-reference/campaigns/campaign-settings/main-settings/attack-simulation/#success-action)
 * [x] [Ensure the File is excluded from Anti-Virus scanning in your infrastructure](../../whitelisting-a-lucy-server/file-attack-whitelisting.md)
 * [x] [Ensure the sending Domain is whitelisted](../../whitelisting-a-lucy-server/)
 
