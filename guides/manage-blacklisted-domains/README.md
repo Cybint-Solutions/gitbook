@@ -158,7 +158,7 @@ If your domain is displaying "Deceptive Site Ahead" in Chrome, see our guide on 
 Most vendors allow you to submit a false positive claim to remove a blacklisted domain. Each vendor has specific procedures for this. Below is a list of vendors and their respective whitelisting processes:
 
 {% hint style="success" %}
-Our [Technical Support](../../when-to-contact-us/contact-technical-support.md) team is available to assist you with de-listing your domain.
+Our [Technical Support](../../contact-us.md) team is available to assist you with de-listing your domain.
 {% endhint %}
 
 | Vendor                                    | Contact Email                                                                    | False Positive Reporting                                                                                                                                                                                        |

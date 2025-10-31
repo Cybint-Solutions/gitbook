@@ -40,7 +40,7 @@ The gallery can be filtered by language, template type, intended audience for th
 <figure><img src="../../../.gitbook/assets/image (28) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Most templates are configured by default for mobile-sized screens. If you encounter one that is not, [contact technical support](../../../when-to-contact-us/contact-technical-support.md) to request an adjustment.
+Most templates are configured by default for mobile-sized screens. If you encounter one that is not, [contact technical support](../../../contact-us.md) to request an adjustment.
 {% endhint %}
 
 ***

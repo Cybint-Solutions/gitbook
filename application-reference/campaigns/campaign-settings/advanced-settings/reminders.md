@@ -34,7 +34,7 @@ If you are using a custom reminder email, select **Edit Template** to customize 
 Navitgate to **Awareness Education > Reminders**
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Remind Users Who Did Not Start a Training**
 
@@ -50,7 +50,7 @@ Enable this option to send a reminder to users who started but did not finish th
 Navigate to **Attack Simulation > Reminders**
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Remind Users Who Did Not Click a Phishing Scenario Link**
 
@@ -62,11 +62,11 @@ Enable this option to send a reminder to users who did not click on the link in 
 
 To customize a reminder email, select **Edit Template** for the desired reminder type:
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Select your language and configure the reminder email for the chosen language.
 
-<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Reminder templates are not automatically translated; each adaptation needs to be copied and translated into the relevant language.

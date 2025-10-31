@@ -205,5 +205,5 @@
   * [DPA, Customer and Partner Info](legal/dpa-customer-and-partner-info.md)
   * [Service Level Agreement](legal/service-level-agreement.md)
   * [Confidentiality of Campaign Data](legal/confidentiality-of-campaign-data.md)
-* [Contact Technical Support](when-to-contact-us/contact-technical-support.md)
+* [Contact Us](contact-us.md)
 * [SANDBOX](sandbox.md)

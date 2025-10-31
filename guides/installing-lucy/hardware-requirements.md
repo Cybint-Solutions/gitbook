@@ -109,6 +109,6 @@ LUCY's phishing and awareness templates are designed to function seamlessly acro
 
 For users opting for a Virtual Private Server (VPS) hosted by LUCY:
 
-* **Dynamic Resource Scaling.** LUCY provides the capability to automatically scale computing resources, including CPU and RAM, to meet the demands of your campaign. This feature ensures optimal performance of campaigns by adjusting resources in real time, eliminating the need for manual adjustments. In case of hardware limitations, users are encouraged to contact the[ support department](../../when-to-contact-us/contact-technical-support.md) for assistance in scaling their Virtual Private Server (VPS).
+* **Dynamic Resource Scaling.** LUCY provides the capability to automatically scale computing resources, including CPU and RAM, to meet the demands of your campaign. This feature ensures optimal performance of campaigns by adjusting resources in real time, eliminating the need for manual adjustments. In case of hardware limitations, users are encouraged to contact the[ support department](../../contact-us.md) for assistance in scaling their Virtual Private Server (VPS).
 
 </details>
