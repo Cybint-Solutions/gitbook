@@ -54,7 +54,7 @@
     * [Use extended method of tracking the end of the quiz](guides/awareness-training/use-extended-method-of-tracking-the-end-of-the-quiz.md)
   * [Reporting Plugin](guides/reporting-plugin/README.md)
     * [Deploying Office 365](guides/reporting-plugin/deploying-office-365.md)
-    * [Deploying Outlook Native](guides/reporting-plugin/deploying-outlook-native.md)
+    * [Deploying Outlook Native (Deprecated)](guides/reporting-plugin/deploying-outlook-native-deprecated.md)
     * [Deploying Gmail](guides/reporting-plugin/deploying-gmail.md)
 * [Application Reference](application-reference/README.md)
   * [Notifications](application-reference/notifications.md)

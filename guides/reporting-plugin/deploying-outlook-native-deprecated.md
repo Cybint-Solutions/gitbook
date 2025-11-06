@@ -1,6 +1,12 @@
-# Deploying Outlook Native
+# Deploying Outlook Native (Deprecated)
 
-### Introduction
+{% hint style="danger" %}
+[Support for Office 2016 and Office 2019 ended on October 14, 2025](https://learn.microsoft.com/en-us/officeupdates/update-history-office-2019). If you haven't already begun to upgrade your Office environment to a newer version of Office, Microsoft recommends that you start now. For more information, see [Plan an upgrade from older versions of Office to Microsoft 365 Apps](https://learn.microsoft.com/en-us/deployoffice/endofsupport/plan-upgrade-older-versions-office). 
+
+Because Microsoft has deprecated these versions of Outlook, any issues with the Reporting Plugin on those platforms are a result of Microsoft’s decision to end support. Unfortunately, we are unable to provide troubleshooting or further assistance for software Microsoft has retired.
+{% endhint %}
+
+## Introduction
 
 The native Outlook plugin supports these versions of the desktop application:
 
@@ -12,7 +18,7 @@ The Outlook plugin is static, it cannot read changes from the Lucy server like t
 
 ***
 
-### Azure (Entra ID) settings
+## Azure (Entra ID) settings
 
 1. Login to your [Azure portal](https://portal.azure.com) and navigate to Microsoft Entra ID (formerly Azure AD).
 2. Navigate to **App Registrations** and create a **New Registration**.

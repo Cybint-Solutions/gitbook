@@ -1,31 +1,40 @@
 # Reporting Plugin
 
-### Introduction
+## Introduction
 
 Mail reporting plugins (AKA "phishing buttons") enhance email security by allowing users to report phishing attempts directly from their email clients. They streamline the process, making it easier for organizations to identify and respond to potential threats.
 
 ***
 
-### Supported clients
+## Supported Clients
 
 * Office 365 (Desktop, Web, Mobile)
+* Google Workspace (Gmail)
+
+## Deprecated Clients
+
 * Outlook 2016, 2019
 * Outlook for Mac (2016, 2019)
-* Gmail
 
-### Prerequisites
+{% hint style="danger" %}
+[Support for Office 2016 and Office 2019 ended on October 14, 2025](https://learn.microsoft.com/en-us/officeupdates/update-history-office-2019). If you haven't already begun to upgrade your Office environment to a newer version of Office, Microsoft recommends that you start now. For more information, see [Plan an upgrade from older versions of Office to Microsoft 365 Apps](https://learn.microsoft.com/en-us/deployoffice/endofsupport/plan-upgrade-older-versions-office). 
+
+Because Microsoft has deprecated these versions of Outlook, any issues with the Reporting Plugin on those platforms are a result of Microsoft’s decision to end support. Unfortunately, we are unable to provide troubleshooting or further assistance for software Microsoft has retired.
+{% endhint %}
+
+## Prerequisites
 
 A connected Azure application. See [here](../../application-reference/settings/common-system-settings/azure-applications.md) for details.
 
 This application must then be selected in the plugin settings.
 
-### Client Profiles
+## Client Profiles
 
 Starting in Lucy version 4.13 you can save plugin configurations on a per-client basis (one profile per client). When you are ready to download the plugin you will be prompted to select a client, and the plugin will use that client's settings profile.
 
 <figure><img src="../../.gitbook/assets/image (792).png" alt=""><figcaption></figcaption></figure>
 
-### Plugin Settings
+## Plugin Settings
 
 Before we can begin using the plugin we must configure it. To configure, navigate to **Settings > Submitted Email Settings > Plugin Settings** and create a new configuration. See [this platform reference page](../../application-reference/settings/submitted-email-settings/plugin-settings.md) for details on the configuration options.
 
@@ -35,7 +44,7 @@ Remember to select your Azure application in the Plugin settings at the bottom!
 
 ***
 
-### Download the plugin
+## Download the plugin
 
 {% hint style="success" %}
 You must [configure your plugin settings](../../application-reference/settings/submitted-email-settings/plugin-settings.md) before downloading and deploying.
@@ -62,9 +71,9 @@ In Lucy version 5.4 and above the download options have been updated to reflect 
 
 ***
 
-### Deployment
+## Deployment
 
 LUCY's reporting plugin is compatible with Microsoft O365, Outlook Native, and Gmail. The deployment is a little different for each version, so be sure to use the guide for your mail client.
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td><strong>Microsoft Office 365</strong><br><strong>(XML)</strong></td><td></td><td><a href="deploying-office-365.md">deploying-office-365.md</a></td><td></td></tr><tr><td></td><td><strong>Outlook Native</strong><br><strong>(MSI)</strong></td><td></td><td><a href="deploying-outlook-native.md">deploying-outlook-native.md</a></td><td></td></tr><tr><td></td><td><strong>Gmail</strong><br><strong>(apps script)</strong></td><td></td><td><a href="deploying-gmail.md">deploying-gmail.md</a></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td></td><td><strong>Microsoft Office 365</strong><br><strong>(XML)</strong></td><td></td><td><a href="deploying-office-365.md">deploying-office-365.md</a></td><td></td></tr><tr><td></td><td><strong>Outlook Native</strong><br><strong>(MSI)</strong></td><td></td><td><a href="deploying-outlook-native-deprecated.md">deploying-outlook-native-deprecated.md</a></td><td></td></tr><tr><td></td><td><strong>Gmail</strong><br><strong>(apps script)</strong></td><td></td><td><a href="deploying-gmail.md">deploying-gmail.md</a></td><td></td></tr></tbody></table>
 

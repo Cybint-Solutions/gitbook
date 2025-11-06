@@ -28,9 +28,7 @@ The plugin has two main purposes:
 ### Supported email clients
 
 * &#x20;Office 365 (Desktop, Web, Mobile)
-* Outlook 2019 and up
-* Outlook for Mac 2019 and up
-* Gmail
+* Google Workspace (Gmail)
 
 ***
 
