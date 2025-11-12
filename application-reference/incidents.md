@@ -111,7 +111,7 @@ This model predicts multiple probability values, including:
 You can run the model directly from the command line to analyze a local email file:
 
 ```bash
-bashCopyEditpython3 scripts/phishing-detector/phishing-email-detection.py /path/to/email.txt
+scripts/phishing-detector/phishing-email-detection.py /path/to/email.txt
 ```
 
 #### Sample Output:
