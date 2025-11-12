@@ -117,7 +117,7 @@ scripts/phishing-detector/phishing-email-detection.py /path/to/email.txt
 #### Sample Output:
 
 ```xml
-xmlCopyEdit<PHISHING_PROBABILITY>4</PHISHING_PROBABILITY>
+<PHISHING_PROBABILITY>4</PHISHING_PROBABILITY>
 <PHISHING_URL>1</PHISHING_URL>
 <PHISHING_URL_ALT>3</PHISHING_URL_ALT>
 <LEGITIMATE_URL>2</LEGITIMATE_URL>
