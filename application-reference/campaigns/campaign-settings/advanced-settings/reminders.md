@@ -36,6 +36,10 @@ Navitgate to **Awareness Education > Reminders**
 
 <figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="success" %}
+In order to use the **Send Immediately** button you must save the reminder settings first.
+{% endhint %}
+
 ### **Remind Users Who Did Not Start a Training**
 
 Enable this option to send a reminder to users who did not start the training after receiving the awareness email. Lucy will send a reminder to anyone who did not click the training link.
@@ -51,6 +55,10 @@ Navigate to **Attack Simulation > Reminders**
 {% endhint %}
 
 <figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="success" %}
+In order to use the **Send Immediately** button you must save the reminder settings first.
+{% endhint %}
 
 ### **Remind Users Who Did Not Click a Phishing Scenario Link**
 
