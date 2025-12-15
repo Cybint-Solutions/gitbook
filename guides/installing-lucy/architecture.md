@@ -28,7 +28,7 @@ This document outlines the key structural elements and settings of Lucy.
 
 ### Application
 
-* **PHP v8.1.18 and Python 3.8.10**: Lucy is primarily a PHP application using the Yii Framework, with some background scripts in Python.
+* **PHP v8.2.6 and Python 3.8.10**: Lucy is primarily a PHP application using the Yii Framework, with some background scripts in Python.
 
 ### Security
 
