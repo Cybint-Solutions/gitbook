@@ -85,7 +85,7 @@ Simply download the image and deploy it in your preferred solution.
 
 ### VMware
 
-ESXi: [https://download.phishing-server.com/dl/phishing-4.14/esxi.ova](https://download.phishing-server.com/dl/phishing-4.14/esxi.ova)\
+ESXi: [https://download.phishing-server.com/dl/phishing-5.6/esxi.ova](https://download.phishing-server.com/dl/phishing-5.6/esxi.ova)\
 OVF: [https://download.phishing-server.com/dl/phishing-4.14/esxi\_ovf.zip](https://download.phishing-server.com/dl/phishing-4.14/esxi_ovf.zip)
 
 ### VirtualBox
