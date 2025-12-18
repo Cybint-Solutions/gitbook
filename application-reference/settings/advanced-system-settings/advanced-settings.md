@@ -93,7 +93,7 @@ Optionally disable the prompt asking users to rate templates on a five-star scal
 
 ## Auto Logout Timeout
 
-Specify the time (in minutes) before users are logged out for inactivity.
+Automatically logs users out after being inactive for the specified number of minutes. Minimum is 2, maximum is 2880 (48 hours). Leave empty to disable auto logout.
 
 ***
 
