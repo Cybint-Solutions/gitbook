@@ -79,7 +79,7 @@ Persistent Cookies: Persistent cookies reside on your system and allow us to cus
 
 Advertising Cookies: Advertising cookies are used to learn more about you and advertise products/services that might interest you.
 
-Analytics Cookies: Analytics cookies help us understand how our Sites work and who is visiting our Sites. Google Analytics is one tool we use, and you can learn more by reviewing Google’s Privacy Policy.\\
+Analytics Cookies: Analytics cookies help us understand how our Sites work and who is visiting our Sites. Google Analytics is one tool we use, and you can learn more by reviewing Google’s Privacy Policy.
 
 Functional Cookies: Functional cookies allow our Sites to work as intended such as by allowing us to recognize and honor your login and take other actions for authentication and security.
 
