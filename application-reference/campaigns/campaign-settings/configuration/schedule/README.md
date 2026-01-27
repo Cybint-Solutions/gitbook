@@ -20,6 +20,10 @@ Select **+ Add Rule** in the top-right corner to add a new schedule rule.
 
 <figure><img src="../../../../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="warning" %}
+If a campaign has a schedule rule of any kind attached to it, no other emails will be sent except those included in the schedule. This includes emails for recipients not attached to any schedule rule.
+{% endhint %}
+
 ***
 
 ## Rule Types
