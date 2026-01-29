@@ -8,7 +8,7 @@ Navigate to **Support > Help Center**
 
 Here you can view your existing tickets and open new ones.
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### My Tickets
 
@@ -18,13 +18,13 @@ This is a list of your past and present Support tickets. This list is just for v
 
 This option takes you to the Techincal Support section of the Customer Service Portal. Here you can fill out a ticket and send it to our Support team.
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Select **Contact Technical Support** to open the form.
 {% endhint %}
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Ticket Details
 

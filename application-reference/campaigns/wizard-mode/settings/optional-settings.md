@@ -10,7 +10,7 @@ If you wish to send your users a diploma after they complete the training conten
 
 ## Email Settings
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Receive Sender Email Replies**
 
@@ -30,7 +30,7 @@ Enable this option to insert a DKIM record into the campaign email. Please note 
 
 ## Tracking
 
-<figure><img src="../../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **Track Bounced Emails**
 
@@ -42,7 +42,7 @@ Use an email inbox to keep track of your campaign. Enable this option to send th
 
 ## Data Collection
 
-<figure><img src="../../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## End User Profiles
 
@@ -52,7 +52,7 @@ Enable this option to create End User accounts for your recipients and enable th
 [End User](../../../users/end-users.md) accounts give your recipients access to a dashboard where they can view their stats and training materials. See [here](../../../users/end-user-portal-settings.md) for a guide on setting up the end user portal.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Domain
 

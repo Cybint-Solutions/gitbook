@@ -5,7 +5,7 @@
 Select an [attack domain you have registered](../../../settings/common-system-settings/domains/).\
 This will be the primary domain for both the sender email address and the associated landing page.
 
-<figure><img src="../../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## **SSL**
 

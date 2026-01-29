@@ -16,8 +16,7 @@ Please wait while the system creates the copy. The time required may vary depend
 
 Once the copying process is complete, the system will display a green banner indicating "<mark style="color:green;">Finished Successfully.</mark>"
 
-After copying a template, when you search for the template, you'll find the original plus the new copy, which is distinguished by the addition of "(copy)" in the title.\
-
+After copying a template, when you search for the template, you'll find the original plus the new copy, which is distinguished by the addition of "(copy)" in the title.<br>
 
 ![](<../../.gitbook/assets/image (61).png>)
 

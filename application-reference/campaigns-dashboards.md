@@ -32,8 +32,7 @@ Phishing -> <img src="../.gitbook/assets/image (220).png" alt="" data-size="line
 {% endtab %}
 
 {% tab title="Status" %}
-The current phase or condition of the campaign.\
-
+The current phase or condition of the campaign.<br>
 
 <img src="../.gitbook/assets/image (259).png" alt="" data-size="line"> -> Before a campaign is launched
 
@@ -76,8 +75,7 @@ The number of recipients that were successfully trained.
 ### Campaign Actions
 
 The Campaign Actions tab allows an administrator to quickly make changes to the selected campaign(s):\
-\
-
+<br>
 
 <figure><img src="../.gitbook/assets/image (263).png" alt="" width="163"><figcaption></figcaption></figure>
 
@@ -107,8 +105,7 @@ The Campaign Actions tab allows an administrator to quickly make changes to the 
 
 ### Campaign Export
 
-In the Dashboard, the "Export" feature provides administrators with a streamlined method to extract metrics from all campaigns or detailed statistics from a single chosen campaign. This functionality serves as a convenient access point for administrators to quickly gather comprehensive insights into campaign performance.\
-
+In the Dashboard, the "Export" feature provides administrators with a streamlined method to extract metrics from all campaigns or detailed statistics from a single chosen campaign. This functionality serves as a convenient access point for administrators to quickly gather comprehensive insights into campaign performance.<br>
 
 <figure><img src="../.gitbook/assets/image (209).png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -135,8 +132,7 @@ This export provides an in-depth analysis of individual interactions within a sp
 * **Scenario and Awareness Details:** Details the specific scenario used in the campaign, the time spent on the scenario (scenario\_time), and any awareness components, including when awareness content was clicked (awareness\_clicked\_at) and the time spent on awareness (awareness\_time).
 * **Additional Metrics:** Records other relevant data such as the subject of the email used in the campaign, time metrics related to the first click and report after delivery, and whether files were downloaded or data was collected.
 *   **Outcome and Feedback:** Notes any out-of-office responses, bounced emails, and direct responses from the recipients, as well as whether a certificate was received or training (with or without a quiz) was completed, providing a comprehensive view of recipient engagement and learning outcomes.\
-    \
-
+    <br>
 
     <figure><img src="../.gitbook/assets/image (212).png" alt=""><figcaption></figcaption></figure>
 

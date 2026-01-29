@@ -20,8 +20,7 @@ Navigate to **Settings -> Clients -> Clients**
 
 ***
 
-Select "New Client"\
-
+Select "New Client"<br>
 
 <figure><img src="../../../.gitbook/assets/image (251).png" alt=""><figcaption></figcaption></figure>
 

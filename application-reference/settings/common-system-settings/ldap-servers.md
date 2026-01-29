@@ -10,7 +10,7 @@ LUCY's LDAP integration enables administrators to:
 {% hint style="info" %}
 **Active Directory Sync Tool for Windows**
 
-In addition to the direct LDAP integration, LUCY offers a synchronization tool for Windows. This tool enables the synchronization of your Active Directory groups with LUCY, all communication is done over API. For detailed information and setup instructions, refer to the [LDAP Sync Tool instructions](broken-reference).
+In addition to the direct LDAP integration, LUCY offers a synchronization tool for Windows. This tool enables the synchronization of your Active Directory groups with LUCY, all communication is done over API. For detailed information and setup instructions, refer to the [LDAP Sync Tool instructions](/broken/pages/qbcmpjlme6wKsKTt5H4p).
 {% endhint %}
 
 ### LDAP Connection Setup in LUCY

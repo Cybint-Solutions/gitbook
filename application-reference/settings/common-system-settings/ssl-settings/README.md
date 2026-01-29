@@ -25,7 +25,7 @@ Each VPS server provided by Lucy Awareness comes with a default administrative d
 {% endtab %}
 
 {% tab title="Self Hosted (on-prem)" %}
-Configure your domain within LUCY's [setup script](broken-reference). For instance, if your domain is "company.com," you might set up an FQDN like "access.company.com."
+Configure your domain within LUCY's [setup script](/broken/pages/o1hda7bcLu2KGqlX5jx2). For instance, if your domain is "company.com," you might set up an FQDN like "access.company.com."
 {% endtab %}
 {% endtabs %}
 

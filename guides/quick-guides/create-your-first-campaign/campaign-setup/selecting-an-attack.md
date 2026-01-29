@@ -18,8 +18,7 @@ Similarly, you can also search for the **Target Audience**, **Category,** and **
 
 Let's focus on the **ChatGPT Scenario**:\
 \
-Lucy's wizard is designed for efficient previewing of the Message Template and Landing page. It provides real-time dynamic access to test the template before committing it to your campaign.\
-
+Lucy's wizard is designed for efficient previewing of the Message Template and Landing page. It provides real-time dynamic access to test the template before committing it to your campaign.<br>
 
 <figure><img src="../../../../.gitbook/assets/image (236).png" alt="" width="204"><figcaption></figcaption></figure>
 

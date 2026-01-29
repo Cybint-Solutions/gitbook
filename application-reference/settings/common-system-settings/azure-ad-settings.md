@@ -41,8 +41,7 @@ Select the specific [Azure Application](azure-applications.md).
 Lucy permits administrators to configure Azure preferences for individual or multiple user groups by activating the required "roles" selection option.\
 \
 For instance, to configure the preference for automatically importing users with the Enduser role, you would select the "Import Enduser role" option and specify the necessary group/s associated with the End User role:\
-\
-
+<br>
 
 <figure><img src="../../../.gitbook/assets/image (180).png" alt=""><figcaption></figcaption></figure>
 

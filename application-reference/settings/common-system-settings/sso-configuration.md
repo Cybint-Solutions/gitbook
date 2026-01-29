@@ -80,15 +80,13 @@ Lack of Administrative consent  is evident if the following message is displayed
 2. **Navigate to Microsoft Entra ID**: Find and select the Microsoft Entra ID option to proceed.
 3. **Enterprise Applications**: In the Microsoft Entra ID section, locate and click on “Enterprise Applications.”
 4.  **Consent and Permissions**: Inside Enterprise Applications settings, select “Consent and Permissions.”\
-    \
-
+    <br>
 
     <figure><img src="../../../.gitbook/assets/image (165).png" alt="" width="249"><figcaption></figcaption></figure>
 5. **Admin Consent Settings**: Search for “Admin consent settings” and click it to modify the consent flow settings.
 6. **Enable Consent Requests**: Activate the option “Users can request admin consent to apps they are unable to consent to” by toggling it to “Yes.” This allows non-admin users to request admin consent for applications.
 7.  **Designate Reviewers**: Specify Azure Administrative users for the consent review process, selecting your Azure Admin under Review Type as Users.\
-    \
-
+    <br>
 
     <figure><img src="../../../.gitbook/assets/image (166).png" alt="" width="563"><figcaption></figcaption></figure>
 8. **Save Your Settings**: Click “Save” to apply the changes.
@@ -100,23 +98,19 @@ Lack of Administrative consent  is evident if the following message is displayed
 
 #### Consent Approval Process
 
-11. **Initiating Approval**: The Lucy admin clicks “Request Approval” to start the consent process.\
-
+11. **Initiating Approval**: The Lucy admin clicks “Request Approval” to start the consent process.<br>
 
     <figure><img src="../../../.gitbook/assets/image (163).png" alt="" width="307"><figcaption></figcaption></figure>
 12. **Notification to Administrator**: An approval request is sent to the Azure Administrator's email, and the request appears under Enterprise Applications -> Admin Consent Requests in the Azure portal.\
-    \
-
+    <br>
 
     <figure><img src="../../../.gitbook/assets/image (167).png" alt="" width="258"><figcaption></figcaption></figure>
 13. **Admin Review and Consent Granting**: The Azure Administrator reviews the request in the portal and grants consent on behalf of the organization.\
-    \
-
+    <br>
 
     <figure><img src="../../../.gitbook/assets/image (168).png" alt="" width="375"><figcaption></figcaption></figure>
 
-    \
-
+    <br>
 
     <figure><img src="../../../.gitbook/assets/image (169).png" alt="" width="375"><figcaption></figcaption></figure>
 

@@ -43,17 +43,14 @@ To revert the admin port in LUCY to 443 from a custom port (e.g., 8081), you nee
 \
 **Login via the terminal and execute these commands:**\
 `cd /etc/apache2`\
-`nano ports.conf`\
-
+`nano ports.conf`<br>
 
 **comment two lines**:\
 `#Listen 8081`\
-`#NameVirtualHost *:8081`\
-
+`#NameVirtualHost *:8081`<br>
 
 **Save and exit**\
-Press Ctrl+O+Enter and Ctrl+X to save\&exit.\
-
+Press Ctrl+O+Enter and Ctrl+X to save\&exit.<br>
 
 **Change virtual host configuration**\
 `nano sites-available/phishing-ssl`\
@@ -61,13 +58,11 @@ Press Ctrl+O+Enter and Ctrl+X to save\&exit.\
 `<VirtualHost *:443>`
 
 **Save & Exit**\
-Press Ctrl+O+Enter and Ctrl+X to save\&exit.\
-
+Press Ctrl+O+Enter and Ctrl+X to save\&exit.<br>
 
 **Remove entries**\
 `rm sites-enabled/phishing-ssl-extra`\
-`rm sites-available/phishing-ssl-extra`\
-
+`rm sites-available/phishing-ssl-extra`<br>
 
 **Change IP-Tables**\
 `iptables -F LUCY_ADMIN`\
@@ -88,8 +83,7 @@ sudo -u postgres psql phishing -c "UPDATE system SET value=null WHERE name='admi
 \
 **Restart Apache**\
 `service apache2 restart`\
-\
-
+<br>
 
 </details>
 

@@ -30,16 +30,13 @@ The Outlook plugin is static, it cannot read changes from the Lucy server like t
 
 <figure><img src="../../.gitbook/assets/image (810).png" alt=""><figcaption></figcaption></figure>
 
-*   In the application overview, click the **Redirect URIs** option then select **Add a platform**.\
-
+*   In the application overview, click the **Redirect URIs** option then select **Add a platform**.<br>
 
     <figure><img src="../../.gitbook/assets/image (807).png" alt=""><figcaption></figcaption></figure>
-*   Select the **Mobile and Desktop Applications** option, enable all three of the pre-defined URIs, then click **Configure**.\
-
+*   Select the **Mobile and Desktop Applications** option, enable all three of the pre-defined URIs, then click **Configure**.<br>
 
     <figure><img src="../../.gitbook/assets/image (808).png" alt=""><figcaption></figcaption></figure>
-*   Scroll to the bottom of the **Authentication** page and enable **Live SDK Support** and **Allow Public Client Flows**, then click **Save**.\
-
+*   Scroll to the bottom of the **Authentication** page and enable **Live SDK Support** and **Allow Public Client Flows**, then click **Save**.<br>
 
     <figure><img src="../../.gitbook/assets/image (809).png" alt=""><figcaption></figcaption></figure>
 * Navigate to **Certificates & secrets** and create a **new client secret**. Give the secret a name and expiration date, then click **Add**.

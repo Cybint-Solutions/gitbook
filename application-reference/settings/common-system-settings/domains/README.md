@@ -2,8 +2,7 @@
 
 **Introduction:** LUCY supports multiple domain names for campaigns on virtualized servers. Users can add domains via the registration wizard or request assistance from our [support department](../../../../contact-us.md).\
 \
-**What type of domains can be configured?**\
-
+**What type of domains can be configured?**<br>
 
 <details>
 
@@ -85,8 +84,7 @@ To add a domain you already own, simply click the "Add" button and enter your do
 
 Please be aware that when adding a domain to Lucy, you are required to manually create all relevant DNS entries in the registrar's administration panel. This step is necessary for the domain to properly point to the Lucy server, enabling it to send and receive emails associated with this domain.\
 \
-For Example, to point all relevant DNS records of the domain "lucysecurity.help" to my Lucy server, with the server's IP address being 65.109.169.227, the following DNS records will be added (_replace the IP address with your Lucy server IP address_):\
-
+For Example, to point all relevant DNS records of the domain "lucysecurity.help" to my Lucy server, with the server's IP address being 65.109.169.227, the following DNS records will be added (_replace the IP address with your Lucy server IP address_):<br>
 
 | Type       | Host | Value                           | TTL               | Priority |
 | ---------- | ---- | ------------------------------- | ----------------- | -------- |

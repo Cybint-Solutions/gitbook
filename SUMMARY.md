@@ -60,6 +60,7 @@
   * [Notifications](application-reference/notifications.md)
   * [Statistics Dashboard](application-reference/statistics-dashboard.md)
   * [Campaigns Dashboards](application-reference/campaigns-dashboards.md)
+  * [Phishing Programs](application-reference/phishing-programs.md)
   * [Campaigns](application-reference/campaigns/README.md)
     * [Wizard Mode](application-reference/campaigns/wizard-mode/README.md)
       * [Settings](application-reference/campaigns/wizard-mode/settings/README.md)

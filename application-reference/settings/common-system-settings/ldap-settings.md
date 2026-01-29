@@ -66,8 +66,7 @@ After defining your LDAP preferences, if you return to the settings by navigatin
 This tab enables you to manually filter and import your chosen users from LDAP, effectively overriding the pre-set LDAP preferences.
 
 Simply select your LDAP server (based on IP) and perform the necessary importing.\
-\
-
+<br>
 
 <figure><img src="../../../.gitbook/assets/image (187).png" alt="" width="563"><figcaption></figcaption></figure>
 

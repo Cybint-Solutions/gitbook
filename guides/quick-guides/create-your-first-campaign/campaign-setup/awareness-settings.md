@@ -48,8 +48,7 @@ There are two methods to accomplish this:\
 
 **4.2** Adjust the Awareness email body:\
 \
-Lucy comes with generic email responses. It is highly encouraged to personalize these Awareness Training emails according to your company's branding and ethos. \
-
+Lucy comes with generic email responses. It is highly encouraged to personalize these Awareness Training emails according to your company's branding and ethos. <br>
 
 <figure><img src="../../../../.gitbook/assets/image (222).png" alt=""><figcaption></figcaption></figure>
 

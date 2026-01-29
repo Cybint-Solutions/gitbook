@@ -12,18 +12,15 @@ Lucy offers two workflows for customizing templates: copying and editing an exis
 
 <summary><strong>Copy an existing template</strong></summary>
 
-Search for the desired template, select the template, click on the Actions drop-down and select Copy.\
+Search for the desired template, select the template, click on the Actions drop-down and select Copy.<br>
 
-
-<img src="../../.gitbook/assets/image (147).png" alt="" data-size="original">\
-
+<img src="../../.gitbook/assets/image (147).png" alt="" data-size="original"><br>
 
 Please wait while the system creates the copy. The time required may vary depending on the size of the template and could take a few minutes.
 
 Once the copying process is complete, the system will display a green banner indicating "<mark style="color:green;">Finished Successfully.</mark>"
 
-After copying a template, when you search for the template, you'll find the original plus the new copy, which is distinguished by the addition of "(copy)" in the title.\
-
+After copying a template, when you search for the template, you'll find the original plus the new copy, which is distinguished by the addition of "(copy)" in the title.<br>
 
 <img src="../../.gitbook/assets/image (148).png" alt="" data-size="original">
 
@@ -51,13 +48,11 @@ The subsequent page will take you to the base settings of the template, where yo
 
 We will select an existing template, copy it, and modify it to align with the organization's branding. We'll use the ChatGPT template.
 
-Make a Copy:\
-
+Make a Copy:<br>
 
 <figure><img src="../../.gitbook/assets/image (134).png" alt="" width="331"><figcaption></figcaption></figure>
 
-Search for the copied template, select "Edit Template"\
-
+Search for the copied template, select "Edit Template"<br>
 
 <figure><img src="../../.gitbook/assets/image (135).png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -79,7 +74,7 @@ After adjusting the base settings, select "Message Template" in the side panel.
 
 At the top, options are provided to upload your own email template as a .zip file, clear all current attachments, or permanently delete attachments.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 **New in Lucy version 5.3!**
@@ -264,4 +259,4 @@ Edit the landing page with the WYSIWYG editor by changing text, dragging compone
 
 <figure><img src="../../.gitbook/assets/chrome_7Wa1PSmmmG.gif" alt="" width="563"><figcaption></figcaption></figure>
 
-Once you configure your attack landing page, you can proceed to [bind this attack template to a campaign](broken-reference).
+Once you configure your attack landing page, you can proceed to [bind this attack template to a campaign](/broken/pages/kmdRvPW7V3n8mmWqJWfd).

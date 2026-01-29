@@ -4,8 +4,7 @@
 
 Lucy provides various options for mail delivery, accommodating different needs and preferences for security awareness campaigns. Below is a comprehensive guide to utilizing these mail delivery methods effectively.\
 \
-Administrators have two choices for setting up mail delivery: globally or at the campaign level. Global settings affect all campaigns but can be overridden by campaign-specific settings, which only apply to the selected campaign. This flexibility allows for customized mail delivery preferences on a per-campaign basis:\
-
+Administrators have two choices for setting up mail delivery: globally or at the campaign level. Global settings affect all campaigns but can be overridden by campaign-specific settings, which only apply to the selected campaign. This flexibility allows for customized mail delivery preferences on a per-campaign basis:<br>
 
 <details>
 
@@ -68,14 +67,12 @@ To configure the mail dleivery to HTTP Proxy as Global settings to your Lucy ser
 Select **"HTTP Proxy"**\
 \
 You'll have the option to specify the mail sender's domain or name. This choice will override any campaign-specific settings, ensuring all emails in LUCY are sent with this configuration. Choosing "HTTP" as your delivery method limits the selection of sender addresses to a predefined list of domains.\
-\
-
+<br>
 
 <img src="../../../.gitbook/assets/image (267).png" alt="" data-size="original">
 
 The recipient will see the email's appearance vary based on the chosen domain.\
-\
-
+<br>
 
 <img src="../../../.gitbook/assets/image (268).png" alt="" data-size="original">
 

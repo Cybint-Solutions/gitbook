@@ -17,8 +17,7 @@ The Office 365 plugin is dynamic - the plugin reads the settings from your Lucy 
 
 <figure><img src="../../.gitbook/assets/image (817).png" alt=""><figcaption></figcaption></figure>
 
-*   In the application overview, click the **Redirect URIs** option then select **Add a platform**.\
-
+*   In the application overview, click the **Redirect URIs** option then select **Add a platform**.<br>
 
     <figure><img src="../../.gitbook/assets/image (818).png" alt=""><figcaption></figcaption></figure>
 * Select the **Single-page Application** option and add the following two redirects:
@@ -40,8 +39,7 @@ Be sure to copy the secret value, once you navigate away from the page you will 
 3.  Select an email from your inbox and click the "Apps" button. Then, select "Get add-ins":
 
     <figure><img src="../../.gitbook/assets/image (882).png" alt=""><figcaption></figcaption></figure>
-4.  Select **My add-ins** and scroll to "Custom Add-ins", then click "Add a custom add-in" and "Add from file..."\
-
+4.  Select **My add-ins** and scroll to "Custom Add-ins", then click "Add a custom add-in" and "Add from file..."<br>
 
     <figure><img src="../../.gitbook/assets/image (885).png" alt=""><figcaption></figcaption></figure>
 5. Upload the XML file from Step 1 and refresh the page. Now when you click the "Apps" button the Lucy plugin should be present:
@@ -64,8 +62,7 @@ This type of deployment requires administrator privileges in your O365 environme
 4. Select "Upload custom apps" to open the wizard.
 5. Choose "Office Add-in" for the **App type** and then "Upload manifest file (.xml) from device". Select the XML file you downloaded from Step 1, then click **Next**.
 6. Under **Assign users** select "Entire Organization", then click **Next**.
-7.  Accept the required permissions for the plugin and click **Next**, then click **Finish Deployment**.\
-
+7.  Accept the required permissions for the plugin and click **Next**, then click **Finish Deployment**.<br>
 
     <figure><img src="../../.gitbook/assets/image (791).png" alt="" width="563"><figcaption></figcaption></figure>
 8. Once the plugin finishes deployment click **Done.**

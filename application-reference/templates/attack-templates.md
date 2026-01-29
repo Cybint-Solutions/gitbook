@@ -90,8 +90,7 @@ To locate languages not listed, utilize the language search bar.
 {% endtab %}
 
 {% tab title="Type" %}
-The type filter enables you to categorize and view all attacks by their predefined attack type. For instance, selecting the filter for Hyperlink attacks will display all the templates associated with this specific type of attack.\
-
+The type filter enables you to categorize and view all attacks by their predefined attack type. For instance, selecting the filter for Hyperlink attacks will display all the templates associated with this specific type of attack.<br>
 
 <figure><img src="../../.gitbook/assets/image (318).png" alt="" width="301"><figcaption></figcaption></figure>
 

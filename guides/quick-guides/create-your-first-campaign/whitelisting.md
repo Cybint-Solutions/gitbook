@@ -26,9 +26,8 @@ Below are quick guides for **Microsoft 365 (O365)** and **Google Workspace**. Fo
 
 1. Open the Microsoft 365 Defender portal -> `security.microsoft.com`
 2. Go to Email & Collaboration > Policies & Rules > Threat Policies.
-3. In Advanced Delivery, under Phishing Simulation, click "Edit" to add the sending domain, the IP of Lucy, and the simulation URL.\
-
+3. In Advanced Delivery, under Phishing Simulation, click "Edit" to add the sending domain, the IP of Lucy, and the simulation URL.<br>
 
 <figure><img src="../../../.gitbook/assets/image (231).png" alt="" width="375"><figcaption></figcaption></figure>
 
-\
+<br>
