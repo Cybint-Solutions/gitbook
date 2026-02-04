@@ -1,4 +1,6 @@
-# Phishing Programs
+# Adaptive Phishing Programs
+
+
 
 {% hint style="info" %}
 Adaptive Phishing Programs are available in Lucy version 5.7 and above.
@@ -6,16 +8,24 @@ Adaptive Phishing Programs are available in Lucy version 5.7 and above.
 
 ## Introduction
 
-**Adaptive Attack Scenarios** is a new simulation mode that automatically adjusts phishing attack difficulty for each user based on their individual [**Risk Score**](users/risk-score.md). Instead of running static campaigns or manually segmenting users into fixed groups, Lucy continuously personalizes attack scenarios over time, creating a more realistic and scalable training experience.
 
-With Adaptive Attack Scenarios, campaigns are generated automatically at scheduled intervals. Each recipient is assigned a phishing scenario that matches their current risk level, and this assignment evolves as their Risk Score changes. This allows organizations to deliver ongoing, tailored simulations without the need to redesign or rebalance campaigns manually.
+
+Adaptive Programs are a new simulation mode that automatically adjusts phishing attack difficulty for each user based on their individual [risk score](users/risk-score.md). Unlike traditional campaigns that send the same content to all employees at once, an Adaptive Program is a continuous, self-adjusting system that evolves based on real-time user behavior.
 
 This feature is designed for organizations that want:
 
-* Continuous phishing simulations without manual campaign management
 * Difficulty progression based on user behavior
 * Reduced administrative overhead
 * More accurate measurement of user risk over time
+
+#### The Assess-Learn-Adapt Cycle
+
+The system functions as an automated loop that minimizes manual intervention while maximizing training effectiveness:
+
+* **Behavioral Tracking:** The system monitors how each user interacts with simulated threats.
+* **Risk Scoring:** Based on these interactions, the system calculates and updates a unique [risk score](users/risk-score.md) for every user.
+* **Dynamic Assignment:** Users are automatically categorized (e.g., Rookie, Advanced, or Expert) and assigned phishing scenarios tailored to their specific skill level.
+* **Automated Iteration**: The system schedules and launches new campaigns indefinitely, learning from the results of one campaign to optimize the next.
 
 ## Getting Started
 
@@ -58,7 +68,7 @@ Adding and configuring a scenario works just like in a [standard campaign](campa
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Users will not receive a scenario they've already received unless they've exhausted all scenarios in their level. Be sure to add a sufficient number to avoid repeats, and think carefully about the overall length of your program!
+Users will not receive a scenario they've already received unless they've exhausted all scenarios in their level. To ensure a broad and non-repetitive learning experience, it is recommended to add at least 3–4 scenarios per risk level.
 {% endhint %}
 
 {% hint style="success" %}
@@ -99,8 +109,15 @@ On the dashboard page you can select **Program Statistics** to see an overview o
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/unknown.png" alt=""><figcaption></figcaption></figure>
 
-Selecting **Export Statistics** will take you to the [Statistics Dashboard](statistics-dashboard.md) where you can filter by Adaptive Programs and then generate a report.
+This view will again look familiar, with a few new additions:
 
-Select **Edit Program** to go back to the program dashboard.
+* **Export Statistics**: Select this to go to the [Statistics Dashboard](statistics-dashboard.md) where you can filter by Adaptive Programs and then generate a report.
+* **Edit Program**: Select this to go back to the program dashboard.
+* **Average Risk Level**: The current mean risk score across all participating users.
+* **Recipients (Users)**: The total number of unique users enrolled in the program.
+* **Adaptive Program Runs**: A counter showing how many times the system has automatically executed a new campaign cycle.
+* **Risk Levels**: This bar chart categorizes users by their risk tier (Rookie, Advanced, or Expert) for each of the most recent campaign runs.
+*   **Average Attack Risk Score**: This line graph tracks the fluctuation of the average risk score across your last five campaign cycles.&#x20;
+
