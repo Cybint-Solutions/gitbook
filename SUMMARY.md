@@ -61,6 +61,7 @@
   * [Statistics Dashboard](application-reference/statistics-dashboard.md)
   * [Campaigns Dashboards](application-reference/campaigns-dashboards.md)
   * [Adaptive Phishing Programs](application-reference/adaptive-phishing-programs.md)
+  * [AURA](application-reference/aura.md)
   * [Campaigns](application-reference/campaigns/README.md)
     * [Wizard Mode](application-reference/campaigns/wizard-mode/README.md)
       * [Settings](application-reference/campaigns/wizard-mode/settings/README.md)
