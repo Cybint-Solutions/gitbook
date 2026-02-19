@@ -312,10 +312,12 @@ The name of the sender. This can be anything you want.
 
 #### Sender Email
 
-The email address of the sender. This does **not** need to be an existing email address, but the domain **does** need to point to your Lucy server. For best results, use the same domain as your awareness website.
+The email address of the sender. This does **not** need to be an existing email address, but the domain **does** need to point to your Lucy server.
 
 {% hint style="info" %}
-It's advisable to use a sender domain that is associated with the registered domain of the attack since this domain's DNS records (SPF, MX) are automatically configured to point to your Lucy server. This alignment helps ensure that the emails appear more legitimate and reduces the risk of them being flagged as spam.
+In order to avoid your server being blacklisted, it is **strongly** recommended that you do not use your admin domain to send attack emails or to host attack content.
+
+For best results you should [register at least one attack domain](../../../../../guides/quick-guides/create-your-first-campaign/register-an-attack-domain.md).
 {% endhint %}
 
 #### **Content**
