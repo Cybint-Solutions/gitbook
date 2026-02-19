@@ -2,10 +2,11 @@
 
 ## Introduction
 
-LUCY Awareness supports integration with WhatsApp messaging services to deliver awareness messages and campaign notifications. Two integration options are available:
+LUCY Awareness supports integration with WhatsApp messaging services to deliver awareness messages and campaign notifications. Three integration options are available:
 
 * **WhatsApp (by Meta)** – Direct integration using Meta’s official WhatsApp Business Cloud API.
 * **WhatsApp (via Messente)** – Integration via the third-party Messente messaging platform.
+* **Microsoft Teams -** Integration via Entra ID (formerly known as Azure).
 
 {% hint style="info" %}
 Navigate to: **Settings > Common System Settings > Messenger Settings**
@@ -13,13 +14,11 @@ Navigate to: **Settings > Common System Settings > Messenger Settings**
 
 ***
 
-## Creating a WhatsApp Campaign
+## WhatsApp (by Meta)
 
 {% hint style="success" %}
 To begin using WhatsApp with Lucy please contact your **Solution Engineer** by email.
 {% endhint %}
-
-## WhatsApp (by Meta)
 
 Direct API integration with Meta’s WhatsApp Business platform.
 
@@ -146,3 +145,61 @@ Custom messages are only sent **after** a recipient responds to the initial mess
 If you prefer to use a template from Meta you can simply enter the name of the template in the **Messate Template** settings:
 
 <figure><img src="../../../.gitbook/assets/image (1000).png" alt=""><figcaption></figcaption></figure>
+
+## Microsoft Teams
+
+{% hint style="info" %}
+Teams messaging is currently in Beta and is available by request.
+
+For access to this Beta feature, please contact your account manager.
+{% endhint %}
+
+To connect your Lucy workstation to your MS Teams application all you need to do is set up an app registration in Entra ID and connect it to Lucy. General instructions for this can be found [here](azure-applications.md). Keep reading for the required settings to connect an application for Microsoft Teams.
+
+{% hint style="info" %}
+If you already have a connected application, you can skip these steps and simply select the **Microsoft Teams** checkbox in the azure application's settings. Go to **Settings > Common System Settings > Azure Applications** and select the application to view and configure the settings.
+{% endhint %}
+
+### App Registration
+
+**Support Account Types**
+
+Accounts in this organizational directory only (Single Tenant).
+
+**Redirect URIs:**
+
+In the app registration menu use a **Web** URI like so: `https://yourlucyURL.tld/oauth` .
+
+After registration, create a second **Single Page Application** redirect URI with the same URL.
+
+**Application ID, Tenant ID, and Secret**
+
+Create a new Secret and then copy all 3 values.
+
+### Connect to Lucy
+
+{% hint style="info" %}
+**Note on who can send Teams messages**
+
+It is important to note that the only account that will be authorized to send messages in your Teams application is the account that performs the app authorization.
+
+**No other senders will be able to message your recipients in Teams.**
+{% endhint %}
+
+Go to **Settings > Common System Settings > Azure Applications** and create a new application. Give it a name and a Client, then select the **Microsoft Teams** checkbox. Paste the application ID, tenant ID, and secret, then click **Save**.
+
+{% hint style="info" %}
+**Note on who can send Teams messages**
+
+It is important to note that the only account that will be authorized to send messages in your Teams application is the account that performs the app authorization at the end of this step. **No other senders will be able to message your recipients in Teams.**
+{% endhint %}
+
+Here is a brief overview of the permissions required by the application:
+
+<table><thead><tr><th width="175">Permission</th><th width="112.00006103515625">Type</th><th>Description</th></tr></thead><tbody><tr><td>User.Read</td><td>Delegated</td><td>Allows the app to sign in and read the profile of the signed-in user.</td></tr><tr><td>Chat.Create</td><td>Delegated</td><td>Allows the app to create new one-on-one or group chats on behalf of the signed-in user.</td></tr><tr><td>ChatMessage.Send</td><td>Delegated</td><td>Allows the app to send messages in any chat that the signed-in user has access to.</td></tr><tr><td>Chat.ReadWrite</td><td>Delegated</td><td>Allows the app to read and write all chats the signed-in user can access, including sending messages, editing, and deleting messages.</td></tr><tr><td>openid</td><td>Delegated</td><td>Required for OpenID Connect authentication to identify the signed-in user.</td></tr></tbody></table>
+
+### Set Microsoft Teams as your message provider
+
+After saving and authorizing the app, go to **Settings > Common System Settings > Messenger Settings**. Select Microsoft Teams as the provider and select the azure application you configured in the last step.
+
+Click **Save** and you are now ready to use Microsoft Teams in your campaigns. For assistance designing and executing Teams campaigns please contact your Solution Engineer.
