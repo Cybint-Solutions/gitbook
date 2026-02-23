@@ -105,6 +105,7 @@
     * [Awareness Training Diploma](application-reference/templates/awareness-training-diploma.md)
     * [Download templates](application-reference/templates/download-templates.md)
     * [Variables in Lucy](application-reference/templates/variables-in-lucy.md)
+    * [Automatic Translation](application-reference/templates/automatic-translation.md)
   * [Users](application-reference/users/README.md)
     * [Recipient Groups](application-reference/users/recipient-groups.md)
     * [End Users](application-reference/users/end-users.md)
