@@ -1,5 +1,15 @@
 # AURA
 
+{% hint style="info" %}
+AURA is available in Lucy version 5.7 and above.
+{% endhint %}
+
+{% hint style="info" %}
+AURA is currently in Beta and is available by request.
+
+For access to this Beta feature, please contact your account manager.
+{% endhint %}
+
 ## Introduction <a href="#overview.1" id="overview.1"></a>
 
 AURA is an automated awareness engine designed to run a continuous security awareness program without requiring manual campaign setup.

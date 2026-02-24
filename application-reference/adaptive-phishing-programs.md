@@ -6,9 +6,13 @@
 Adaptive Phishing Programs are available in Lucy version 5.7 and above.
 {% endhint %}
 
+{% hint style="info" %}
+Adaptive Phishing is currently in Beta and is available by request.
+
+For access to this Beta feature, please contact your account manager.
+{% endhint %}
+
 ## Introduction
-
-
 
 Adaptive Programs are a new simulation mode that automatically adjusts phishing attack difficulty for each user based on their individual [risk score](users/risk-score.md). Unlike traditional campaigns that send the same content to all employees at once, an Adaptive Program is a continuous, self-adjusting system that evolves based on real-time user behavior.
 
