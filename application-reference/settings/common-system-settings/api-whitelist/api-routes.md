@@ -204,6 +204,7 @@ Base URL: your-lucy-url.tld/api
 | /victims/{id}                          | <mark style="color:blue;">GET</mark>   | Get a victim                               |
 | /victims/{id}/custom-field             | <mark style="color:green;">POST</mark> | Update a victim's custom fields            |
 | /campaigns/victims/{id}/re-send/{type} | <mark style="color:green;">POST</mark> | Re-send scenario or awareness for a victim |
+| /victims/click-data/{id}               | <mark style="color:blue;">GET</mark>   | Get a victim's click data                  |
 
 ## Diplomas
 
