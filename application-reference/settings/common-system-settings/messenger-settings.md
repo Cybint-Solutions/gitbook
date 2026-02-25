@@ -149,7 +149,9 @@ If you prefer to use a template from Meta you can simply enter the name of the t
 ## Microsoft Teams
 
 {% hint style="info" %}
-Teams messaging is currently in Beta.
+Teams messaging is currently in Beta and is available by request.
+
+For access to this Beta feature, please contact your account manager.
 {% endhint %}
 
 To connect your Lucy workstation to your MS Teams application all you need to do is set up an app registration in Entra ID and connect it to Lucy. General instructions for this can be found [here](azure-applications.md). Keep reading for the required settings to connect an application for Microsoft Teams.
