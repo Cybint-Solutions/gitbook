@@ -168,8 +168,6 @@ Accounts in this organizational directory only (Single Tenant).
 
 In the app registration menu use a **Web** URI like so: `https://yourlucyURL.tld/oauth` .
 
-After registration, create a second **Single Page Application** redirect URI with the same URL.
-
 **Application ID, Tenant ID, and Secret**
 
 Create a new Secret and then copy all 3 values.
