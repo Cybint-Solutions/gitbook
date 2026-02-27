@@ -10,6 +10,16 @@ If you are interested in this feature please contact your account manager.
 
 ***
 
+## How to enable
+
+Go to **Settings > Advanced System Settings > Advanced Settings** and enable the checkbox:
+
+<figure><img src="../../.gitbook/assets/image (1044).png" alt=""><figcaption></figcaption></figure>
+
+Click **Save** to apply.
+
+***
+
 ## How it works
 
 1. Select an awareness.
