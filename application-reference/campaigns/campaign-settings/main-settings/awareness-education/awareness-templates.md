@@ -369,10 +369,12 @@ Lucy allows the configuration of an external SMTP server via its general setting
 This feature is designed to automate the provisioning of multiple awareness templates based on three pre-defined goals.
 
 1. Group recipients into Awareness Groups and serve them training content related to their day-to-day activities
-2. Automate the sending of awareness content based on the recipient's **risk level**
-3. Use the Scheduler to create specific rules for different scenarios to manage selected Awareness Groups.
+2. Automate the sending of awareness content based on the recipient's [**risk level**](../../../../users/risk-score.md)
+3. Use the [Scheduler](../../configuration/schedule/) to create specific rules for different scenarios to manage selected Awareness Groups.
 
 {% hint style="warning" %}
-Awareness Groups are active only in campaigns with awareness scenarios, excluding phishing scenarios.
+Awareness Groups are active only in campaigns with awareness scenarios.
 {% endhint %}
+
+Click [here](../../../../../guides/awareness-training/awareness-only-campaigns/using-awareness-groups.md) for a guide on using Awareness Groups.
 
