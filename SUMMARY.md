@@ -50,7 +50,7 @@
   * [Awareness Training](guides/awareness-training/README.md)
     * [Awareness Template Customization](guides/awareness-training/awareness-template-customization.md)
     * [Awareness Only Campaigns](guides/awareness-training/awareness-only-campaigns/README.md)
-      * [Using Multiple Awareness Trainings](guides/awareness-training/awareness-only-campaigns/using-multiple-awareness-trainings.md)
+      * [Using Awareness Groups](guides/awareness-training/awareness-only-campaigns/using-awareness-groups.md)
     * [Use extended method of tracking the end of the quiz](guides/awareness-training/use-extended-method-of-tracking-the-end-of-the-quiz.md)
   * [Reporting Plugin](guides/reporting-plugin/README.md)
     * [Deploying Office 365](guides/reporting-plugin/deploying-office-365.md)

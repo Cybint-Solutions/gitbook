@@ -1,4 +1,4 @@
-# Using Multiple Awareness Trainings
+# Using Awareness Groups
 
 ## Use Cases
 
@@ -15,41 +15,46 @@ In this method we will add multiple recipient groups to a campaign and send them
 
 Add each awareness training to the campaign:
 
-<figure><img src="../../../.gitbook/assets/image (896).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1046).png" alt=""><figcaption></figcaption></figure>
 
 ### Create Awareness Groups
 
-Select **Awareness Groups** from the campaign configuration menu and create one group per training:
+Select **Awareness Groups** and create a group for each Awareness training:
 
-<figure><img src="../../../.gitbook/assets/image (897).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1047).png" alt=""><figcaption></figcaption></figure>
+
+To create a new Awareness Group type the name into the text box at the bottom and select **Add**.
+
+<figure><img src="../../../.gitbook/assets/image (1048).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-By default a group called **Default Group** already exists. You cannot delete the only awareness group in a campaign, so you must create at least one other group first and then delete the default.
+By default, one group already exists named after the first awareness added to the campaign.\
+You can rename this group.
+
+Every Awareness campaign requires at least one Awareness group.
 {% endhint %}
 
 ### Assign Awareness Groups
 
-Return to the **Awareness Settings** and select a training. Go to the **Awareness Groups** tab and assign the awareness group you created for that training:
+To assign an Awareness Group, select one of the Awareness scenarios and go to the **Awareness Groups** tab:
 
-<figure><img src="../../../.gitbook/assets/image (898).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1049).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 To assign an awareness group select it from the menu and click **Bind**.
 {% endhint %}
 
-Repeat this step for every training scenario, until each one is bound to a different group:
+Repeat this step for every Awareness scenario until each one is bound to a different group:
 
-<figure><img src="../../../.gitbook/assets/image (899).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1050).png" alt=""><figcaption></figcaption></figure>
 
 ### Add Recipients
 
 Go the **Recipients** page and select **Add Group**. Select your recipients and at the bottom of the page select an awareness group to bind it to those recipients:
 
-<figure><img src="../../../.gitbook/assets/image (901).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1051).png" alt=""><figcaption></figcaption></figure>
 
-**Save** to continue and repeat this step for each awareness group.
-
-<figure><img src="../../../.gitbook/assets/image (903).png" alt=""><figcaption></figcaption></figure>
+Select **Save** to continue, and repeat this step for each awareness group.
 
 {% hint style="info" %}
 You can use the same group multiple times and bind recipients to multiple awareness groups. If a recipient is bound to multiple awareness groups they will receive each training bound to them.
