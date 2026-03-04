@@ -70,7 +70,7 @@ Enable this option to send a reminder to users who did not click on the link in 
 
 To customize a reminder email, select **Edit Template** for the desired reminder type:
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Select your language and configure the reminder email for the chosen language.
 

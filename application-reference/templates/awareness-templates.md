@@ -77,11 +77,7 @@ For example, search for **Exam-Information Security in AI Exam**
 {% tab title="Videos" %}
 Video-only templates feature thematic characters and include interactive options, engaging users through narrative-driven content that illustrates security concepts and practices in an immersive format.
 
-For example, search for **Cyber Detectives Social Engineering Video** or **Kevin Vidoes**
-
-<figure><img src="../../.gitbook/assets/image (77).png" alt="" width="563"><figcaption></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image (392).png" alt="" width="563"><figcaption></figcaption></figure>
+Click here for our guide on using custom videos in Lucy templates.
 {% endtab %}
 {% endtabs %}
 

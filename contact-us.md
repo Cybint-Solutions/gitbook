@@ -8,7 +8,7 @@ Navigate to **Support > Help Center**
 
 Here you can view your existing tickets and open new ones.
 
-<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### My Tickets
 

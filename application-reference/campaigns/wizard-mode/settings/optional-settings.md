@@ -52,7 +52,7 @@ Enable this option to create End User accounts for your recipients and enable th
 [End User](../../../users/end-users.md) accounts give your recipients access to a dashboard where they can view their stats and training materials. See [here](../../../users/end-user-portal-settings.md) for a guide on setting up the end user portal.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Domain
 

@@ -1,262 +1,411 @@
 # Awareness Template Customization
 
-## Edit Awareness Template
+## Editing an Awareness Template
 
-Lucy provides two main ways to customize templates: you can either copy and edit an existing template or start fresh with a blank canvas to create a new awareness template.
+You can customize awareness templates in two ways:
 
-<details>
+1. **Copy an existing template** and modify it to fit your needs.
+2. **Create a new template** and build it from scratch.
 
-<summary><strong>Copy an existing template</strong></summary>
-
-Search for the desired template, select the template, click on the Actions drop-down and select Copy.
-
-![](<../../.gitbook/assets/image (60).png>)
-
-Please wait while the system creates the copy. The time required may vary depending on the size of the template and could take a few minutes.
-
-Once the copying process is complete, the system will display a green banner indicating "<mark style="color:green;">Finished Successfully.</mark>"
-
-After copying a template, when you search for the template, you'll find the original plus the new copy, which is distinguished by the addition of "(copy)" in the title.<br>
-
-![](<../../.gitbook/assets/image (61).png>)
-
-
-
-To edit the copied template, select "Edit Template"
-
-![](<../../.gitbook/assets/image (62).png>)
-
-</details>
-
-<details>
-
-<summary>Create a New Template</summary>
-
-Select the option for "New Template"
-
-![](<../../.gitbook/assets/image (325).png>)
-
-The subsequent page will take you to the base settings of the template, where you can define the core components of the template.
-
-![](<../../.gitbook/assets/image (801).png>)
-
-</details>
+Copying an existing template is the fastest option if you only need to adjust content or structure. Creating a new template gives you full control over the layout and messaging.
 
 {% hint style="info" %}
-For this guide, we will focus on customizing a **One Pager: Customizable template**
+**Tip:** Many awareness templates include custom JavaScript and CSS used for tracking statistics and ensuring proper functionality. To avoid breaking these features, it is recommended to **copy and modify an existing template** instead of creating one from scratch.
 {% endhint %}
 
-Select "Edit Template" to set key parameters that will improve future data classification and sorting.
-
-{% hint style="success" %}
-Please refer to our [Awareness Template - Platform Reference](../../application-reference/templates/awareness-templates.md) guide for detailed definitions of these parameters.
-{% endhint %}
-
-### Email Template
-
-Customize this default email template to match your organization's branding, font, and style. This email template is used if the "Send link to Awareness website automatically via Email" setting is enabled in your attack scenario.
-
-#### **Accessing the Template**
-
-Navigate to "Email Template".
-
-<figure><img src="../../.gitbook/assets/image (57) (1).png" alt=""><figcaption></figcaption></figure>
-
-**Setting Up the Email**
-
-Choose the language from the "Language" dropdown, e.g., English.
-
-{% hint style="warning" %}
-Languages don't translate automatically; you need to adapt each selected language manually.
-{% endhint %}
-
-**Email Details**
-
-* Fill in the "Subject" field, e.g., "Phishing training".
-* Enter "Sender Name", e.g., "IT Security".
-* Provide "Sender Email", e.g., "security@your-company.com".
-
-{% hint style="info" %}
-It's advisable to use a [sender domain ](../../application-reference/settings/common-system-settings/domains/#dns-records-explained)related to your company to create a sense of familiarity, especially since the user was just successfully phished.
-{% endhint %}
-
-**Content Editor**
-
-Choose "Editor Type" from the dropdown to select your preferred email editor.
-
-{% tabs %}
-{% tab title="Visual Editor" %}
-The Visual Editor is an easy-to-use tool that shows you how your content will look when finished. With a simple toolbar, you can format text and add multimedia without any coding.
-{% endtab %}
-
-{% tab title="Code Mirror" %}
-The Code Mirror Editor is for users with coding skills. It offers a text editor that highlights code for HTML and CSS, allowing detailed control over how the content looks and is structured.
-{% endtab %}
-{% endtabs %}
-
-**Composing the Email**
-
-Use the "Content" section for email composition.
-
-#### Format text with the toolbar options (bold, italic, underline, etc.).
-
-<figure><img src="../../.gitbook/assets/chrome_waltwZLXge.gif" alt=""><figcaption></figcaption></figure>
-
-#### Insert dynamic variables into the content.
-
-<figure><img src="../../.gitbook/assets/chrome_eqG0Q7TCD1.gif" alt=""><figcaption></figcaption></figure>
-
-<details>
-
-<summary>Dynamic Variables Explained</summary>
-
-When creating email templates, use placeholders to personalize content. These placeholders automatically replace with user data upon sending. Below is an explanation of each available variable.:
-
-* `%link%`: This variable represents the base URL of your site. Use it to construct absolute URLs for navigation within your emails.
-* `%user-password-reset%`: This placeholder is replaced with the unique URL for a password reset action.
-* `%user-profile-link%`: Inserts a direct link to the user's profile page in the End User Portal.
-* `%user-login-url%`: Provides a link to the End User Portal that utilizes SSO (OAuth 2.0) for login.
-* `%name%`: The full name of the email recipient.
-* `%firstname%`: The recipient's first name.
-* `%lastname%`: The recipient's last name.
-* `%email%`: The recipient's email address.
-* `%client%`: The name of the client associated with the recipient.
-* `%gender("MALE ADDRESSING", "FEMALE ADDRESSING", "NO GENDER")%`: This is a conditional variable that changes the greeting or addressing based on the recipient's gender.
-* `%subject%`: The subject line of the phishing email.
-* `%sender%`: The name of the sender of the phishing email.
-* `%sender-email%`: The email address from which the phishing email is sent.
-* `%started%`: The date when the related phishing campaign was started.
-* `%stopped%`: The date when the related phishing campaign was stopped.
-* `%time(FORMAT, OFFSET, ZONE)%`: A dynamic time variable where:
-  * `FORMAT` refers to the format in which the date/time should be displayed.
-  * `OFFSET` is the time offset from the mail send time, which can be positive or negative.
-  * `ZONE` is the time zone to be applied.
-  * Example: `%time("l, H:i", "0", "Europe/Zurich")%` would display the time of the email submission in the Europe/Zurich time zone.
-  * Example: `%time("Y/m/d H:i:s", "60")%` would show a timestamp one hour ahead of the email submission time.
-
-Note that these variables are intended for use in the HTML body of the email and are not applicable within CSS and Javascript files. They serve to customize the email content for each recipient and should be used accordingly to ensure a personalized user experience.
-
-</details>
-
-#### Click "Upload File or Image" to add company branding or assets.
-
-<figure><img src="../../.gitbook/assets/chrome_eiYtGWmOUv.gif" alt=""><figcaption></figcaption></figure>
-
-**Save and Preview**
-
-* Click "Save" to store your latest modifications to the email template settings.
-* Click "Preview" to review the email.
-
-### Content Template
-
-The Content Template page features a WYSIWYG editor, enabling administrators to adjust and define parameters related to the awareness landing page. In the context of a one-page awareness initiative, this setup offers an excellent opportunity to educate users about what to watch for in the simulated attack they just experienced.
-
-**Export to SCORM**\
-This button allows users to export the content they have created as a SCORM package (1.2 / 2004), which is a standard format for e-learning content that can be used with different learning management systems.
-
-{% hint style="warning" %}
-When exporting awareness content to an LMS, Lucy won't receive any stats. User progress is handled within the LMS.
-{% endhint %}
-
-**Upload Webpage**\
-Click this button to upload a .zip file of your custom HTML for the landing page.
-
-{% hint style="warning" %}
-Follow the file naming convention by using "index.html" as the name for your landing page.
-{% endhint %}
-
-**Language**\
-Admins use this dropdown to choose the content language, allowing phishing simulations to be localized for different audiences.
-
-**File**\
-Admins can select the file they want to edit, such as 'index.html', the main file for the awareness landing page.
-
-**Editor Type**\
-Admins can switch between different editors. The 'Visual Editor' is a WYSIWYG tool that lets you edit content easily without knowing HTML.
-
-**Content**\
-This is the main area where users create or edit the content of their awareness template.
-
-* **Source Button**: Allows users to switch to the HTML source code view if they need to make changes directly to the HTML.
-* **Formatting Toolbar**: Provides a suite of formatting tools, like bold, italic, font size, and color, to style the content.
-* **Styles, Format, Font, Size Menus**: These dropdowns provide additional styling options to format the text and content within the editor.
-* **Upload File or Image**: This feature lets administrators add images or other files directly into their content.
-
-**Preview**\
-The preview button enables administrators to see a live preview of the content as it will appear to the end-user when the awareness training is running.
-
-#### Edit the Content Template
-
-Several elements of the template can be customized to fit your brand, such as the logo, text, and email display options. This guide focuses on the one-page awareness template, which quickly informs users that the email they received was a phishing simulation. It helps reduce panic and offers tips on handling the attack.
-
-{% hint style="info" %}
-Quick tip: Maximize your editor window to simplify the customization process.
-{% endhint %}
-
-<figure><img src="../../.gitbook/assets/chrome_xyOT47MB8P (1).gif" alt=""><figcaption></figcaption></figure>
-
-#### Preview your template
-
-After applying your desired customizations, remember to click "Save" to commit the changes. You can then preview the template for inspection.
+Choose one of the options below to get started.
 
 ***
 
-### Editing Advanced Awareness Templates
+## Copy an Existing Template
 
-One-page templates need simple changes to the landing page (index.html) via a visual editor.&#x20;
+You can duplicate an existing template and modify the copy without affecting the original.
 
-Modifying these templates will require an administrator to access the source code for adaptions to pages and/or Quiz questions. The following guide will look at an advanced awareness template -> **All about Microsoft 365**
+#### Steps
 
-{% hint style="success" %}
-If you need help customizing your templates, please [contact our support](../../contact-us.md) department, and they will create a ticket with our content team to assist you.
+1. Search for the template you want to copy in the **Template Gallery**.
+2. Select the template from the results.
+3. Open the **Actions** dropdown menu.
+4. Click **Copy**.
+
+{% hint style="info" icon="check" %}
+The time required to create the copy depends on the size of the template and may take a few minutes. Video and SCORM templates generally take the longest.
+
+When the process is complete, a green banner will appear with the message **“Finished Successfully.”**
 {% endhint %}
 
-#### Cosmetic changes to the template
+#### Identifying the Copied Template
 
-Administrators can update the logo on the landing page (index.html) to change it for all training pages.
+After the copy is created, searching for the template will show both versions:
+
+* The **original template**
+* The **copied template**, labeled with **“(copy)”** added to the title
+
+#### Editing the Copied Template
+
+To modify the copied version:
+
+1. Select the copied template.
+2. Click **Edit Template**.
+
+This opens the template editor where you can update the content, layout, or settings as needed.
+
+***
+
+## Create a New Template
+
+To build a template from scratch:
+
+1. Click **Create Template**.
+2. On the next page, complete the template metadata fields.
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+#### General Info
+
+{% hint style="info" %}
+These fields define the core properties of the template.
+{% endhint %}
+
+**Icon**\
+Upload an image file to use as the template icon. This icon will appear in the **Template Gallery**.
+
+**Name**\
+Enter a name for the template.
+
+**Type**\
+Select the template type from the dropdown menu.
+
+**Client**\
+Assign the template to a specific client or make it available to all clients by selecting **All**.
+
+**SCORM Version**\
+If the template uses SCORM, select the appropriate SCORM version.
+
+**Platform**\
+Choose whether the template is intended for **Desktop**, **Mobile**, or **both**.
+
+**Description**\
+Provide a short description of the template.
+
+***
+
+#### Quiz Settings
+
+These settings apply if the template includes a quiz.
+
+**Quiz**\
+Enable this option if the template will include a quiz.
+
+**Extended Tracking Method**\
+If the **Quiz** option is enabled, you can optionally enable extended quiz tracking.\
+Refer to the [extended quiz tracking guide](use-extended-method-of-tracking-the-end-of-the-quiz.md) for more information.
+
+**Minimum Correct Answers**\
+By default, users receive credit for completing the quiz. You can set a minimum number of correct answers to require a passing score.
+
+***
+
+#### Template Language
+
+Select all languages supported by the template.
+
+If multiple languages are selected, translated content must be provided for each language. This can be done manually or by using the [**AI Translation**](../../application-reference/templates/automatic-translation.md) feature.
+
+***
+
+#### Template Attributes (Optional)
+
+{% hint style="info" %}
+These settings help categorize templates and make them easier to find in the **Template Gallery**.
+{% endhint %}
+
+**Difficulty Level**\
+Select **Low**, **Medium**, or **High** depending on the intended difficulty.
+
+**Content**\
+Choose the relevant content types (for example, **Meetings** or **Social Media**).
+
+**Sender**\
+Select the sender type associated with the template (for example, **HR** or **Legal**).
+
+**Target Audience**\
+Select the intended audience (for example, **End Users** or **Management**).
+
+**Duration**\
+Provide the estimated time required to complete the template.
+
+**Brands**\
+Select any brands the template is intended to replicate. This option is typically used for **attack templates**.
+
+***
+
+## Customizing the Email Content
+
+The **Email Template** section allows you to configure the email that users will receive as part of the awareness campaign. Each language version of a template has its own email content, so you must configure the content separately for every supported language.
+
+#### Language
+
+Use the **Language** dropdown to select which language version of the email you want to edit.
+
+Email content is **not automatically translated or synchronized between languages**. If your template supports multiple languages, you must create and maintain the content for each language individually.
+
+***
+
+#### Email Settings
+
+**Subject**\
+Enter the subject line that will appear in the recipient’s inbox.
+
+**Sender Name**\
+Specify the display name that appears as the sender of the email.
+
+**Sender Email**\
+Enter the email address that will be used to send the message.
+
+**Editor Type**\
+Choose the editing method for the email content. The **Visual Editor** allows you to design the email using a WYSIWYG interface.
+
+***
+
+#### Email Content Editor
+
+Use the editor to create and format the body of the email. This area supports typical formatting options such as text styling, links, images, and layout adjustments.
+
+***
+
+#### AI Translation
+
+If your template supports multiple languages, you can use the **AI Translation** option to help generate translated versions of the email content. Translations should always be reviewed to ensure accuracy.
+
+***
+
+#### Attachments
+
+The **Attachments** section allows you to include files or embedded images with the email.
+
+**Embedded Images**\
+Displays images currently embedded in the email content.
+
+**Attachments**\
+Lists files that will be attached to the email.
+
+**Add Attachment**\
+Click **Choose file** to upload a file that will be included as an attachment in the email.
+
+{% hint style="info" %}
+After editing the email content, click **Save** to apply your changes to the template.
+
+Once the email content is saved, you can use the **Preview** button to review how the email will appear to recipients.
+{% endhint %}
+
+***
+
+## Customizing the Content Template
+
+The **Content Template** section controls the awareness webpage that users will see when they open the training or awareness content. This page can include text, images, videos, and interactive elements such as quizzes.
+
+#### Language
+
+Use the **Language** dropdown to select which language version of the webpage you want to edit.
+
+Each language maintains its **own independent content**. Changes made to one language will **not automatically apply to other languages**, and translations must be created separately.
+
+***
+
+#### File
+
+The **File** dropdown allows you to select which file from the template package you want to edit.
+
+Most templates use **`index.html`** as the main entry point for the awareness content.
+
+If the template contains multiple files, you can select and edit each file individually from this dropdown.
+
+***
+
+#### Editor Type
+
+Select how you want to edit the webpage content.
+
+**Visual Editor**\
+A WYSIWYG editor that allows you to modify content visually without directly editing HTML code.
+
+**Code Mirror**\
+A code editor that allows you to directly edit the template’s HTML, CSS, and JavaScript.
+
+***
+
+#### Content Editor
+
+The **Content** editor is where you modify the webpage content itself. You can use the editor toolbar to:
+
+* Format text (bold, italics, headings, etc.)
+* Insert links and images
+* Upload files or media
+* Add tables and other formatting elements
+* Insert [system variables](../../application-reference/templates/variables-in-lucy.md) where supported
+
+***
+
+#### AI Translation
+
+If the template supports multiple languages, the **AI Translation** option can assist in generating translated versions of the webpage content. Translated content should always be reviewed for accuracy before publishing.
+
+***
+
+#### Upload Webpage
+
+If you want to replace the existing webpage content entirely, you can use **Upload Webpage** to upload a packaged HTML webpage for the template.
+
+This is typically used when importing externally designed awareness content.
+
+Uploaded content must be in a `.zip` file and include an `index.html` file.
+
+***
+
+#### Export to SCORM
+
+The **Export to SCORM** option allows you to export the awareness content as a **SCORM package**, which can be used in external Learning Management Systems (LMS).
+
+***
+
+#### Previewing the Content
+
+Click **Preview** to view how the webpage will appear to users before saving your changes.
+
+You must save the content first before previewing in order to see your changes.
+
+***
+
+## Editing Advanced Awareness Templates
+
+Some awareness templates contain multiple pages, interactive elements, and quiz logic. These templates require edits to the underlying HTML, CSS, or JavaScript files rather than simple visual changes.
+
+{% hint style="success" %}
+If you need assistance customizing a template, contact [**Lucy Support**](../../contact-us.md).
+{% endhint %}
+
+***
+
+#### Updating the Logo
+
+You can update the logo displayed on the landing page by editing the **`index.html`** file.\
+Changes made to the logo in this file will apply across all training pages that reference it.
 
 <figure><img src="../../.gitbook/assets/chrome_di5sRQ7mMi.gif" alt=""><figcaption></figcaption></figure>
 
-#### Changing the color scheme
+***
 
-To change the default color scheme, access the "style.css" file in the "All about Microsoft 365" template.
+#### Changing the Color Scheme
 
-<figure><img src="../../.gitbook/assets/image (54) (1).png" alt=""><figcaption></figcaption></figure>
+To modify the default color scheme, edit the **`style.css`** file included in the template.
 
-If you preview and inspect the default template using Developer Tools in your browser, you will be able to identify the related elements.
+To identify which elements control specific parts of the page:
+
+1. Open the template in your browser.
+2. Use your browser’s **Developer Tools** to inspect the page.
+3. Locate the CSS classes or styles responsible for the colors you want to change.
+4. Update the corresponding styles in **`style.css`**.
 
 <figure><img src="../../.gitbook/assets/image (55) (1).png" alt=""><figcaption></figcaption></figure>
 
+<figure><img src="../../.gitbook/assets/image (54) (1).png" alt=""><figcaption></figcaption></figure>
+
+***
+
 #### Editing lesson content
 
-Each lesson in your template has a corresponding page in the file system.
+Each lesson in the template corresponds to a separate HTML file within the template package.
 
-<figure><img src="../../.gitbook/assets/image (402).png" alt="" width="563"><figcaption></figcaption></figure>
+To identify which file controls a specific lesson page:
 
-To quickly identify the HTML file for a page, open index.html in a new tab and use the browser's Developer Tools to find the associated numerical value.
+1. Open **`index.html`** in a browser tab.
+2. Use the browser’s **Developer Tools** to inspect the navigation or lesson links.
+3. Identify the referenced HTML file associated with the lesson.
+4. Open and edit that file to update the lesson content.
 
 <figure><img src="../../.gitbook/assets/image (403).png" alt=""><figcaption></figcaption></figure>
 
-#### Editing the Exam questions
+<figure><img src="../../.gitbook/assets/image (402).png" alt="" width="563"><figcaption></figcaption></figure>
 
-The exam question bank is located in the Lucy file system named exam.js. You can simply navigate to the exam.js file, and search for any keyword in the above question using your browsers search function:
+***
 
-<figure><img src="../../.gitbook/assets/image (408).png" alt="" width="563"><figcaption></figcaption></figure>
+#### Editing the quiz/exam questions
 
-This section enables you to modify the questions and/or answers. You can also indicate which answer is correct based on the numerical value associated with each answer.
+The question bank is stored in the **`exam.js`** file within the template.
+
+To modify quiz content:
+
+1. Open **`exam.js`** in the editor.
+2. Use your browser or editor search function to locate a question or keyword.
+3. Edit the question text, answers, or correct answer value.
+
+Each question is structured like so:
 
 ```
-{ //13
-        question: "",
-        question2: "Your PC at home is “behaving” strangely and you urgently need to finish a document for work. You are not allowed to:",
-        answer: 4,
-		type: "radio",
-        answers: [
-			"Go back to the office and finish the document on the work PC.",
-			"Take the business PC home to finish the document.",
-			"Edit the document on your private device, because if you have malware, you will find out, at the latest, when you open the document at work.",
-			"Inform your supervisor and complete the document as quickly as possible the next day."
-        ],
-        remark: ""
-	},
+{ 
+    question: "Your PC at home is behaving strangely and you urgently need to finish a document for work. You are not allowed to:",
+    answer: 4,
+    type: "radio",
+    answers: [
+        "Go back to the office and finish the document on the work PC.",
+        "Take the business PC home to finish the document.",
+        "Edit the document on your private device. If malware is present, it will become apparent when the document is opened at work.",
+        "Inform your supervisor and complete the document as quickly as possible the next day."
+    ],
+    remark: ""
+}
 ```
+
+**Question fields:**
+
+* **question** – The question text displayed to the user
+* **answers** – The available answer options
+* **answer** – The number corresponding to the correct answer
+* **type** – The input type (for example, radio buttons)
+
+Updating these values allows you to modify the quiz questions and answers included in the template.
+
+## Custom Video Content
+
+{% hint style="info" %}
+Video templates use JavaScript to track statistics such as whether a user has completed watching a video.
+
+To ensure this tracking functions correctly, it is strongly recommended to **copy an existing video template and replace the video file**, rather than creating a video template from scratch.
+{% endhint %}
+
+In this guide we will use the video template **Kevin works from home**.
+
+#### Copy the Video Template
+
+1. Locate the **Kevin Works From Home** template.
+2. Select the template, then open the **Actions** dropdown and click **Copy**.
+3. Select the copied template and click **Edit Template**.
+
+#### Upload the Video File
+
+1. In the **Content Template** section, click **Upload File or Image**.
+
+<figure><img src="../../.gitbook/assets/image (1055).png" alt=""><figcaption></figcaption></figure>
+
+1. Select **Browse Server**.
+2. Click **Upload** and upload your video file.
+3. After the upload completes, double-click the file to select it.
+
+<figure><img src="../../.gitbook/assets/image (1054).png" alt=""><figcaption></figcaption></figure>
+
+1. Copy the **entire file path** shown in the upload window.
+2. Close the upload window without saving by clicking **Cancel**.
+
+<figure><img src="../../.gitbook/assets/image (1052).png" alt=""><figcaption></figcaption></figure>
+
+#### Update the Video Source
+
+1. Select the **language** you want to edit.
+2. In the content editor, switch to **Code Mirror**.
+3. Locate the `<video>` element in the HTML.
+4. Replace the existing  `src` path with the path you copied.
+   1. **Only edit the `<source>` element, do not change the `<video>` element's `class` or `id` !**
+5. Save the template after updating the video source.
+
+<figure><img src="../../.gitbook/assets/image (1053).png" alt=""><figcaption></figcaption></figure>
