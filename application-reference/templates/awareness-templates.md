@@ -77,7 +77,7 @@ For example, search for **Exam-Information Security in AI Exam**
 {% tab title="Videos" %}
 Video-only templates feature thematic characters and include interactive options, engaging users through narrative-driven content that illustrates security concepts and practices in an immersive format.
 
-Click here for our guide on using custom videos in Lucy templates.
+Click [here](../../guides/awareness-training/awareness-template-customization.md#custom-video-content) for our guide on using custom videos in Lucy templates.
 {% endtab %}
 {% endtabs %}
 
