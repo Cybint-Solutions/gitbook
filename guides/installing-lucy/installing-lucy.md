@@ -12,17 +12,15 @@ Install the host OS, see our list of supported operating systems [here](hardware
 
 Download the installation file:
 
-
-
-**For Ubunto OS**
+**For Ubuntu 24 and up:**
 
 ```
 wget https://download.phishing-server.com/dl/lucy-latest/Install_lucy_5.7.2
 ```
 
-**Legacy**
+#### **Legacy Installers**
 
-**For Ubuntu 20.04 legacy:**
+**For Ubuntu 20.04:**
 
 ```
 wget https://download.phishing-server.com/dl/lucy-latest/install-20.04.sh
@@ -105,4 +103,3 @@ OVF: [https://download.phishing-server.com/dl/phishing-5.6/esxi\_ovf.zip](https:
 {% hint style="info" %}
 Be sure to set the network mode to "Bridged" for all of the above VM solutions.
 {% endhint %}
-
