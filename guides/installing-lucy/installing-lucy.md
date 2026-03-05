@@ -14,8 +14,16 @@ Download the installation file:
 
 **For Ubuntu 24 and up:**
 
+C++ version
+
 ```
 wget https://download.phishing-server.com/dl/lucy-latest/Install_lucy_5.7.2
+```
+
+Bash version
+
+```
+wget https://download.phishing-server.com/dl/lucy-latest/Install_lucy_5.7.2.sh
 ```
 
 #### **Legacy Installers**
