@@ -12,7 +12,17 @@ Install the host OS, see our list of supported operating systems [here](hardware
 
 Download the installation file:
 
-**For Ubuntu 20.04:**
+
+
+**For Ubunto OS**
+
+```
+wget https://download.phishing-server.com/dl/lucy-latest/Install_lucy_5.7.2
+```
+
+**Legacy**
+
+**For Ubuntu 20.04 legacy:**
 
 ```
 wget https://download.phishing-server.com/dl/lucy-latest/install-20.04.sh
