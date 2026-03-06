@@ -2,97 +2,99 @@
 
 ## Introduction
 
-Enduser portal settings pertain to recipients with access to view their training exercises in a dedicated portal. This article focuses on configuring the parameters of the portal that end users log into.
+End User Portal Settings apply to recipients who can access and view their training exercises through the [**End User Portal**](end-users/end-user-portal-overview.md).
+
+This section explains how to configure the settings that control the portal used by end users to log in and review their training activity.
 
 {% hint style="info" %}
-See our reference article on [End Users](end-users.md).
+For more information about end users, see our reference article on [End Users](end-users/).
 {% endhint %}
 
 ***
 
-## Configuration
+## Portal Settings
 
 {% hint style="info" %}
-Navigate to **Users -> Enduser Portal Settings**
+Navigate to **Users > End User Portal Settings**
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (790).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 {% tabs %}
-{% tab title="Networking" %}
-#### Domain
+{% tab title="Domain" %}
+Controls which domain is used to access the End User Portal.
 
-By default, your end-user portal will be hosted on the same domain as your administrative domain. For example if your server address is `https://lucyserver.com`, the portal login will be `https://lucyserver.com/user/`.
+Available options:
 
-You can change the domain to any domain added to your Lucy server. Ensure all relevant [DNS records](../settings/common-system-settings/domains/#dns-records-explained) are set up for custom domains.
+* **System Domain** – Uses the same domain as the Lucy admin interface.
+* **Custom Domain** – Uses the domain specified in the **Custom Domain** field.
+* **Local IP** – Uses the server's internal IP address.
+* **External IP** – Uses the server's external IP address.
+* **Registered Domains** – Any [domains configured in the system](../settings/common-system-settings/domains/) will appear in this list.
+* **Register New Domain** – Opens the option to [register a new domain](../settings/common-system-settings/domains/#register-a-domain-via-the-domain-registration-wizard).
 
-#### Subdomain
+**Custom Domain**
 
-Lucy offers the optional configuration of a subdomain, often used with custom domains. This allows you to point DNS records at the subdomain level to the IP address of the Lucy server. For example:\
-\
-`https://training.lucyserver.com/user/`
+Specifies the custom domain used when **Custom Domain** is selected.
 
-{% hint style="warning" %}
-Only single-level subdomains are allowed.
+If you use a subdomain, only **one subdomain level** is supported.
+
+Example:
+
+* **my.lucyserver.com** – supported
+* **my.awesome.lucyserver.com** – not supported
+
+{% hint style="info" %}
+#### SSO Warning
+
+If you plan to use **SSO** to authenticate end users, the **System Domain** must be used.
 {% endhint %}
-
-#### SSO Considerations
-
-End-user portal SSO (SAML 2.0) authentication will not work if you change the domain to anything other than the system domain.
-
-#### Port
-
-Hosting the end-user portal at a custom port might be done for several reasons:
-
-* **Security**: Using a non-standard port can reduce the likelihood of automated attacks targeting common ports.
-* **Compliance**: Some organizational policies or regulatory requirements might mandate the use of specific ports for certain services.
-* **Load Balancing**: Distributing traffic across multiple ports can help manage load and ensure better performance.
 {% endtab %}
 
-{% tab title="Name" %}
-Give your End User portal a company-specific name.\
-This name will appear on the login page in the "Welcome to..." banner.
+{% tab title="Portal Name" %}
+This name appears in the portal header.
 {% endtab %}
 
 {% tab title="Widgets" %}
-Control what the end-user sees in their portal; each section is known as a "Widget."\
-This option allows an administrator to deactivate certain sections.
+Controls which information sections are visible in the [End User Portal dashboard](end-users/end-user-portal-overview.md).
 
-<figure><img src="../../.gitbook/assets/image (611).png" alt="" width="377"><figcaption></figcaption></figure>
+Available widgets:
+
+* User Profile
+* Attack Simulation Stats
+* Personal Reputation Profile
+* Reputation Historical Stats
+* Awareness Stats
+* Available Trainings
+* Trainings History
+* Training Diplomas
 {% endtab %}
 
 {% tab title="Layout" %}
-### Text-based Layout
-
-<figure><img src="../../.gitbook/assets/image (613).png" alt=""><figcaption></figcaption></figure>
-
-### Thumbnails Layout
-
-<figure><img src="../../.gitbook/assets/image (614).png" alt=""><figcaption></figcaption></figure>
+Determines how training courses are displayed in the portal.
 {% endtab %}
 
 {% tab title="Language" %}
-Specify the default language of the portal:
+Sets the default language for the End User Portal.
 
-<figure><img src="../../.gitbook/assets/image (445).png" alt="" width="552"><figcaption></figcaption></figure>
-
-Additionally, the end-user can select their preferred language from the dropdown menu:
-
-<figure><img src="../../.gitbook/assets/image (446).png" alt="" width="563"><figcaption></figcaption></figure>
+If you enable the checkbox, Lucy will detect and apply the user's browser language.
 {% endtab %}
 
 {% tab title="Logo" %}
-Upload a custom logo for your end-user portal.\
-This logo will appear in the top-left corner of the portal pages.
+You can upload a custom logo for the End User Portal.
+
+This logo appears in the top-left corner.
 {% endtab %}
 {% endtabs %}
 
-## SSL
+***
 
-If you are hosting the portal on a different domain than your admin domain, or you are hosting on a different subdomain and have specific SSL for each subdomain, you can apply SSL here:
+## SSL Settings
 
-<figure><img src="../../.gitbook/assets/image (948).png" alt=""><figcaption></figcaption></figure>
+If the portal is hosted on a **different domain** than the admin portal, or on a **separate subdomain with its own SSL certificate**, you can configure SSL for the portal in this section.
+
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
-You must first generate or upload the SSL certificate in the [SSL Settings](../settings/common-system-settings/ssl-settings/).
+Before applying SSL here, you must first **generate or upload the SSL certificate** in the [**SSL Settings**](../settings/common-system-settings/ssl-settings/).
 {% endhint %}

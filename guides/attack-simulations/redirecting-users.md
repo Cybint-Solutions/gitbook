@@ -24,7 +24,7 @@ Time between the page loading and the redirect, measured in milliseconds.
 For example, a setting of 5000 = 5 seconds
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Redirecting from a web-based template
 
@@ -38,7 +38,7 @@ Like normal, set the form action on the landing page to `?login`:
 
 Then on the `account.html` page insert the redirect script using the **Insert Redirect** button in the WYSIWYG editor:
 
-<figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 This inserts a small JavaScript snippet to the page.\
 To remove the redirect behavior simply delete this line from the code.

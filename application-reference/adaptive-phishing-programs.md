@@ -35,11 +35,11 @@ The system functions as an automated loop that minimizes manual intervention whi
 
 To create an adaptive campaign navigate to **Phishing Programs** and then select **+ New Program:**
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 Give the program a name and a [client](settings/clients/), then select **Create**.
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Test Mode enables smaller frequency options and limits recipients to 10 for safe testing.
@@ -69,7 +69,7 @@ The difference is that Adaptive Programs use your configured [Risk Scores](users
 
 Adding and configuring a scenario works just like in a [standard campaign](campaigns/campaign-settings/main-settings/attack-simulation/attack-templates.md).
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Users will not receive a scenario they've already received unless they've exhausted all scenarios in their level. To ensure a broad and non-repetitive learning experience, it is recommended to add at least 3–4 scenarios per risk level.
@@ -101,7 +101,7 @@ Programs cannot be edited once started, so double-check your settings!
 
 Once you've finalized each step you'll be taken to the program's dashboard view, which looks very similar to the standard campaign view:
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Adaptive programs can use the [scheduler](campaigns/campaign-settings/configuration/schedule/), [generate reports](campaigns/campaign-settings/results/reports.md), and use all the other [advanced options](campaigns/campaign-settings/advanced-settings/) of a regular campaign.
@@ -111,7 +111,7 @@ Adaptive programs can use the [scheduler](campaigns/campaign-settings/configurat
 
 On the dashboard page you can select **Program Statistics** to see an overview of your program:
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/unknown.png" alt=""><figcaption></figcaption></figure>
 

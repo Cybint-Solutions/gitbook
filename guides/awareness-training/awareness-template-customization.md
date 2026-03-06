@@ -59,7 +59,7 @@ To build a template from scratch:
 1. Click **Create Template**.
 2. On the next page, complete the template metadata fields.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 #### General Info
 

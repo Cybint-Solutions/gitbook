@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Each [end user](end-users.md) has their own risk score based on the number of attacks they've been sent and the number of attacks they've failed. This reputation level can be leveraged in campaigns to send recipients specific attacks and trainings based on their risk score.
+Each [end user](end-users/) has their own risk score based on the number of attacks they've been sent and the number of attacks they've failed. This reputation level can be leveraged in campaigns to send recipients specific attacks and trainings based on their risk score.
 
 The formula for determining risk score is:
 
