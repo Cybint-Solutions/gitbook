@@ -14,8 +14,6 @@ Download the installation file:
 
 **For Ubuntu 22 and up:**
 
-<sup>Docker container version is Ubutnu 22.04</sup>
-
 C++ version
 
 ```
@@ -32,15 +30,11 @@ wget https://download.phishing-server.com/dl/lucy-latest/Install_lucy_5.7.2.sh
 
 **For Ubuntu 20.04:**
 
-<sup>Docker container version is Ubutnu 20.04</sup>
-
 ```
 wget https://download.phishing-server.com/dl/lucy-latest/install-20.04.sh
 ```
 
 **For Ubuntu 22.04:**
-
-<sup>Docker container version is Ubutnu 20.04</sup>
 
 ```
 wget https://download.phishing-server.com/dl/lucy-latest/install-22.04.sh
