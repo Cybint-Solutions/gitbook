@@ -101,6 +101,10 @@ Simply download the image and deploy it in your preferred solution.
 
 ### VMware
 
+ESXi: [https://download.phishing-server.com/dl/phishing-5.7/esxi.ova<br>](https://download.phishing-server.com/dl/phishing-5.7/esxi.ovahttps://download.phishing-server.com/dl/phishing-5.7/esxi_ovf.zip)OVF: [https://download.phishing-server.com/dl/phishing-5.7/esxi\_ovf.zip](https://download.phishing-server.com/dl/phishing-5.7/esxi.ovahttps://download.phishing-server.com/dl/phishing-5.7/esxi_ovf.zip)
+
+**Legacy**
+
 ESXi: [https://download.phishing-server.com/dl/phishing-5.6/esxi.ova](https://download.phishing-server.com/dl/phishing-5.6/esxi.ova)\
 OVF: [https://download.phishing-server.com/dl/phishing-5.6/esxi\_ovf.zip](https://download.phishing-server.com/dl/phishing-5.6/esxi_ovf.zip)
 
