@@ -1,6 +1,6 @@
 # System Logs
 
-Introduction
+## Introduction
 
 Lucy maintains an internal log of application events. This allows for comprehensive monitoring and investigation of most application events, beyond just the service logs (e.g., Apache2 web server, Postfix mail server). By analyzing these logs users can effectively track and diagnose errors within the application.
 
@@ -10,7 +10,7 @@ Navigate to **Support -> System Logs -> Service Logs**
 
 ***
 
-### How to view mail and web server logs
+## How to view mail and web server logs
 
 First select a file from the dropdown menu. On this page you can view the postfix mail log as well as the web server access and error logs.
 
@@ -20,7 +20,7 @@ Next define an interval, and Lucy will automatically paginate all the log entrie
 
 ***
 
-### How to export log files from Lucy
+## How to export log files from Lucy
 
 Often it is necessary to extract not just the mail and web server logs, but also runtime log files from the environment. Lucy offers a convenient way to download the runtime logs with a single click, just go to **Support > System Logs > Send Logs** and click the **Download Logs** button in the top-right.
 
@@ -34,7 +34,7 @@ You will download a `.zip` archive with the following:
 
 ***
 
-### Runtime logs
+## Runtime logs
 
 The `/opt/phishing/runtime/` folder contains a number of log files. Here is a breakdown of what types of operations are logged in each file.
 
@@ -42,7 +42,7 @@ The `/opt/phishing/runtime/` folder contains a number of log files. Here is a br
 
 ***
 
-### Campaign Logs
+## Campaign Logs
 
 Each campaign in Lucy maintains its own message and error logs, which you can find in the campaign menu on the left of every campaign:
 
@@ -63,5 +63,3 @@ A record of any error messages the campaign received while transmitting. These e
 
 {% endtab %}
 {% endtabs %}
-
-***

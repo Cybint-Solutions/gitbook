@@ -175,6 +175,7 @@
     * [Invoices](application-reference/account-settings/invoices.md)
   * [Navigation Bar](application-reference/navigation-bar.md)
   * [Dashboards](application-reference/dashboards.md)
+* [Troubleshooting FAQs](troubleshooting-faqs.md)
 * [Release Notes](release-notes/README.md)
   * [5.7.2](release-notes/5.7.2.md)
   * [5.7.1](release-notes/5.7.1.md)
