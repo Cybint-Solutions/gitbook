@@ -1,117 +1,124 @@
 # Installing Lucy
 
-## Time Required
+Lucy can be deployed using one of the following methods:
 
-Installation takes approximately 30-60 minutes, depending on your internet speed.
+* **Docker installation on a supported OS**
+* **Prebuilt virtual machines (VMware / VirtualBox)**
 
-***
+For a full list of supported operating systems, see the [**Supported Operating Systems**](hardware-requirements.md).
 
-## Installing with Docker
+## Docker Installation (Recommended)
 
-Install the host OS, see our list of supported operating systems [here](hardware-requirements.md).
+{% hint style="info" %}
+Supported Systems: Ubuntu 22.04 or higher
+{% endhint %}
 
-Download the installation file:
-
-**For Ubuntu 22 and up:**
-
-C++ version
+#### **C++ Installer**
 
 ```
 wget https://download.phishing-server.com/dl/lucy-latest/Install_lucy_5.7.2
 ```
 
-Bash version
+#### **Bash Installer**
 
 ```
 wget https://download.phishing-server.com/dl/lucy-latest/Install_lucy_5.7.2.sh
 ```
 
-#### **Legacy Installers**
-
-**For Ubuntu 20.04:**
-
-```
-wget https://download.phishing-server.com/dl/lucy-latest/install-20.04.sh
-```
-
-**For Ubuntu 22.04:**
-
-```
-wget https://download.phishing-server.com/dl/lucy-latest/install-22.04.sh
-```
-
-<figure><img src="../../.gitbook/assets/image (434).png" alt=""><figcaption></figcaption></figure>
-
-<details>
-
-<summary>Overview of install_script.sh</summary>
-
-This script is a comprehensive Bash installation and management script for deploying a Lucy server, which uses Docker containers.
-
-#### High-Level Overview
-
-1. **Pre-Installation Checks**:
-   * Verifies system prerequisites like kernel version, system architecture, and necessary ports availability. The script uses `set -e` to exit on any error.
-2. **Docker Installation and Configuration**:
-   * Checks for existing Docker installation and installs it if absent.
-   * Handles specific configurations like storage types and network ports.
-   * Manages and configures Docker containers specifically for Lucy, setting up necessary volumes and ports.
-3. **Lucy Installation**:
-   * Checks for sufficient disk space.
-   * Pulls the Lucy Docker image and runs it with necessary parameters.
-   * Configures system settings within the Docker container to integrate Lucy effectively.
-
-#### Notes
-
-* This script is highly specific to systems compatible with Docker and expects certain Linux kernel versions and architectures.
-* It provides extensive error handling and user prompts to ensure that installations and changes are made explicitly with user consent and awareness.
-
-</details>
-
-Make the file executable:&#x20;
+#### Make the installer exectuable
 
 ```
 sudo chmod +x install.sh
 ```
 
-Execute the file:
+#### Run the installer
 
 ```
 sudo ./install.sh
 ```
 
-<figure><img src="../../.gitbook/assets/image (428).png" alt=""><figcaption></figcaption></figure>
+#### Verify the Installation
 
-Installation completed successfully:
-
-<figure><img src="../../.gitbook/assets/image (418).png" alt=""><figcaption></figcaption></figure>
-
-Verify if your Lucy container is running:
+Once installation is complete, confirm the Lucy container is running:
 
 ```
 docker ps
 ```
 
-<figure><img src="../../.gitbook/assets/image (419).png" alt=""><figcaption></figcaption></figure>
+You should see the **Lucy container** listed in the output.
 
-## Installing with VMware or Virtualbox
+***
 
-We supply preconfigured virtual images for VMware and VirtualBox.\
-Simply download the image and deploy it in your preferred solution.
+### Legacy Installers
+
+{% hint style="info" %}
+⚠ **Warning**
+
+The legacy installation scripts deploy a **Docker container running Ubuntu 20.04**, which is **no longer supported**.
+
+Use these installers **only if you have a specific compatibility requirement**.
+{% endhint %}
+
+**Ubuntu 20.04 Host**
+
+```
+wget https://download.phishing-server.com/dl/lucy-latest/install-20.04.sh
+```
+
+**Ubuntu 22.04 Host**
+
+```
+wget https://download.phishing-server.com/dl/lucy-latest/install-22.04.sh
+```
+
+***
+
+## Virtual Machine Installations
+
+Lucy is also available as a **preconfigured virtual machine**.
 
 ### VMware
 
-ESXi: [https://download.phishing-server.com/dl/phishing-5.7/esxi.ova<br>](https://download.phishing-server.com/dl/phishing-5.7/esxi.ovahttps://download.phishing-server.com/dl/phishing-5.7/esxi_ovf.zip)OVF: [https://download.phishing-server.com/dl/phishing-5.7/esxi\_ovf.zip](https://download.phishing-server.com/dl/phishing-5.7/esxi.ovahttps://download.phishing-server.com/dl/phishing-5.7/esxi_ovf.zip)
+#### Current Version
 
-**Legacy**
+**ESXi**
 
-ESXi: [https://download.phishing-server.com/dl/phishing-5.6/esxi.ova](https://download.phishing-server.com/dl/phishing-5.6/esxi.ova)\
-OVF: [https://download.phishing-server.com/dl/phishing-5.6/esxi\_ovf.zip](https://download.phishing-server.com/dl/phishing-5.6/esxi_ovf.zip)
+```
+https://download.phishing-server.com/dl/phishing-5.7/esxi.ova
+```
+
+**OVF**
+
+```
+https://download.phishing-server.com/dl/phishing-5.7/esxi_ovf.zip
+```
+
+#### Legacy Version
+
+**ESXi**
+
+```
+https://download.phishing-server.com/dl/phishing-5.6/esxi.ova
+```
+
+**OVF**
+
+```
+https://download.phishing-server.com/dl/phishing-5.6/esxi_ovf.zip
+```
+
+***
 
 ### VirtualBox
 
-[https://download.phishing-server.com/dl/lucy-latest/virtualbox.zip](https://download.phishing-server.com/dl/lucy-latest/virtualbox.zip)
+```
+https://download.phishing-server.com/dl/lucy-latest/virtualbox.zip
+```
 
-{% hint style="info" %}
-Be sure to set the network mode to "Bridged" for all of the above VM solutions.
-{% endhint %}
+***
+
+### Important VM Configuration
+
+For **all VM deployments**, configure the network adapter as:
+
+**Network Mode:** `Bridged`
