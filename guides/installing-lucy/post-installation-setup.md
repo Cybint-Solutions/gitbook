@@ -1,16 +1,16 @@
-# Post Installation
+# Post Installation Setup
 
 ## Using the setup script
 
 Access your Lucy container and execute the setup script:
 
-Lucy version 5.2.1 and below:
+**Lucy version 5.2.1 and below**
 
 ```
 docker exec -it lucy python /opt/phishing/current/tools/setup/setup.py
 ```
 
-Lucy version 5.3 and above:
+**Lucy version 5.3 and above**
 
 ```
 docker exec -it lucy python3 /opt/phishing/current/tools/setup/setup.py
@@ -33,13 +33,13 @@ The script starts with this menu:
 
 <figure><img src="../../.gitbook/assets/image (974).png" alt=""><figcaption></figcaption></figure>
 
-### Create an Administrative user
+## Create an administrative user
 
 Select **Users** (6), then select **Add User** (2).
 
 <figure><img src="../../.gitbook/assets/image (423).png" alt=""><figcaption></figcaption></figure>
 
-### Configure the administrative domain
+## Configure the administrative domain
 
 Select **Base Task** (5) and enter a domain you own.
 
@@ -53,15 +53,15 @@ Ensure all relevant [DNS records](../../application-reference/settings/common-sy
 
 ***
 
-### Get your server licensed
+## Get a license
 
 Licensing restrictions currently limit some configuration options on your Lucy server. To start the licensing process, please contact your Account Manager and provide your Lucy [workstation ID](../../application-reference/account-settings/license.md#workstation-id).
 
-Once a license has been assigned to your workstation, you can sync the details by going to **Support -> Update** and clicking **Check Update**.
+Once a license has been assigned to your workstation, you can sync the details by going to **Support > Update** and clicking **Check Update**.
 
 ***
 
-### Initial Lucy configuration
+## Initial Lucy Configuration
 
 * [x] [Configure mail delivery.](../../application-reference/settings/common-system-settings/mail-settings.md)
 * [x] [Set up a domain for phishing simulations or the e-learning portal.](../../application-reference/settings/common-system-settings/domains/)
@@ -71,35 +71,3 @@ Once a license has been assigned to your workstation, you can sync the details b
 * [x] [Implement additional security layers.](../../application-reference/settings/common-system-settings/firewall.md)
 * [x] [Customize portal branding and 404 pages.](../../application-reference/settings/whitelabeling.md)
 * [x] [Set up your first campaign.](../quick-guides/create-your-first-campaign/)
-
-***
-
-### Uninstall LUCY
-
-1. **Legacy Installation (Debian OS, Lucy <= v4.8.7):**
-   * List installed packages:
-
-```
- awk '/^Selecting/ {gsub(/\./,""); print $5}' /var/log/apt/term.log
-```
-
-* Remove packages accordingly.
-
-1. **Docker Installation:**
-   * Stop the container:
-
-```
-docker stop lucy
-```
-
-* Remove the container:
-
-```
-docker container rm lucy
-```
-
-***
-
-### Support
-
-For installation assistance, please get in touch with our [Technical Support](../../contact-us.md) team.

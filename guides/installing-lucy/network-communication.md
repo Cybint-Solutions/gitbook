@@ -5,9 +5,19 @@ Below is an overview of these requirements.
 
 ***
 
+## Workstation IP Address
+
+Your workstation must use a **static IP address**. If the IP address changes, the workstation may lose its license.
+
+If this occurs, [contact Support](../../contact-us.md) for assistance reconnecting the license.
+
+If you cannot use a static IP address, notify your account manager or contact Support for guidance.
+
+***
+
 ## Outbound Communication
 
-### General Communication Types
+#### General Communication Types
 
 1. **First-Time Use**: During the first installation, LUCY connects via HTTP to obtain the workstation key and ID. No data beyond the current build version is transmitted.
 2. **Updates**: LUCY connects to our update server and Ubuntu repository mirror.
@@ -16,7 +26,7 @@ Below is an overview of these requirements.
 5. **Campaign Execution**: LUCY may communicate via SMTP (Port 25 or 465) when sending emails over the internet.
 6. **Vulnerability Detection**: To enable this feature, allow Port 80 access to `static.nvd.nist.gov` (129.6.13.177) for downloading the NIST CVE database.
 
-### Outbound Ports & IPs
+#### Outbound Ports & IPs
 
 | IP Address/Domain                           | Function                             | Port   | Protocol |
 | ------------------------------------------- | ------------------------------------ | ------ | -------- |
@@ -50,4 +60,4 @@ To access LUCY from the internet, specific ports must be open:
 
 ## Malware Simulation Communication
 
-The malware simulation tool uses the default browser (in hidden mode) to send collected data to LUCY via HTTP or HTTPS. For SSL-enabled campaigns, HTTPS is used automatically. The tool is compatible with environments requiring proxy authentication for internet access.
+The malware simulation tool uses the recipient's default browser (in hidden mode) to send collected data to LUCY via HTTP or HTTPS. For SSL-enabled campaigns, HTTPS is used automatically. The tool is compatible with environments requiring proxy authentication for internet access.

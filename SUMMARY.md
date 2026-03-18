@@ -19,7 +19,7 @@
     * [Hardware Requirements](guides/installing-lucy/hardware-requirements.md)
     * [Network Communication](guides/installing-lucy/network-communication.md)
     * [Installing Lucy](guides/installing-lucy/installing-lucy.md)
-    * [Post Installation](guides/installing-lucy/post-installation.md)
+    * [Post Installation Setup](guides/installing-lucy/post-installation-setup.md)
   * [Manage Blacklisted Domains](guides/manage-blacklisted-domains/README.md)
     * [Managing Google SafeBrowsing Alerts](guides/manage-blacklisted-domains/managing-google-safebrowsing-alerts.md)
   * [Whitelisting a Lucy Server](guides/whitelisting-a-lucy-server/README.md)

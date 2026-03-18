@@ -49,7 +49,7 @@ You should see the **Lucy container** listed in the output.
 
 ***
 
-### Legacy Installers
+#### Legacy Docker Installers
 
 {% hint style="info" %}
 ⚠ **Warning**
@@ -77,9 +77,13 @@ wget https://download.phishing-server.com/dl/lucy-latest/install-22.04.sh
 
 Lucy is also available as a **preconfigured virtual machine**.
 
-### VMware
+{% hint style="info" %}
+For all VM deployments, configure the network adapter as:
 
-#### Current Version
+Network Mode: `Bridged`
+{% endhint %}
+
+#### VMware
 
 **ESXi**
 
@@ -93,7 +97,7 @@ https://download.phishing-server.com/dl/phishing-5.7/esxi.ova
 https://download.phishing-server.com/dl/phishing-5.7/esxi_ovf.zip
 ```
 
-#### Legacy Version
+#### Legacy VMware Images
 
 **ESXi**
 
@@ -109,16 +113,8 @@ https://download.phishing-server.com/dl/phishing-5.6/esxi_ovf.zip
 
 ***
 
-### VirtualBox
+#### VirtualBox
 
 ```
 https://download.phishing-server.com/dl/lucy-latest/virtualbox.zip
 ```
-
-***
-
-### Important VM Configuration
-
-For **all VM deployments**, configure the network adapter as:
-
-**Network Mode:** `Bridged`
