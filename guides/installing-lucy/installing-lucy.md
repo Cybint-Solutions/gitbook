@@ -28,13 +28,13 @@ wget https://download.phishing-server.com/dl/lucy-latest/Install_lucy_5.7.2.sh
 #### Make the installer exectuable
 
 ```
-sudo chmod +x install.sh
+sudo chmod +x <installer>
 ```
 
 #### Run the installer
 
 ```
-sudo ./install.sh
+sudo ./<installer>
 ```
 
 #### Verify the Installation
