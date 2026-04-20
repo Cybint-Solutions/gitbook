@@ -8,6 +8,8 @@ This feature is available by request and comes with additional costs per transla
 If you are interested in this feature please contact your account manager.
 {% endhint %}
 
+This feature utilizes [DeepL's translation services](https://www.deepl.com/en).
+
 ***
 
 ## How to enable
