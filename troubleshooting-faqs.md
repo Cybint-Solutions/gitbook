@@ -143,6 +143,18 @@ Mitigation:
 * [Whitelist your lucy server](guides/quick-guides/create-your-first-campaign/whitelisting.md)
 * [Use the reporting plugin to send suspicious email reports directly to Lucy](guides/reporting-plugin/)
 
+#### Why does my browser report an expired SSL certificate after renewal?
+
+Common causes:
+
+* Cached files in the browser
+* An intermidate service is still hosting the old SSL certificate
+
+Check:
+
+* Clear your browser cache or open the page in a private browsing session.
+* Ensure the current SSL files are loaded in any intermediate servers such as proxies and load balancers.
+
 ***
 
 ## Reporting Plugin Issues
@@ -216,6 +228,18 @@ On-premise customers can find their logs in various locations in the container:
 * Apache logs: `/var/log/apache2`&#x20;
 * Mail logs: `/var/log/mail.log`
 * Application logs: `/opt/phishing/runtime`&#x20;
+
+#### How can I clear up storage space?
+
+If you need to make room for new templates, updates, or custom files, you can quickly and safely remove unused templates via the [system monitoring](application-reference/support/status/system-monitoring.md) page:
+
+<figure><img src=".gitbook/assets/image (1056).png" alt=""><figcaption></figcaption></figure>
+
+Select **Clear** to delete all templates that are not currently in use by any campaign.
+
+{% hint style="info" %}
+Awareness templates are usually larger than other files because they contain larger assets like videos and images. If you need to clear up space, awareness templates are usually the best place to start.
+{% endhint %}
 
 ***
 
