@@ -177,6 +177,7 @@
   * [Dashboards](application-reference/dashboards.md)
 * [Troubleshooting FAQs](troubleshooting-faqs.md)
 * [Release Notes](release-notes/README.md)
+  * [5.7.6](release-notes/5.7.6.md)
   * [5.7.5](release-notes/5.7.5.md)
   * [5.7.4](release-notes/5.7.4.md)
   * [5.7.3](release-notes/5.7.3.md)

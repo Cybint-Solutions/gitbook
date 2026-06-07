@@ -1,3 +1,24 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # Campaigns
 
 A campaign is a structured program designed to assess and improve employees' understanding and response to cybersecurity threats. It typically includes simulated attacks, such as phishing, and educational content about best practices in cybersecurity.

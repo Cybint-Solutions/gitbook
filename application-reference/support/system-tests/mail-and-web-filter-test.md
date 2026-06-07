@@ -71,7 +71,7 @@ Select or generate your SSL certificate and click **Save** to apply.
 <figure><img src="../../../.gitbook/assets/image (871).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="undefined" %}
+{% tab %}
 Here you can select from an extensive list of file types that simulate various malicious behaviors. Each category can be enabled/disabled globally, or you can enable/disable each file individually within a category. By default every category and file is enabled.
 
 {% hint style="info" %}

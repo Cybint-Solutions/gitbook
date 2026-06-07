@@ -1,8 +1,92 @@
 ---
 hidden: true
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # Dashboards
+
+{% tabs %}
+{% tab title="Campaign" %}
+"Campaigns" is the term used to describe security awareness programs, often named after specific divisions or locations for easier identification and organization.
+{% endtab %}
+
+{% tab title="Client" %}
+The term "Client" can signify a single organization or, in a multi-tenant configuration, each organization is considered a separate client.
+
+{% hint style="info" %}
+Lucy segregates all data by client, ensuring that information is organized and secured on a per-client basis.
+{% endhint %}
+{% endtab %}
+
+{% tab title="Type" %}
+The type indicates the campaign's components, distinguishing between attack only, attack with awareness combined, or awareness only.
+
+Phishing -> <img src="../.gitbook/assets/image (220).png" alt="" data-size="line">
+
+&#x20;Awareness -> <img src="../.gitbook/assets/image (221).png" alt="" data-size="line">
+
+&#x20;Phishing and Awareness -> <img src="../.gitbook/assets/image (219).png" alt="" data-size="line">
+{% endtab %}
+
+{% tab title="Untitled" %}
+
+{% endtab %}
+
+{% tab title="Status" %}
+The current phase or condition of the campaign.<br>
+
+<img src="../.gitbook/assets/image (259).png" alt="" data-size="line"> -> Before a campaign is launched
+
+&#x20;<img src="../.gitbook/assets/image (260).png" alt="" data-size="line"> -> After a campaign has been launched
+
+<img src="../.gitbook/assets/image (261).png" alt="" data-size="line">-> When a campaign has been stopped
+{% endtab %}
+
+{% tab title="Recipients" %}
+The total number of recipients targeted by the campaign.
+{% endtab %}
+
+{% tab title="Started" %}
+The date the campaign was started
+{% endtab %}
+
+{% tab title="Stopped" %}
+The date the campaign was stopped
+{% endtab %}
+
+{% tab title="Sent" %}
+The total count of emails that the campaign has successfully processed.
+{% endtab %}
+
+{% tab title="Clicked" %}
+The number of recipients that clicked on the link in the email
+{% endtab %}
+
+{% tab title="Success" %}
+The number of recipients successfully phished.
+{% endtab %}
+
+{% tab title="Trained" %}
+The number of recipients that were successfully trained.
+{% endtab %}
+{% endtabs %}
 
 {% tabs %}
 {% tab title="Campaign" %}
