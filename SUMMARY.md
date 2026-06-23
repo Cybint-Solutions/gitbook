@@ -218,4 +218,3 @@
   * [Service Level Agreement](legal/service-level-agreement.md)
   * [Confidentiality of Campaign Data](legal/confidentiality-of-campaign-data.md)
 * [Contact Us](contact-us.md)
-* [SANDBOX](sandbox.md)
