@@ -76,6 +76,6 @@ Existing end users can be managed from the **End Users** page.
 
 Navigate to: **Users → End Users**
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1057).png" alt=""><figcaption></figcaption></figure>
 
-Administrators can open an end user’s portal page by selecting the user’s **email address**. From the portal view, administrators can also update the user’s information and reset their password through the **User Settings** page.
+Administrators can open an end user’s portal page by selecting the user’s name. From the portal view, administrators can also update the user’s information and reset their password through the **User Settings** page.
