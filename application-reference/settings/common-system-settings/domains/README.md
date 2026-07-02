@@ -14,7 +14,7 @@ This is the domain used for hosting your Lucy Administrative panel.\
 \
 **VPS customers** will receive a server with a generic domain, for example -> access.cloudserver123.com - If you would like to host your Lucy VPS with a custom domain, please send a request to our [support department](../../../../contact-us.md) for assistance.\
 \
-**On-premise / Self-hosted** customers will be able to configure a custom domain in the setup script phase of the [installation process](../../../../guides/installing-lucy/installing-lucy.md).
+**On-premise / Self-hosted** customers will be able to configure a custom domain in the setup script phase of the [installation process](../../../../guides/installing-lucy/installing-lucy/).
 
 </details>
 

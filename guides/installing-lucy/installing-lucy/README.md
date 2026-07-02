@@ -5,7 +5,7 @@ Lucy can be deployed using one of the following methods:
 * **Docker installation on a supported OS**
 * **Prebuilt virtual machines (VMware / VirtualBox)**
 
-For a full list of supported operating systems, see the [**Supported Operating Systems**](hardware-requirements.md).
+For a full list of supported operating systems, see the [**Supported Operating Systems**](../hardware-requirements.md).
 
 ## Docker Installation (Recommended)
 
