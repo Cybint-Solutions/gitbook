@@ -1,12 +1,20 @@
 # Upgrading to Lucy 6.0
 
-This guide walks you through migrating from Lucy 5.7.6 to Lucy 6.0. The migration is handled by a script — follow the steps below in order.
-
 {% hint style="info" %}
 Lucy 6.0 is currently available only to Early Adopters. To join the program, contact your account manager.
 {% endhint %}
 
-## Before you start
+## VPS Customers
+
+If we are hosting your Lucy server for you, [contact support](../../../contact-us.md) to request an upgrade to 6.0.
+
+***
+
+## On-Premise Customers
+
+This guide walks you through migrating from Lucy 5.7.6 to Lucy 6.0. The migration is handled by a script — follow the steps below in order.
+
+### Before you start
 
 Make sure you have:
 
