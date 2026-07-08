@@ -20,7 +20,7 @@ Make sure you have:
 
 * A Docker-based deployment
   * Lucy 6.0 runs Ubuntu 24.04 in the container, but your host machine can run [any docker-compatible OS](https://docs.docker.com/engine/install/).
-  * If you deployed with a vritual machine image this script will not work for you - [download a fresh 6.0 image instead](../).
+  * If you deployed with a virtual machine image this script will not work for you - [download a fresh 6.0 image instead](../).
 * Lucy version 5.7.6
 * At least 60% free storage space on the host
 
