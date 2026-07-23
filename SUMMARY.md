@@ -178,6 +178,7 @@
   * [Dashboards](application-reference/dashboards.md)
 * [Troubleshooting FAQs](troubleshooting-faqs.md)
 * [Release Notes](release-notes/README.md)
+  * [6.0.1](release-notes/6.0.1.md)
   * [6.0](release-notes/6.0.md)
   * [5.7.6](release-notes/5.7.6.md)
   * [5.7.5](release-notes/5.7.5.md)
