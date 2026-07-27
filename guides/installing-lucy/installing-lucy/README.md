@@ -7,7 +7,24 @@ Lucy can be deployed using one of the following methods:
 
 For a full list of supported operating systems, see the [**Supported Operating Systems**](../hardware-requirements.md).
 
-## Docker Installation (Recommended)
+## Lucy 6
+
+### Docker Installation (Recommended)
+
+{% hint style="info" %}
+Supported Systems: Ubuntu 22.04 or higher
+{% endhint %}
+
+#### Bash Installer
+
+```
+wget https://download.phishing-server.com/dl/lucy-latest/Install_lucy_6.0.sh
+sudo bash Install_lucy_6.0.sh
+```
+
+## Lucy 5
+
+### Docker Installation (Recommended)
 
 {% hint style="info" %}
 Supported Systems: Ubuntu 22.04 or higher
@@ -17,24 +34,14 @@ Supported Systems: Ubuntu 22.04 or higher
 
 ```
 wget https://download.phishing-server.com/dl/lucy-latest/Install_lucy_5.7.2
+sudo ./Install_lucy_5.7.2
 ```
 
 #### **Bash Installer**
 
 ```
 wget https://download.phishing-server.com/dl/lucy-latest/Install_lucy_5.7.2.sh
-```
-
-#### Make the installer exectuable
-
-```
-sudo chmod +x <installer>
-```
-
-#### Run the installer
-
-```
-sudo ./<installer>
+sudo bash Install_lucy_5.7.2
 ```
 
 #### Verify the Installation
@@ -73,7 +80,7 @@ wget https://download.phishing-server.com/dl/lucy-latest/install-22.04.sh
 
 ***
 
-## Virtual Machine Installations
+### Virtual Machine Installations
 
 Lucy is also available as a **preconfigured virtual machine**.
 
