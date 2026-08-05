@@ -1,9 +1,5 @@
 # Upgrading to Lucy 6.0
 
-{% hint style="info" %}
-Lucy 6.0 is currently available only to Early Adopters. To join the program, contact your account manager.
-{% endhint %}
-
 ## VPS Customers
 
 If we are hosting your Lucy server for you, [contact support](../../../contact-us.md) to request an upgrade to 6.0.
