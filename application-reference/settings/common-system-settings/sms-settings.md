@@ -1,74 +1,78 @@
 # SMS Settings
 
-### Introduction
+## Introduction
 
-LUCY features an integrated API that links to a central LUCY gateway to initiate SMS delivery. This gateway conducts initial checks to confirm if the LUCY client has enough credits and permission to send SMS messages. Once these verifications are successful, the gateway utilizes a secondary API to connect with an international SMS provider, such as MessageBird or SmsMode.
+LUCY supports SMS integration for **smishing campaigns**. SMS messages can be sent using LUCY's default SMS provider or through an account with one of the supported third-party SMS providers.
 
-### Requirements
+Before configuring SMS, make sure you have a supported LUCY license, sufficient SMS credits, and an SMS provider selected.
 
-* A Commercial (Pro or Elite) license.&#x20;
-* Enough balance for SMS dispatch.&#x20;
-* Selecting an SMS provider.
+## Requirements
 
-### Setup
+The following prerequisites are required to send SMS messages from LUCY:
 
-{% hint style="info" %}
-Navigate to **Settings -> Common System Settings -> SMS Settings**
-{% endhint %}
+* A **Commercial (Pro or Elite)** Lucy license.
+* Sufficient balance or credits for SMS delivery.
+* An SMS provider configured in Lucy.
 
-<figure><img src="../../../.gitbook/assets/image (275).png" alt=""><figcaption></figcaption></figure>
+## Configure SMS Settings
 
-{% tabs %}
-{% tab title="Default" %}
-The Default SMS Setting will automatically integrate with our 3rd party provider [MessageBird](https://bird.com/).
-{% endtab %}
+1. Navigate to **Settings → Common System Settings → SMS Settings**.
+2. Select one of the available SMS configuration options.
 
-{% tab title="Alternative" %}
-Our alternative provider, [SmsMode](https://www.smsmode.com/en/), is specifically introduced to cater to our French customers, helping them navigate the strict regulations on sending promotional SMS messages within France.&#x20;
+<figure><img src="../../../.gitbook/assets/image (1060).png" alt=""><figcaption></figcaption></figure>
 
-SmsMode offers capabilities for global SMS campaign sending, making it a versatile option for international outreach.
-{% endtab %}
+#### Default
 
-{% tab title="Custom" %}
-The Custom option enables you to set up your own account with either [MessageBird](https://bird.com/) or [SmsMode](https://www.smsmode.com/en/), allowing for direct interaction with the SMS providers. By adding your API key, you gain access to features such as whitelisting, viewing SMS logs, and creating your own unique sending numbers, offering a more personalized and hands-on approach to managing your SMS campaigns.
-{% endtab %}
-{% endtabs %}
+The **Default** option uses LUCY's integrated third-party SMS provider, **Vonage**.
 
-{% hint style="info" %}
-Smishing campaigns are more complex to set up, as they involve variables beyond what Lucy handles directly. We recommend reaching out to your Customer Success Manager or Solution Engineer before starting a campaign to ensure everything is properly configured.
-{% endhint %}
+This option is the simplest way to configure SMS delivery and does not require you to provide your own SMS provider account.
+
+#### Custom
+
+The **Custom** option allows you to connect LUCY to your own account with a supported SMS provider.
+
+The following providers are supported:
+
+* Ducont
+* MessageBird
+* SMSmode
+* Messente
+* Vonage
+
+Select the provider you want to use and enter the credentials and configuration details required by that provider.
+
+## Before Running a Smishing Campaign
+
+Smishing campaigns require additional configuration because SMS delivery depends on external providers and mobile carrier networks.
+
+### SMS Provider Whitelisting
+
+Before sending SMS campaign traffic, you must submit the required whitelisting information to your SMS provider.
+
+Whitelisting helps ensure that campaign traffic is permitted by the relevant carrier networks and reduces the risk of delivery issues or restrictions.
+
+Do not schedule a smishing campaign until the required whitelisting process has been completed.
 
 {% hint style="danger" %}
-Before initiating any SMS campaigns, it's essential to submit whitelisting information to the SMS providers. This step ensures that your campaign's traffic is permitted across all relevant carrier networks, preventing potential delivery issues or restrictions.\
-\
-**Ensure to allocate a minimum of&#x20;**<mark style="color:red;">**4 weeks**</mark>**&#x20;for the completion of the whitelisting process.**
+**Allow at least 4 weeks for the whitelisting process.**
 {% endhint %}
 
-For more information on building a smishing attack, please see our [smishing guide](../../../guides/attack-simulations/attack-types/smishing.md).
+### Campaign Configuration
 
-### FAQ
+Smishing campaigns involve configuration requirements that are specific to SMS delivery and may vary depending on the provider and target environment.
 
-<details>
+If you are setting up a smishing campaign for the first time, contact your **Solution Engineer** before starting the campaign to confirm that the required configuration is in place.
 
-<summary>How do I check my available balance?</summary>
+For instructions on creating a smishing campaign, see [Smishing](../../../guides/attack-simulations/attack-types/smishing.md).
 
-1. On your license page:
+***
 
-\
-&#x20;![](<../../../.gitbook/assets/image (277).png>)
+## FAQ
 
+#### How do I check my available balance?
 
+Your available SMS balance depends on the SMS provider and account configuration. Check the configured provider account or the SMS balance displayed in LUCY, if available.
 
-2. On the Message Template for your Attack scenario:
+#### What is the cost per SMS?
 
-![](<../../../.gitbook/assets/image (278).png>)
-
-</details>
-
-<details>
-
-<summary>What are the cost per SMS?</summary>
-
-One SMS costs 15 cents (USD)
-
-</details>
+SMS pricing depends on the configured provider, destination country, carrier, and message type. Contact your SMS provider for current pricing information.
