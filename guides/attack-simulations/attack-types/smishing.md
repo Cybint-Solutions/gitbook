@@ -1,125 +1,137 @@
 # Smishing
 
-## Understanding the attack
+## Understanding Smishing
 
-SMS-based attacks involve deceptive messages that appear to come from legitimate sources, such as banks, delivery services, or trusted institutions, to trick recipients into providing sensitive information or clicking on malicious links. In the context of Lucy, a smishing attack can be a [hyperlink](hyperlink-attack.md) or [data-entry](data-entry-attack.md) attack.
+**Smishing** is a form of phishing that uses SMS messages to direct recipients toward a malicious or simulated website or to request information.
 
-{% hint style="info" %}
-Smishing campaigns are more complex to set up, as they involve variables beyond what Lucy handles directly. We recommend reaching out to your Customer Success Manager or Solution Engineer before starting a campaign to ensure everything is properly configured.
-{% endhint %}
+In Lucy, a smishing scenario can use one of two primary attack types:
 
-{% hint style="danger" %}
-Before initiating any SMS campaigns, it's essential to submit whitelisting information to the SMS providers. This step ensures that your campaign's traffic is permitted across all relevant carrier networks, preventing potential delivery issues or restrictions.
+* **Hyperlink attack:** The recipient receives an SMS containing a link and is tracked when they click it.
+* **Data-entry attack:** The recipient is directed to a landing page where they are asked to submit information.
 
-Ensure to allocate a minimum of <mark style="color:red;">4 weeks</mark> for the completion of the whitelisting process.
-{% endhint %}
+Smishing campaigns require additional configuration because SMS delivery is subject to requirements imposed by SMS providers, mobile carriers, and the countries where recipients are located.
 
-## Checklist
+If you are setting up a smishing campaign for the first time, contact your **Customer Success Manager or Solution Engineer** before starting the campaign.
 
-* [x] [Register an attack domain](../../quick-guides/create-your-first-campaign/register-an-attack-domain.md)
-* [x] [Select an SMS carrier](../../../application-reference/settings/common-system-settings/sms-settings.md)
-* [x] [Create a campaign using Expert Mode](../../../application-reference/campaigns/expert-mode.md)
-* [x] [Add an attack scenario](../../quick-guides/create-your-first-campaign/campaign-setup/attack-settings.md)
-  * [x] If your scenario is a hyperlink, set the success action to C**lick**
-  * [x] If it's a data-entry scenario, set it to **Data Submit**
-* [x] Enable the bit.ly URL shortener in the attack scenario settings
-* [x] [Contact Support for SMS Whitelisting](../../../contact-us.md)
+## Before You Begin
 
-{% hint style="success" %}
-Shortening the URL helps keep your SMS under the character limit.
-{% endhint %}
+Complete the following steps before launching a smishing campaign:
 
-## Register a sender
-
-SMS are more strictly controlled than emails. Carriers will reject your messages unless you use a registered sender. The process for each SMS provider is as follows:
-
-{% tabs %}
-{% tab title="Message Bird" %}
-1. Choose your country to see the specific [requirements for SMS campaigns](https://docs.bird.com/connectivity-platform/country-restrictions-and-regulations).
-2. Provide all necessary information to our [technical support team](../../../contact-us.md) so they can register an **originator** (sender) for you. See below for details.
-3. Once your information has been successfully whitelisted you will then be able to initiate your smishing campaign. This can take as little as 4 days or as long as 4 weeks, it depends on the country or countries in question and their response time to the request.
-
-{% hint style="info" %}
-If you opt for the Custom integration using your own MessageBird account, you will need to directly submit your whitelisting information to MessageBird Support.
-{% endhint %}
-
-***
-
-### Registered originator (sender) information
+* [ ] [Register an attack domain](../../../application-reference/settings/common-system-settings/domains/).
+* [ ] [Select an SMS provider](../../../application-reference/settings/common-system-settings/sms-settings.md).
+* [ ] Create a campaign using [**Expert Mode**](../../../application-reference/campaigns/expert-mode.md).
+* [ ] Add an attack scenario.
+* [ ] Configure the scenario's success action:
+  * **Click** for a hyperlink attack.
+  * **Data Submit** for a data-entry attack.
+* [ ] Enable the [**Bitly URL shortener**](../../../application-reference/settings/common-system-settings/url-shortener-settings.md) in the attack scenario settings.
+* [ ] Submit the required information for SMS provider whitelisting.
+* [ ] Register the SMS sender/originator.
+* [ ] Confirm that provider whitelisting has been completed before launching the campaign.
 
 {% hint style="danger" %}
-Your SMS **will not be delivered** without a registered sender.
+SMS provider whitelisting can take several weeks. Allow a minimum of **4 weeks** for the process.
 {% endhint %}
 
-#### Originator
+## Create the Campaign
 
-The originator can be an Alphanumeric string (ex BrandName), Shortcodes (ex 1234), or Mobile virtual numbers.
+#### 1. Register an Attack Domain
 
-#### Originator legal company country
+Register and configure the attack domain that will be used by the smishing scenario.
 
-The country where the company owning the originator is registered.
+Ensure that the domain is correctly configured and accessible before creating the campaign.
 
-#### Originator legal company name
+#### 2. Select an SMS Provider
 
-The Legal Name of the company owning the originator
+Select the SMS provider you intend to use for the campaign.
 
-#### Originator corporate URL
+The available configuration depends on whether you are using Lucy's default SMS integration or a custom integration with your own provider account.
 
-The corporate URL of the company owning the originator.
+For more information, see [SMS Integration](https://chatgpt.com/sms-integration/README.md).
 
-#### Industry vertical
+#### 3. Create the Campaign
 
-Agriculture, Education, Technology, etc.
+Create a new campaign using **Expert Mode**.
 
-#### Call to action (CTA) URL
+Add the required attack scenario to the campaign.
 
-Any URL that may be contained in the SMS specifically sent with the Originator you are registering. In Lucy, this will be the value of the `%link%` variable.&#x20;
+#### 4. Configure the Attack Scenario
 
-#### Other CTA(s)
+Configure the scenario according to the type of smishing attack you want to perform.
 
-Any other URLs present in the message.
+**Hyperlink Attack**
 
-#### Description of use case
+For a hyperlink scenario, set the **Success Action** to:
 
-How SMS is used in your service. If you need to clarify any answer provided in any other fields, you can do so here. If the originator / brand you are registering differs from the legal company name or URL please explain why it is so in the description. The lack of relationship between registering companies and originator is the most common cause for rejection.
+**Click**
 
-#### SMS template
+This records the recipient's interaction with the link.
 
-A copy of the SMS you will send in the campaign.
-{% endtab %}
+**Data-Entry Attack**
 
-{% tab title="SMSMode" %}
-1. **Sender ID:** The name that will appear as the sender on each SMS.
-2. **Client consent:** A formal document from your organization that explicitly approves the sending of smishing simulation messages using the specified Sender ID.
-3. **Total SMS count:** The total number of messages planned for dispatch in the campaign.
-4. **SMS content:** The exact text of the message to be sent.
-5. **Campaign duration:** The total length of the campaign, including any testing days.
-6. **Locations:** A list of all the countries where the campaign recipients are located, to ensure compliance and proper delivery of the smishing messages.
+For a data-entry scenario, set the **Success Action** to:
 
-{% hint style="info" %}
-If you opt for the Custom integration using your own SMSMode account, you will need to directly submit your whitelisting information to SMSMode Support.
+**Data Submit**
+
+This records when the recipient submits data through the landing page.
+
+#### 5. Enable URL Shortening
+
+Enable the **Bitly URL shortener** in the attack scenario settings.
+
+URL shortening can help reduce the length of links included in SMS messages and help keep the overall message within applicable SMS character limits.
+
+## SMS Provider Whitelisting
+
+SMS traffic is subject to provider and carrier requirements. Before sending a campaign, you must provide the required campaign and sender information to the SMS provider.
+
+The provider may require information about:
+
+* The sender/originator.
+* The legal entity sending the messages.
+* The intended use case.
+* The SMS content.
+* Links included in the messages.
+* The countries where recipients are located.
+* The number of SMS messages to be sent.
+* The campaign duration.
+* Proof of authorization or consent from the organization conducting the simulation.
+
+{% hint style="danger" %}
+Do not schedule the campaign until the required provider registration and whitelisting processes have been completed.
 {% endhint %}
-{% endtab %}
-{% endtabs %}
 
-## User detection methods
+## Register the SMS Sender
 
-To help employees recognize and respond to hyperlink phishing attempts effectively, the following user detection methods can be incorporated into training programs:
+The SMS sender, also called the **originator**, identifies the sender displayed to the recipient.
 
-**Unfamiliar numbers**\
-Be cautious of text messages from unknown or unrecognized phone numbers, especially if they ask for sensitive information or contain urgent requests.
+The sender must be registered with the SMS provider when required by the destination country or carrier. An unregistered sender may result in messages being rejected or not delivered.
 
-**Spelling and grammar errors**\
-Smishing messages often contain unusual grammar, spelling mistakes, or awkward phrasing, which can indicate a fraudulent source.
+#### Originator Information
 
-**Verify links before clicking**\
-Hover over or long-press any links in the message to inspect the URL. Fraudulent links often use misspelled brand names or suspicious web addresses.
+The following information may be required when registering an originator.
 
-**Be wary of urgency**\
-Smishing attacks commonly try to create a sense of panic or urgency, pushing users to act without thinking. Messages that demand immediate action, like "Your account will be locked," should be treated with suspicion.
+| Field                                | Description                                                                                                                                                               |
+| ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Originator**                       | The sender displayed to the recipient. Depending on the provider and country, this may be an alphanumeric sender ID, shortcode, or virtual/mobile number.                 |
+| **Originator legal company country** | The country where the company owning the originator is legally registered.                                                                                                |
+| **Originator legal company name**    | The legal name of the company that owns the originator.                                                                                                                   |
+| **Originator corporate URL**         | The corporate website of the company that owns the originator.                                                                                                            |
+| **Industry vertical**                | The organization's industry, such as Education, Technology, or Agriculture.                                                                                               |
+| **Call to action (CTA) URL**         | A URL included in SMS messages sent using the registered originator. In Lucy, this is typically the value of the `%link%` variable.                                       |
+| **Other CTA(s)**                     | Any additional URLs that may appear in the SMS message.                                                                                                                   |
+| **Description of use case**          | A description of how the SMS service will be used. Explain any relationship between the registered originator and the legal company name or corporate URL if they differ. |
+| **SMS template**                     | A copy of the SMS message that will be sent during the campaign.                                                                                                          |
 
-**Avoid sharing personal information**\
-Legitimate organizations rarely ask for sensitive information (like passwords or credit card details) via SMS. Always verify through official channels if you're unsure.
+## Additional Campaign Information
 
-**Cross-check with official sources**\
-If a message claims to be from a known service or institution, contact them directly using their official website or customer support to confirm its legitimacy.
+The SMS provider may also request the following information:
+
+1. **Sender ID:** The name displayed as the sender of the SMS.
+2. **Client consent:** Documentation from the organization authorizing the simulated smishing campaign and use of the specified Sender ID.
+3. **Total SMS count:** The estimated number of SMS messages to be sent.
+4. **SMS content:** The exact message that will be used in the campaign.
+5. **Campaign duration:** The planned campaign duration, including any testing period.
+6. **Locations:** The countries where campaign recipients are located.
+
+Provider requirements can vary by country and may change over time. Always follow the requirements provided by the SMS provider for the countries targeted by the campaign.
