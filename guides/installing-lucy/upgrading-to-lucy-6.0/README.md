@@ -36,7 +36,7 @@ Upgrades are performed on a **first-come, first-served basis** and must be sched
 
 Use this guide if your Lucy server is deployed using Docker.
 
-[**Upgrade Lucy 5.7.6 to 6.0 — Docker Deployments**](https://chatgpt.com/c/6a8eae79-0e10-83ed-924b-1788346e99a0)
+[**Upgrade Lucy 5.7.6 to 6.0 — Docker Deployments**](docker-deployments.md)
 
 The Docker migration uses an upgrade script to migrate the existing Lucy container. **Do not remove the old container until you have verified that the migration was successful.**
 
@@ -48,7 +48,7 @@ Lucy 6.0 uses **Ubuntu 24.04 inside the Docker container**. The host operating s
 
 Use this guide if Lucy is deployed as a **VMware virtual machine**.
 
-[**Upgrade Lucy 5.7.6 to 6.0 — VMware Deployments**](https://chatgpt.com/c/6a8eae79-0e10-83ed-924b-1788346e99a0)
+[**Upgrade Lucy 5.7.6 to 6.0 — VMware Deployments**](vmware-deployments.md)
 
 The VMware upgrade uses a dedicated upgrade package and must be performed in multiple stages. The procedure includes upgrades to the underlying Ubuntu and PostgreSQL versions and requires the VM to be rebooted during the process.
 
