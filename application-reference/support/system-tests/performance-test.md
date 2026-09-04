@@ -9,7 +9,7 @@ With it you can:
 1. **Run a Performance Test**: Check if your hardware can manage the specified number of recipients.
 2. **Verify Campaign Settings**: Ensure that your campaign settings are optimized for performance.
 
-For detailed hardware recommendations, refer to [this wiki page](../../../guides/installing-lucy/hardware-requirements.md).
+For detailed hardware recommendations, refer to [this wiki page](../../../guides/installing-lucy/system-requirements.md).
 
 {% hint style="info" %}
 Navigate to **Support -> System Tests -> Performance Test**

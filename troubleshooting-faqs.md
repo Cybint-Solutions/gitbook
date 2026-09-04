@@ -198,9 +198,9 @@ Check:
 
 Verify:
 
-* [Supported Linux version](guides/installing-lucy/hardware-requirements.md)
+* [Supported Linux version](guides/installing-lucy/system-requirements.md)
 * [Firewall rules allowing required ports](guides/installing-lucy/network-communication.md)
-* [Sufficient system resources (RAM, disk space)](guides/installing-lucy/hardware-requirements.md)
+* [Sufficient system resources (RAM, disk space)](guides/installing-lucy/system-requirements.md)
 
 ***
 

@@ -12,23 +12,23 @@ This document outlines the key structural elements and settings of Lucy.
 
 ### Operating System
 
-* **Ubuntu 20.04.4 LTS**: Lucy operates on a 64-bit Ubuntu 20.04.4 LTS system, without any additional patches or hardening. Updates are managed through a self-hosted repository mirror.
+* **Ubuntu 24.04.4 LTS**: Lucy operates on a 64-bit Ubuntu 24.04.4 LTS system, without any additional patches or hardening. Updates are managed through a self-hosted repository mirror.
 
 ### Web Server
 
-* **Apache 2.4.41**: Utilizes "mod-security" and "mod-headers" for enhanced security.
+* **Apache 2.4.66**: Utilizes "mod-security" and "mod-headers" for enhanced security.
 
 ### Database
 
-* **PostgreSQL 14.8**: Stores all related data with AES-256-CBC encryption at the column level.
+* **PostgreSQL 16.11**: Stores all related data with AES-256-CBC encryption at the column level.
 
 ### Intermediary Storage
 
-* **Redis 5.0.7**: Used as a task queue for passing data between users and system workers.
+* **Redis 7.4.1**: Used as a task queue for passing data between users and system workers.
 
 ### Application
 
-* **PHP v8.2.6 and Python 3.8.10**: Lucy is primarily a PHP application using the Yii Framework, with some background scripts in Python.
+* **PHP v8.2.30 and Python 3.8.20**: Lucy is primarily a PHP application using the Yii Framework, with some background scripts in Python.
 
 ### Security
 

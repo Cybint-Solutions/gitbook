@@ -16,7 +16,7 @@
   * [Installing Lucy](guides/installing-lucy/README.md)
     * [On-Premise vs Cloud Installation](guides/installing-lucy/on-premise-vs-cloud-installation.md)
     * [Architecture](guides/installing-lucy/architecture.md)
-    * [Hardware Requirements](guides/installing-lucy/hardware-requirements.md)
+    * [System Requirements](guides/installing-lucy/system-requirements.md)
     * [Network Communication](guides/installing-lucy/network-communication.md)
     * [Installing Lucy](guides/installing-lucy/installing-lucy.md)
     * [Upgrading to Lucy 6.0](guides/installing-lucy/upgrading-to-lucy-6.0/README.md)

@@ -1,35 +1,12 @@
-# Hardware Requirements
+# System Requirements
 
-### Supported Operating System for Docker Installation
+### Supported Operating Systems
 
-LUCY runs on Docker. Docker Engine is supported on Linux, Cloud, Windows, and OS X.
-
-<details>
-
-<summary>What is Docker?</summary>
-
-[**Docker**](https://docs.docker.com/get-started/overview/) is a platform that allows developers to automate the deployment of applications inside lightweight, portable, self-sufficient containers. These containers can run on any system that has Docker installed, ensuring that the software works consistently across different environments.
-
-**Key Features of Docker:**
-
-* **Portability:** Docker containers can be run on any machine with Docker installed, making it easy to move Lucy between environments.
-* **Isolation:** Each Docker container runs in isolation, which means it doesn't interfere with other containers or the host system.
-* **Efficiency:** Containers share the host system's kernel, making them more lightweight and faster to start compared to traditional virtual machines.
-
-#### How Lucy Uses Docker
-
-Using Docker, Lucy can be deployed consistently and efficiently across different systems. Here's how Docker is used in the context of Lucy:
-
-1. **Containerization:** Lucy is packaged as a Docker container, which includes all the necessary software and dependencies. This ensures that Lucy runs the same way on any system with Docker installed.
-2. **Port Management:** The installer script ensures that the necessary network ports (25, 80, and 443) are available and not used by other services. These ports, such as handling web traffic and email communications, are essential for Lucy's operations.
-3. **Automated Installation:** The installer script automates setting up Docker (if it's not already installed) and configuring it to run Lucy. This reduces the complexity of installation and ensures that all necessary steps are followed correctly.
-4. **Isolation and Security:** Running Lucy in a Docker container isolates it from other applications on the host system. This improves security and reduces the risk of conflicts with other software.
-
-</details>
+Lucy Docker deployments are supported on Ubuntu 22.04 LTS and later.
 
 ### Supported Linux Distributions
 
-* **Ubuntu**: 20.04 LTS,  22.04 LTS
+* **Ubuntu**: 20.04 LTS (Legacy),  22.04 LTS, 24.04 LTS
 * **Debian**: 9.x, 10.x (Legacy)
 * **Red Hat/CentOS**: 9.x
 
@@ -61,18 +38,17 @@ Docker containers support a wide range of environments, including but not limite
 * Ubuntu
 * Windows
 
-### Supported Browsers:
-
-LUCY's phishing and awareness templates are designed to function seamlessly across a wide range of browsers to ensure broad accessibility for users. Here’s a list of supported browsers:
-
-* **Browsers:**
-  * Chrome (desktop and mobile)
-  * Firefox (desktop and mobile)
-  * Microsoft Edge (desktop and mobile)
-  * Opera (desktop and mobile)
-  * Safari (desktop and mobile)
-
 </details>
+
+### Supported Browsers
+
+Lucy's phishing and awareness templates are designed to function seamlessly across a wide range of desktop and mobile browsers, including:
+
+* Chrome
+* Firefox
+* Edge
+* Opera
+* Safari
 
 ***
 
