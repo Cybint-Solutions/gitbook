@@ -95,13 +95,13 @@ Network Mode: `Bridged`
 **ESXi**
 
 ```
-https://download.phishing-server.com/dl/phishing-5.7/esxi.ova
+https://download.phishing-server.com/dl/phishing-6.0/esxi.ova
 ```
 
 **OVF**
 
 ```
-https://download.phishing-server.com/dl/phishing-5.7/esxi_ovf.zip
+https://download.phishing-server.com/dl/phishing-6.0/esxi_ovf.zip
 ```
 
 #### Legacy VMware Images
@@ -109,13 +109,13 @@ https://download.phishing-server.com/dl/phishing-5.7/esxi_ovf.zip
 **ESXi**
 
 ```
-https://download.phishing-server.com/dl/phishing-5.6/esxi.ova
+https://download.phishing-server.com/dl/phishing-5.7/esxi.ova
 ```
 
 **OVF**
 
 ```
-https://download.phishing-server.com/dl/phishing-5.6/esxi_ovf.zip
+https://download.phishing-server.com/dl/phishing-5.7/esxi_ovf.zip
 ```
 
 ***
